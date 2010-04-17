@@ -45,7 +45,7 @@
 				?>
 				<td class="language">
 					<?r if comment ?>
-						<a href="\#c#{comment_id}" class="comment"><img src="#{color || 'green'}.png" title="#{comment.to_html}"/></a>
+						<a href="\##{name}" title="c#{comment_id}" class="comment"><img src="#{color || 'green'}.png" title="#{comment.to_html}"/></a>
 					<?r else ?>
 						<img src="#{color || 'green'}.png" />
 					<?r end ?>
@@ -58,6 +58,7 @@
 	</table>
 	
 	<?r notes.each do |language, comments| ?>
+	<a name="#{language}" />
 	<h2>#{language.to_html}</h2>
 	
 		<?r comments.each do |id, comment| ?>
@@ -70,10 +71,10 @@
 			$('.comparison tbody tr td.language:nth-child(even)').addClass('alt');
 			
 			$('.comparison a.comment').each(function() {
-				var id = this.href.split("#").pop()
+				var id = this.title.split("#").pop()
 				
 				$(this).bind('click', function() {
-					$('#' + id).effect("highlight", {color: "#aaf"}, 20000);
+					$('#' + id).effect("pulsate", {times: 5, color: "#aaf"}, 500);
 				});
 			});
 		});

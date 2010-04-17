@@ -58,7 +58,6 @@ categories:
                 'C': "red - C is statically typed. C also has a huge number of similar types."
                 'C++': "red - C++ has a large number of compile type meta-programming features based around static typing."
                 'Scheme': "orange - Scheme has a single datatype - a list - and is so generic that it often doesn't provide the scaffolding required for complex programs."
-                'Visual Basic': "orange - Visual Basic is weakly typed, which has the syntactic overhead, but none of the benefit."
                 'Haskell': "orange - Haskell has a fantastically powerful type system which may be considered too complex for the majority of educational problems."
     -
         title: "Language Semantics"
