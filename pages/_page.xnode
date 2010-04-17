@@ -2,9 +2,9 @@
 <html>
 	<head>
 		<?r if title = (attributes["title"] || @title) ?>
-			<title>#{title.gsub(/<.*?>/, "")} - Orion Transfer Ltd</title>
+			<title>#{title.gsub(/<.*?>/, "")} - Programming Dojo</title>
 		<?r else ?>
-			<title>Orion Transfer Ltd</title>
+			<title>Programming Dojo</title>
 		<?r end ?>
 		
 		<meta http-equiv="X-UA-Compatible" content="IE=8" />
