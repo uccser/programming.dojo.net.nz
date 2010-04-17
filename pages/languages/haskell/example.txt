@@ -1,0 +1,8 @@
+data Door = Open | Closed deriving Show
+ 
+toggle Open   = Closed
+toggle Closed = Open
+ 
+pass k = zipWith ($) (cycle $ replicate k id ++ [toggle])
+ 
+run n = foldl (flip pass) (replicate n Closed) [0..n]

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<?r if title = (attributes["title"] || @title) ?>
+			<title>#{title.gsub(/<.*?>/, "")} - Orion Transfer Ltd</title>
+		<?r else ?>
+			<title>Orion Transfer Ltd</title>
+		<?r end ?>
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=8" />
+		<meta name="google-site-verification" content="J9DVX-xhcxDKcqvGpv4ZgyUZKactHmxxhop7mv4C1UM" />
+		
+		<link rel="icon" type="image/png" href="/_images/icon.png" />
+
+		<link rel="stylesheet" href="/_css/basic.css" type="text/css" media="screen" charset="utf-8" />
+
+		<script src="/_static/jquery-1.4.1.min.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script src="/_static/jquery.lightbox-0.5.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" href="/_static/jquery.lightbox.css" type="text/css" media="screen" charset="utf-8" />
+		
+		<script src="/_static/jquery.syntax.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/_static/jquery.syntax.cache.js?#{Time.now.to_i}" type="text/javascript" charset="utf-8"></script>
+
+		<script src="/_css/menu.js?#{Time.now.to_i}" type="text/javascript" charset="utf-8"></script>
+		
+		<script type="text/javascript" charset="utf-8">
+		$(function() {
+			$('a.thumbnail').lightBox({fixedNavigation:true});
+			
+			Syntax.root = "/_static/";
+			$.syntax({layout: 'table', showColors: true});
+		});
+		</script>
+	</head>
+
+	<?r response["Content-Type"] = "text/html; charset=utf-8" ?>
+	<?r response["Cache-Control"] = "max-age=3600" ?>
+
+	<body id="dojo">
+		<div id="header">
+			<menu />
+		</div>
+
+		<div id="page">
+			<content />
+		</div>
+
+		<div id="footer">
+			Content released under the <a href="http://www.gnu.org/licenses/fdl-1.2.html">GNU Free Documentation License</a>.
+			&copy; 2010 <a href="http://www.oriontransfer.co.nz/">Orion Transfer Ltd</a>. All Rights Reserved.
+		</div>
+		
+		<env only="production">
+			<google_analytics id="UA-2590906-1" />
+		</env>
+	</body>
+</html>

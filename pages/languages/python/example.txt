@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+
+close = 0
+open = 1
+doors = [close] * 100
+ 
+for i in range(100):
+    for j in range(i, 100, i+1):
+        doors[j] = open if doors[j] is close else close
+    print "Door %d:" % (i+1), 'open' if doors[i] else 'close'
+ 
+for k, door in enumerate(doors):
+    print "Door %d:" % (k+1), 'open' if door else 'close'

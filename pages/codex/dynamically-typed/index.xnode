@@ -1,0 +1,13 @@
+<page>
+	<heading>Dynamically Typed</heading>
+	
+	<p>A dynamically typed language is one where variables don't have explicit types, but the data they point at is typed in some way. Dynamically typed languages 
+		
+		 In this sense, there is generally no explicit syntactic method for requiring a particular type. This is in contrast to <tt>statically typed</tt> languages.</p>
+	
+	<h2>Further Reading</h2>
+
+	<ul>
+		<li><a href="http://en.wikipedia.org/wiki/Type_system#Dynamic_typing">Wikipedia: Type system</a></li>
+	</ul>
+</page>

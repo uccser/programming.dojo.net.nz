@@ -1,0 +1,8 @@
+FUNCTION prime% (n!)
+  IF n = 2 THEN prime = 1
+  IF n <= 1 OR n MOD 2 = 0 THEN prime = 0
+  FOR a = 3 TO INT(SQR(n)) STEP 2
+    IF n MOD a = 0 THEN prime = 0
+  NEXT a
+  prime = 1
+END FUNCTION

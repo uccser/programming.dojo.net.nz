@@ -1,0 +1,23 @@
+.comparison thead .question {
+	width: 30%;
+}
+
+.comparison tbody .question {
+	height: 60px;
+}
+
+.comparison .language {
+	text-align: center;
+}
+
+.comparison tbody td.language {
+	border-right: 1px solid #ccf;
+}
+
+.comparison th, .comparison td {
+	text-align: center;
+}
+
+.comparison tbody .question {
+	
+}

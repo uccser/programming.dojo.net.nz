@@ -1,0 +1,13 @@
+<page>
+	<heading>Ruby</heading>
+	
+	<p>Ruby is a <tt>dynamically typed</tt> programming language with both <tt>imperative</tt> and <tt>functional</tt> features.</p>
+	
+	<listing src="example.txt" brush="ruby" />
+	
+	<h2>Further Reading</h2>
+	
+	<ul>
+		<li><a href="http://en.wikipedia.org/wiki/Ruby_(programming_language)">Wikipedia: Ruby</a></li>
+	</ul>
+</page>

@@ -1,0 +1,11 @@
+<page>
+	<heading>Statically Typed</heading>
+	
+	<p>A statically typed language is one where variables have explicit types associated with them. This allows  <tt>program verification</tt> and efficient execution since the exact type of data is known at compile time.</p>
+	
+	<h2>Further Reading</h2>
+
+	<ul>
+		<li><a href="http://en.wikipedia.org/wiki/Type_system#Static_typing">Wikipedia: Type system</a></li>
+	</ul>
+</page>

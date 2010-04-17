@@ -1,0 +1,13 @@
+<page>
+	<heading>Smalltalk</heading>
+	
+	<p>Smalltalk is a <tt>dynamically typed</tt> <tt>interpreted</tt> <tt>message passing</tt> language. It is unique due to syntax and <tt>object oriented</tt> features.</p>
+	
+	<listing src="example.txt" brush="ruby" />
+	
+	<h2>Further Reading</h2>
+	
+	<ul>
+		<li><a href="http://en.wikipedia.org/wiki/Smalltalk_(programming_language)">Wikipedia: Smalltalk</a></li>
+	</ul>
+</page>

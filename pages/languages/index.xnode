@@ -1,0 +1,11 @@
+<page>
+	<heading>Languages</heading>
+	
+	<p>There are <tt to="programming-language-comparison">many programming languages</tt> in the world. Here are some languages which are excellent for learning and improving your knowledge about programming.</p>
+	
+	<ul>
+	<?r links(first.node.uri_path.dirname, :files => false).each do |link| ?>
+		<li>#{link.to_href}</li>
+	<?r end ?>
+	</ul>
+</page>

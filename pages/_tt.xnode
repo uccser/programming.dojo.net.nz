@@ -1,0 +1,14 @@
+<?r 
+	to = (attributes['to'] || content).gsub(/\s+/, "-")
+	
+	language_path = first.node.local_path("/languages/#{to}")
+	codex_path = first.node.local_path("/codex/#{to}")
+	
+	if File.exist?(language_path)
+?><a href="/languages/#{to.downcase}"><content/></a><?r 
+	elsif File.exist?(codex_path)
+?><a href="/codex/#{to.downcase}"><content/></a><?r
+	else 
+?><a href="http://en.wikipedia.org/wiki/#{to.gsub('-', '_')}"><content/></a><?r 
+	end 
+?>

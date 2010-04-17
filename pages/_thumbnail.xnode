@@ -1,0 +1,1 @@
+<a class="thumbnail" href="#{attributes["src"].original}"><img src="#{attributes["src"].thumbnail}" /></a>

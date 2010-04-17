@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+N = 100
+doors = [false] * N
+
+(1..N).each do |inc|
+	(inc..N).step(inc) do |d|
+		doors[d] = !doors[d]
+	end
+end
+
+doors.each_with_index { |b, i|
+    puts "Door #{i} is #{b ? 'Open' : 'Closed'}"
+}

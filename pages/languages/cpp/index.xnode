@@ -1,0 +1,17 @@
+<page>
+	<heading>C++</heading>
+	
+	<p>C++ was initially designed as an extension of C and adds <tt>object oriented</tt> and <tt>meta programming</tt> features. Like C it is a <tt>statically typed</tt> <tt>imperative</tt> language, but in addition it provides many high level features such as <tt>exceptions</tt> and libraries.</p>
+	
+	<listing src="example.txt" brush="clang" />
+	
+	<p>C++ is <tt>compiled</tt> and compilers exist for many platforms, however due to the complexity of the C++ standard, compilers don't always behave the same way.</p>
+	
+	<h2>Further Reading</h2>
+	
+	<ul>
+		<li><a href="http://en.wikipedia.org/wiki/C++">Wikipedia: C++</a></li>
+		<li><a href="http://en.wikipedia.org/wiki/GNU_Compiler_Collection">Wikipedia: GNU Compiler Collection</a></li>
+		<li><a href="http://www.parashift.com/c%2B%2B-faq-lite/">C++ FAQ</a></li>
+	</ul>
+</page>

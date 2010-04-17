@@ -1,0 +1,21 @@
+<page>
+	<heading>Basic</heading>
+	
+	<p>BASIC (Beginner's All-purpose Symbolic Instruction Code) is a simple <tt>imperative</tt> programming language developed in the 1960s.</p>
+	
+	<listing src="example.txt" brush="basic" />
+	
+	<p>BASIC was developed by Microsoft into several platforms, including <tt>QBasic</tt> and <tt>Visual Basic</tt>. Visual Basic has <tt>object oriented</tt> features and includes a drag and drop user interface toolset. These tools are proprietary and generally only work on Microsoft Windows.</p>
+	
+	<p>Other dialects of BASIC exist for various platforms, such as <tt>REALbasic</tt>.</p>
+	
+	<h2>Further Reading</h2>
+	
+	<ul>
+		<li><a href="http://en.wikipedia.org/wiki/BASIC">Wikipedia: Basic</a></li>
+		<li><a href="http://en.wikipedia.org/wiki/Commodore_64">Wikipedia: Commodore 64</a></li>
+		<li><a href="http://en.wikipedia.org/wiki/QBasic">Wikipedia: QBasic</a></li>
+		<li><a href="http://en.wikipedia.org/wiki/Visual Basic">Wikipedia: Visual Basic</a></li>
+		<li><a href="http://en.wikipedia.org/wiki/Visual_Basic_.NET">Wikipedia: Visual Basic .NET</a></li>
+	</ul>
+</page>

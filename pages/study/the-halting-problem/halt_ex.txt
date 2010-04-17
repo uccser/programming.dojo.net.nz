@@ -1,0 +1,32 @@
+#!/usr/bin/env ruby
+
+def f1
+
+end
+
+def f2 (n)
+	if (n < 0)
+		f2(n + 2)
+	elsif (n > 0)
+		f2(n - 2)
+	end
+end
+
+def f3 (n)
+	if (n < 2)
+		return n
+	else
+		return f3(n-1) + f3(n-2)
+	end
+end
+
+# This one is complicated - don't try it for m or n greater than 2. If you can't figure it out - don't worry !
+def f4 (m,n)
+	if (m == 0)
+		return n+1
+	elsif n == 0
+		return f4(m-1, 1)
+	else
+		return f4(m-1, f4(m, n-1))
+	end
+end

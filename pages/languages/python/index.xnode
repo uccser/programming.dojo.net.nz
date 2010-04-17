@@ -1,0 +1,13 @@
+<page>
+	<heading>Python</heading>
+	
+	<p>Python is a <tt>dynamically typed</tt> programming language with both <tt>imperative</tt> and <tt>functional</tt> features.</p>
+	
+	<listing src="example.txt" brush="python" />
+	
+	<h2>Further Reading</h2>
+	
+	<ul>
+		<li><a href="http://en.wikipedia.org/wiki/Python_(programming_language)">Wikipedia: Python</a></li>
+	</ul>
+</page>

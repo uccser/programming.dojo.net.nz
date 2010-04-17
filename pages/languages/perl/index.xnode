@@ -1,0 +1,14 @@
+<page>
+	<heading>Perl</heading>
+	
+	<p>Perl is an <tt>interpreted</tt> <tt>dynamically typed</tt> programming language. It was designed as a language for system administration.</p>
+	
+	<!-- need a brush for perl! -->
+	<listing src="example.txt" brush="clang" />
+	
+	<h2>Further Reading</h2>
+	
+	<ul>
+		<li><a href="http://en.wikipedia.org/wiki/Perl_(programming_language)">Wikipedia: Perl</a></li>
+	</ul>
+</page>

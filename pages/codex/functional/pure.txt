@@ -1,0 +1,11 @@
+# -*- mode: python; -*-
+
+def pure (x):
+	return x*x
+
+# External State
+y = 10
+
+def impure (x):
+	y = y + x
+	return y*x

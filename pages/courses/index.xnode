@@ -1,0 +1,32 @@
+<page>
+	<heading>Lucid Programming Dojo</heading>
+	
+	<p>The Lucid Programming Dojo offers a wide range of courses for people interested in learning more about computer programming and related technologies. Courses are taught by industry professionals over several days in high quality facilities. You are generally expected to bring your own laptop.</p>
+	
+	<p>Courses are scheduled based on demand - so if you are interested in a course please let us know.</p>
+	
+	<h2>Prices</h2>
+	
+	<table class="basic">
+		<thead>
+			<tr>
+				<th>Occupation</th>
+				<th>Price Per Day</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Standard Rate (Employed / Professional)</td>
+				<td>$250.00 NZD</td>
+			</tr>
+			<tr>
+				<td>Education Rate (School Teacher / Administrator)</td>
+				<td>$100 NZD</td>
+			</tr>
+			<tr>
+				<td>Student Rate (School / University / Under 18)</td>
+				<td>$40 NZD</td>
+			</tr>
+		</tbody>
+	</table>
+</page>

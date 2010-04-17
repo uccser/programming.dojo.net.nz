@@ -1,0 +1,18 @@
+<page>
+	<heading>Java</heading>
+	
+	<p>Java is an <tt>interpreted</tt> <tt>statically typed</tt> <tt>object oriented</tt> programming language. It was designed as a language for <tt>cross platform</tt> application development.</p>
+	
+	<p>Java has a highly object oriented view of the world. All program logic is structured in terms of classes. This can make it difficult to write short and concise Java programs.</p>
+	
+	<!-- need a brush for java! -->
+	<listing src="example.txt" brush="clang" />
+	
+	<p>Java (generally) runs on top of the Java Virtual Machine which allows the same <tt>bytecode</tt> to run on multiple platforms. Other languages such as <tt>JRuby</tt> can also run on top of the JVM, which makes it an interesting platform for programming language development.</p>
+	
+	<h2>Further Reading</h2>
+	
+	<ul>
+		<li><a href="http://en.wikipedia.org/wiki/Java_(programming_language)">Wikipedia: Java</a></li>
+	</ul>
+</page>

@@ -1,0 +1,18 @@
+struct MyException
+{
+	// Any data relevant to the exception
+};
+
+// This function throws an exception
+void foo()
+{
+	throw MyException();
+}
+
+try {
+	foo();
+}
+catch (MyException &exc)
+{
+	// Handle the error
+}

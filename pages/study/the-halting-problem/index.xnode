@@ -1,0 +1,108 @@
+<page>
+	<heading>The Halting Problem</heading>
+	
+	<p>The <a href="http://en.wikipedia.org/wiki/Halting_problem">halting problem</a> is an important theory in computer science. It gives us tools to explains the fundamental limitations of computers: what kind of problems can we solve with computers? What problems are impossible?</p>
+	
+	<h2>Pre-requisites</h2>
+	
+	<ol>
+		<li>You must be able to understand basic programming constructs.</li>
+		<li>Having a working knowledge of the Ruby programming language would be useful.</li>
+	</ol>
+	
+	<h2>Video Explanation</h2>
+	
+	<youtube_video id="dhs04ofFJPI" />
+	
+	<youtube_video id="fsE1bFWXlJQ" />
+	
+	<h2>Questions</h2>
+	
+	<ol class="questions">
+		<!-- Knowledge -->
+		<li>
+			Who proved that the halting problem was impossible to solve, and when?
+			
+			<answer>
+				<p>Alan Turing proved in 1936 that a general algorithm to solve the halting problem for all possible program-input pairs cannot exist. We say that the halting problem is undecidable over Turing machines.</p>
+			</answer>
+		</li>
+		
+		<li>
+			Is it possible to create a program that will tell us whether a given program will halt or not?
+			
+			<answer>
+				<p>No, it is impossible.</p>
+			</answer>
+		</li>
+		
+		<!-- Comprehension -->
+		<li>
+			Classify the following examples into halts and doesn't halt. Trace the programs with the inputs given.
+			<listing src="halt_ex.txt" brush="ruby" />
+			
+			<answer>
+				<ul>
+					<li><code>f1</code> Halts</li>
+					<li><code>f2</code> Halts with even input</li>
+					<li><code>f3</code> Halts</li>
+					<li><code>f4</code> Halts</li>
+				</ul>
+				
+				<p>See the annotated examples below:</p>
+				
+				<listing src="halt_answer.txt" brush="ruby" />
+			</answer>
+		</li>
+		
+		<li>
+			Given the function <code>f4</code> above, what do you notice about the number of steps it takes to run the function as <code>m</code> increases? Does this make it difficult to find out whether it halts or not?
+			
+			<answer>
+				<p>The function <code>f4</code> represents the Ackermann Function which has non-linear performance (i.e. increasing the input by 1 might increase the number of steps required by 10, increasing input by 2 requires 100 times as many steps, etc). This makes it difficult to assess whether the function halts by simple testing or reasoning.</p>
+				
+				<p>In order to prove that this function halts, we require advanced mathematics and logic. In general, the complexity of this function makes it difficult to say definitely whether it halts or not without in-depth analysis.</p>
+			</answer>
+		</li>
+		
+		<!-- Application -->
+		<li>Given that it is impossible to find out in a general case whether a program will halt or not, is it possible to find out whether a program halts in a specific case? Consider the following scenarios: programs that contain no loops, programs that contain no recursion, programs that contain no decisions.</li>
+		
+		<!-- Analysis -->
+		<li>Debate with your partner or class, whether this result reduces the usefulness of computers.
+			<answer>
+				<p>Computers themselves are still useful devices capable of performing useful calculations.</p>
+				
+				<p>However, while they increase the speed at which we can solve problems, they don't give us any additional mechanisms for solving difficult problems.</p>
+				
+				<p>For example, the Traveling Salesman Problem is an example of a difficult problem. While a computer can improve the speed at which this problem is solved over someone doing it manually (e.g. using a pen and paper), it can't reduce the complexities involved in coming up with an algorithm to solve the problem.</p>
+			</answer>
+		</li>
+		
+		<!-- Evaluating -->
+		<li>A <a href="http://en.wikipedia.org/wiki/Turing_completeness">turing-complete</a> computer is one that can express any computable algorithm - that is, "when the rules followed in sequence on arbitrary data can produce the result of any calculation". Is it possible that there is a broader definition for this "universal computer" which would allow us to solve the halting problem, and if so, what form would it take?
+			
+			<answer>
+				<p>It is generally accepted that computers will never go beyond the capacities of "turing-complete". However, some people have theorized that it may be possible to solve some of these problems using the concept of infinity.</p>
+				
+				<p>These so called "infinity" machines work by solving problems with unlimited resources - many mathematical problems are difficult because there are limits on the amount of time we want to spend solving a problem - however if we can spend an infinite amount of time and resources on solving a problem, it potentially becomes simpler.</p>
+				<p>There may be other approaches that people have not thought of yet. Some people believe that quantum computing may provide computational capabilities beyond existing computers.</p>
+			</answer>
+		</li>
+		
+		<!-- Synthesis -->
+		<li>Give a simple example of a computer program that halts, and a computer program that doesn't halt. Extra points if you can make something that looks like it should halt, but doesn't and likewise, something that looks like it won't halt, but does.</li>
+	</ol>
+	
+	<h2>Further Reading</h2>
+	
+	<ul>
+		<li><a href="http://en.wikipedia.org/wiki/Turing_machine">Wikipedia: Turning Machines</a></li>
+		<li><a href="/research/register-machine-interpreter/index">Research: Register Machine Interpreter</a></li>
+		<li><a href="http://en.wikipedia.org/wiki/Ackermann_function">Ackermann Function</a></li>
+		<li><a href="http://en.wikipedia.org/wiki/Fibonacci_number">Fibonacci Number</a></li>
+		<li><a href="http://en.wikipedia.org/wiki/Travelling_salesman_problem">Traveling Salesman Problem</a></li>
+		<li><a href="http://www.chiark.greenend.org.uk/~sgtatham/infinity.html">Infinity Machine</a></li>
+		<li><a href="http://en.wikipedia.org/wiki/Quantum_computer">Quantum Computer</a></li>
+	</ul>
+</page>

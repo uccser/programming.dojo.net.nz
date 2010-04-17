@@ -1,0 +1,13 @@
+<page>
+	<heading>Scheme</heading>
+	
+	<p>Scheme is one of the main dialects of <tt>LISP</tt> and is an <tt>interpreted</tt> impure <tt>functional</tt> programming language.</p>
+	
+	<listing src="example.txt" brush="lisp" />
+	
+	<h2>Further Reading</h2>
+	
+	<ul>
+		<li><a href="http://en.wikipedia.org/wiki/Scheme_(programming_language)">Wikipedia: Scheme</a></li>
+	</ul>
+</page>

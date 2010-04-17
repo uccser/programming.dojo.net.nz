@@ -1,0 +1,16 @@
+<page>
+	<heading>Pascal</heading>
+	
+	<p>Pascal is a <tt>compiled</tt> <tt>statically typed</tt> programming language. It was designed as a language for education.</p>
+	
+	<!-- need a brush for pascal! -->
+	<listing src="example.txt" brush="clang" />
+	
+	<p>Several derivatives of Pascal exist which enhance the language, such as <tt>Object Pascal</tt>.</p>
+		
+	<h2>Further Reading</h2>
+	
+	<ul>
+		<li><a href="http://en.wikipedia.org/wiki/Pascal_(programming_language)">Wikipedia: Pascal</a></li>
+	</ul>
+</page>

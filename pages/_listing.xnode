@@ -1,0 +1,13 @@
+<?r 
+if attributes['src']
+	path = parent.node.local_path(Path.create(attributes['src']))
+	code = File.read(path)
+else
+	code = content
+end
+
+if lang = (attributes['lang'] || attributes['brush']) ?>
+	<pre class="syntax brush-#{lang}">#{code.to_html}</pre>
+<?r else ?>
+	<pre class="syntax">#{code.to_html}</pre>
+<?r end ?>

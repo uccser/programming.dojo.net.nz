@@ -1,0 +1,12 @@
+statically-typed:
+    order: 200
+dynamically-typed:
+    order: 201
+functional:
+    order: 300
+imperative:
+    order: 301
+programming-language-comparison:
+    order: 1030
+fizz-buzz:
+    order: 1050

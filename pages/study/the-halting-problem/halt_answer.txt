@@ -1,0 +1,45 @@
+#!/usr/bin/env ruby
+
+# This function returns immediately - it does nothing. Therefore, it halts.
+def f1
+
+end
+
+# This function converges to 0 if the input is even. When n is 0, the function halts.
+# If n is odd, this function does not halt.
+def f2 (n)
+	puts n
+	sleep 0.5
+	
+	if (n < 0)
+		f2(n + 2)
+	elsif (n > 0)
+		f2(n - 2)
+	end
+end
+
+# This function produces the nth Fibonacci Number.
+# This function halts, as it converges to the case where n < 2
+def f3 (n)
+	if (n < 2)
+		return n
+	else
+		return f3(n-1) + f3(n-2)
+	end
+end
+
+# (0...10).each { |n| puts "f3(#{n}) => " + f3(n).to_s }
+
+# This function is the Ackermann Function.
+# This function is an example of non-primitive recursion.
+def f4 (m,n)
+	if (m == 0)
+		return n+1
+	elsif n == 0
+		return f4(m-1, 1)
+	else
+		return f4(m-1, f4(m, n-1))
+	end
+end
+
+# puts "f4(3, 2) => " + f4(3, 2).to_s

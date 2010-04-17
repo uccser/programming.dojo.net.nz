@@ -1,0 +1,27 @@
+<page>
+	<heading>Functional</heading>
+	
+	<p>A functional programming language is one that does things by evaluating functions. Many functional programming language only allow for pure functions which have no side effects.</p>
+	
+	<p>Functional languages are generally considered more rigorous and mathematically correct. Purely functional programming is often considered difficult due to the restrictions placed on state manipulation.</p>
+	
+	<p>One benefit of purely functional programming languages is their application to <tt>parallel computing</tt>. Since there are no side effects, tasks can be automatically distributed over multiple processing units without concern.</p>
+	
+	<h2>Pure Functions</h2>
+	
+	<p>A pure function is one that takes input, and produces output without relying on any other state except for the input. This means that we can make an important assumption about a pure function: given the same input, it will <strong>always</strong> produce the same output. We cannot make this guarantee about impure functions!</p>
+	
+	<listing src="pure.txt" />
+	
+	<p>In this example, every time we call pure(5) we will get the same result (25). However, every time we call impure(5) we will get a different result.</p>
+	
+	<h2>Examples</h2>
+	
+	<p><tt>Haskell</tt> is an example of a pure functional language. <tt>Ruby</tt> is an example of an imperative language with impure functional features.</p>
+	
+	<h2>Further Reading</h2>
+	
+	<ul>
+		<li><a href="http://en.wikipedia.org/wiki/Functional_programming">Wikipedia: Functional programming</a></li>
+	</ul>
+</page>

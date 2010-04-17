@@ -1,0 +1,195 @@
+/* Copyright (c) 2009 Orion Transfer Ltd. All Rights Reserved. */
+
+body, p, ol, ul, blockquote {
+	font-family: menlo, monospace;
+	font-size: 13px;
+	line-height: 18px;
+	
+	color: #339;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: menlo, monospace;
+	color: #303;
+	
+	margin-bottom: 2em;
+}
+
+body {
+	background: url(/_css/background.png) white center no-repeat fixed;
+}
+
+blockquote {
+	line-height: 2em;
+}
+
+img {
+	border: none;
+}
+
+a {
+	color: #33a;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #55c;
+}
+
+.icon {
+	vertical-align: middle;
+}
+
+p {
+	line-height: 1.4em;
+	margin: 1em;
+}
+
+
+ul {
+	line-height: 1.4em;
+	margin-bottom: 1em;
+}
+
+a {
+	border-bottom: 2px;
+}
+
+h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+/* Page Layout */
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+#header {
+	height: 40px;
+	padding-top: 5px;
+	padding-left: 5px;
+	
+	z-index: 100;
+	
+	position: relative;
+}
+
+#page {
+	position: absolute;
+	left: 25px;
+	right: 25px;
+	top: 60px;
+	padding-bottom: 35px;
+}
+
+#footer {
+	position: fixed;
+	text-align: right;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	height: 22px;
+	font-size: 11px;
+	
+	padding-right: 5px;
+	padding-top: 5px;
+	
+	background-color: #aaa;
+	border-top: 1px solid black;
+}
+
+.gallery {
+	text-align: center;
+}
+
+.gallery img {
+	vertical-align: middle;
+}
+
+pre {
+	overflow: auto;
+}
+
+h2 {
+	margin-top: 5em;
+}
+
+ul.trail, ul.trail li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul.trail {
+	height: 2.3em;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	
+	background-color: #aaa;
+	
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	
+	z-index: 110;
+}
+
+ul.trail > li {
+	float: left;
+}
+
+ul.trail li {
+	line-height: 2.3em;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+ul.trail ul.menu {
+	list-style: none;
+	
+	margin: 0px;
+	padding: 0px;
+	
+	display: block;
+	
+	position: absolute;
+	
+	background-color: #eef;
+	border: 1px solid black;
+}
+
+ul.trail ul.menu li {
+	display: block;
+	list-style: none;
+}
+
+ul.trail ul.menu li:hover {
+	background-color: #cce;
+}
+
+ul.trail ul.menu a {
+	display: block;
+}
+
+table.basic thead tr > * {
+	border-bottom: 2px solid black;
+}
+
+table.basic {
+	width: 100%;
+	padding-left: 5em;
+	padding-right: 5em;
+}
+
+.questions > li {
+	padding-bottom: 50px;
+}
+
+.answer {
+	border: 1px solid #0f0;
+	background-color: #cfc;
+	padding: 5px;
+}

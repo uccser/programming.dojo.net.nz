@@ -1,0 +1,19 @@
+<ul class="trail">
+	<?r links("/").each do |link| ?>
+	<li>#{link.to_href}<?r
+			children = parent.node.links(link.path.dirname)
+			if children.size > 0
+		?>↓
+		<ul class="menu" style="display: none">
+			<?r children.each do |child| ?>
+			<li>#{child.to_href}</li>
+			<?r end ?>
+		</ul>
+		<?r end ?>
+	</li>
+	<?r end ?>
+</ul>
+
+<script type="text/javascript" charset="utf-8">
+	$('.trail').menu();
+</script>

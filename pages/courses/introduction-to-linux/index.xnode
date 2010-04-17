@@ -1,0 +1,19 @@
+<page>
+	<heading>Introduction To Linux</heading>
+	
+	<dl>
+		<dt>Course Duration:</dt>
+		<dd>2 days</dd>
+	</dl>
+	
+	<p>Have you heard about Linux and would like to learn more? This course will teach you how to install, setup and use Linux.</p>
+	
+	<ul>
+		<li>Install Ubuntu Linux</li>
+		<li>How to install additional software and packages</li>
+		<li>How to setup Apache2 web server</li>
+		<li>How to use the command line</li>
+	</ul>
+	
+	<register_interest />
+</page>

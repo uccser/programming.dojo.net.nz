@@ -1,0 +1,6 @@
+<div>
+	<div><textarea style="width: 100%"></textarea></div>
+
+	<a href="#" onclick="$('textarea', $(this).prev()).attr('readonly', 'readonly'); $(this).next().slideDown(); $(this).slideUp(); return false;">Show Answer</a>
+	<div class="answer" style="display: none"><content/></div>
+</div>

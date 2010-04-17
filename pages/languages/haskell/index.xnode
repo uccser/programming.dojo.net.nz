@@ -1,0 +1,16 @@
+<page>
+	<heading>Haskell</heading>
+	
+	<p>Haskell is a <tt>compiled</tt> <tt>statically typed</tt> pure <tt>functional</tt> programming language. It is based on highly sound academic theory and principal.</p>
+	
+	<!-- need a brush for haskell! -->
+	<listing src="example.txt" brush="clang" />
+	
+	<p>Haskell has pioneered many modern concepts in functional programming such as <tt>monads</tt>, <tt>currying</tt> and advanced <tt>type inference</tt>.</p>
+	
+	<h2>Further Reading</h2>
+	
+	<ul>
+		<li><a href="http://en.wikipedia.org/wiki/Haskell_(programming_language)">Wikipedia: Haskell</a></li>
+	</ul>
+</page>

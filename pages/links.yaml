@@ -1,0 +1,15 @@
+errors:
+    hidden: true
+welcome:
+    title: "programming.dojo.net.nz"
+    order: 0
+languages:
+    order: 1
+codex:
+    order: 2
+courses:
+    order: 4
+club:
+    order: 5
+study:
+    order: 3

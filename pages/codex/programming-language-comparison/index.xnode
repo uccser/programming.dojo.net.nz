@@ -1,0 +1,81 @@
+<page>
+	<link rel="stylesheet" href="table.css" type="text/css" />
+	<script src="@rel@/_static/jquery-ui-1.8.custom.min.js" type="text/javascript" charset="utf-8"></script>
+	
+	<heading>Programming Language Comparison</heading>
+	
+	<p>This table outlines several major languages which are commonly used for educational purposes. Each question is asked specifically within the scope of education and use in the classroom. Green indicates that the language suitably meets the requirements, while orange indicates that there are some potentially some issues that need to be considered, while red indicates that there are likely issues which will affect the usage in an educational environment.</p>
+	
+	<p>Some of the issues are clarified at the bottom of the page. If you hover over (or click) on the colored circle, the exact comment will be highlighted. This page is highly subjective, but I have done my best to review and consider all appropriate material. If you wish to suggest some adjustment, I'm more than happy to <a href="/welcome/contact-us">listen to your input</a>.</p>
+	
+	<?r
+		comment_id = 1
+		notes = {}
+		data = YAML::load(current.node.local_path("comparison.yaml").read)
+	?>
+	
+	<table class="basic comparison">
+		<thead>
+			<tr>
+				<th class="question">Question</th>
+				<th colspan="#{data['languages'].size}">Languages</th>
+			</tr>
+		</thead>
+		<tbody>
+		<?r data['categories'].each do |category| ?>
+			<tr>
+				<th>#{category['title']}</th>
+				<?r data['languages'].each do |name| ?>
+				<th class="language">#{name}</th>
+				<?r end ?>
+			</tr>
+			<?r category['questions'].each do |question| ?>
+			<tr>
+				<td class="question">#{question['summary']}</td>
+				<?r data['languages'].each do |name|
+					if question[name]
+						color, comment = question[name].split(" - ", 2)
+				
+						if comment
+							comment_id += 1
+							notes[name] ||= []
+							notes[name] << ["c#{comment_id}", comment]
+						end
+					end
+				?>
+				<td class="language">
+					<?r if comment ?>
+						<a href="\#c#{comment_id}" class="comment"><img src="#{color || 'green'}.png" title="#{comment.to_html}"/></a>
+					<?r else ?>
+						<img src="#{color || 'green'}.png" />
+					<?r end ?>
+				</td>
+				<?r end ?>
+			</tr>
+			<?r end ?>
+		<?r end ?>
+		</tbody>
+	</table>
+	
+	<?r notes.each do |language, comments| ?>
+	<h2>#{language.to_html}</h2>
+	
+		<?r comments.each do |id, comment| ?>
+			<p id="#{id}"><a name="#{id}">[#{id}]</a> #{comment.to_html}</p>
+		<?r end ?>
+	<?r end ?>
+	
+	<script type="text/javascript" charset="utf-8">
+		$(function() {
+			$('.comparison tbody tr td.language:nth-child(even)').addClass('alt');
+			
+			$('.comparison a.comment').each(function() {
+				var id = this.href.split("#").pop()
+				
+				$(this).bind('click', function() {
+					$('#' + id).effect("highlight", {color: "#aaf"}, 20000);
+				});
+			});
+		});
+	</script>
+</page>
