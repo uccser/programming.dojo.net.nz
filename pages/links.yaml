@@ -8,8 +8,10 @@ languages:
 codex:
     order: 2
 courses:
+    hidden: true
     order: 4
 club:
+    hidden: true
     order: 5
 study:
     order: 3
