@@ -12,7 +12,8 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: menlo, monospace;
 	color: #303;
 	
-	margin-bottom: 2em;
+	margin-top: 2em;
+	margin-bottom: 1em;
 }
 
 body {
@@ -81,7 +82,7 @@ body {
 	left: 25px;
 	right: 25px;
 	top: 60px;
-	padding-bottom: 35px;
+	padding-bottom: 8em;
 }
 
 #footer {
