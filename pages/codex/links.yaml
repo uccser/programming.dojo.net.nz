@@ -1,12 +1,16 @@
 statically-typed:
     order: 200
 dynamically-typed:
-    order: 201
+    order: 200
 functional:
     order: 300
 imperative:
-    order: 301
+    order: 300
+programming-language-posters:
+    order: 1000
 programming-language-comparison:
-    order: 1030
+    order: 1000
 fizz-buzz:
-    order: 1050
+    order: 2000
+100-doors:
+    order: 2000
