@@ -1,0 +1,55 @@
+/*
+	The run from the command line:
+		$ javac AgeSorter.java
+		$ java AgeSorter
+
+	Outputs:
+		Name: BobAge: 10
+		Name: SallyAge: 13
+		Name: JohnAge: 15
+*/
+
+import java.util.*;
+
+public class AgeSorter {
+	
+	private static class Person {
+		String name;
+		int age;
+
+		Person (String _name, int _age) {
+			name = _name;
+			age = _age;
+		}
+
+		int getAge () {
+			return age;
+		}
+
+		String getName () {
+			return name;
+		}
+	}
+	
+	public static void main(String[] args) {
+		List<Person> people = new ArrayList<Person>();
+		
+		people.add(new Person("Bob", 10));
+		people.add(new Person("John", 15));
+		people.add(new Person("Sally", 13));
+		
+		Collections.sort(people, new Comparator<Person>() {
+			public int compare (Person p1, Person p2) {
+				return p1.getAge() - p2.getAge();
+			}
+		});
+		
+		for (int i = 0; i < people.size(); i += 1) {
+			System.out.print("Name: ");
+			System.out.print(people.get(i).getName());
+			System.out.print("Age: ");
+			System.out.print(people.get(i).getAge());
+			System.out.println();
+		}
+	}
+}

@@ -1,0 +1,19 @@
+
+// Null Program
+
+int main (int argc, char ** argv) {
+    return 0;
+}
+
+// = 46 characters
+
+// Hello World Program
+
+#include <stdio.h>
+
+int main (int argc, char ** argv) {
+    printf("Hello World\r\n");
+    return 0;
+}
+
+// = 91 characters

@@ -1,0 +1,48 @@
+<page>
+	<heading>Number of Characters Comparison</heading>
+	
+	<p>Please note, these examples are highly contrived to show a specific point. However, it is in my opinion representative of real world code. It would be interesting to do a more complex comparative analysis.</p>
+	
+	<table class="basic">
+		<thead>
+			<tr>
+				<th>Language</th>
+				<th>Null Program (characters)</th>
+				<th>Hello World Program (characters)</th>
+				<th>Signal to Noise</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Ruby</td>
+				<td>0</td>
+				<td>18</td>
+				<td>#{sprintf("%0.3f", 1.0 - (0.0 / 18.0))}</td>
+			</tr>
+			<tr>
+				<td>Java</td>
+				<td>70</td>
+				<td>104</td>
+				<td>#{sprintf("%0.3f", 1.0 - (70.0 / 104.0))}</td>
+			</tr>
+			<tr>
+				<td>C</td>
+				<td>46</td>
+				<td>91</td>
+				<td>#{sprintf("%0.3f", 1.0 - (46.0 / 91.0))}</td>
+			</tr>
+		</tbody>
+	</table>
+	
+	<h2>Hello World in C</h2>
+	
+	<listing src="hello_world_c.txt" brush="clang" />
+	
+	<h2>Hello World in Ruby</h2>
+	
+	<listing src="hello_world_ruby.txt" brush="ruby" />
+	
+	<h2>Hello World in Java</h2>
+	
+	<listing src="hello_world_java.txt" brush="clang" />
+</page>

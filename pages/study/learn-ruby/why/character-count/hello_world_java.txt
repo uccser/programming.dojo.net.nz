@@ -1,0 +1,17 @@
+
+// Null Program
+
+public class NullProgram {
+	public static void main(String[] args) {
+	}
+}
+
+// = 70 characters
+
+public class HelloWorld {
+	public static void main(String[] args) {
+		System.out.println("Hello World")
+	}
+}
+
+// = 104 characters

@@ -1,0 +1,60 @@
+<page>
+	<heading>Lesson 0: Setup and Installation</heading>
+	
+	<p>This lesson is going to be surprisingly short. Installing Ruby is very easy. Simply look at the following table, find your platform, and follow the instructions</p>
+	
+	<table class="basic">
+		<thead>
+			<tr><th>Platform</th><th>Instructions</th></tr>
+		</thead>
+		<tbody>
+			<tr><td>Windows</td><td><a href="http://rubyinstaller.org/">RubyInstaller for Windows</a>.</td></tr>
+			<tr><td>Mac OS X</td><td>Preinstalled - you don't need to do anything.</td></tr>
+			<tr><td>Ubuntu / Debian</td><td>Run <code>sudo apt-get install ruby-full</code> from the terminal.</td></tr>
+		</tbody>
+	</table>
+	
+	<p>Once you have installed Ruby, you will need a suitable editor. <a href="http://www.activestate.com/komodo_edit/">Komodo Edit</a> is a free text editor which has built in support for Ruby (and many other related technologies such as HTML/CSS), and is available for all major platforms. To learn more about Komodo Edit, there is a <a href="http://community.activestate.com/screencast/1083">screencast</a> available which outlines how it works and its major features.</p>
+
+	<p>For the remainder of this guide, we will be using Komodo Edit, so please <a href="http://www.activestate.com/komodo_edit/downloads/">download</a> and install it now.</p>
+
+	<h2>Hello World</h2>
+	
+	<p>Provided that you have installed Ruby and Komodo Edit successfully, we can now try out a basic example.</p>
+	
+	<p>Firstly, open Komodo Edit. Create a New File either by selecting this item from the File menu, or clicking the New File button in the toolbar. Save the file immediately as <code>HelloWorld.rb</code>.</p>
+	
+	<gallery path="helloworld" tag="thumbnail" process="thumbnail" filter="HelloWorld" />
+	
+	<p>Type in the following code:</p>
+	
+	<listing brush="ruby">puts "Hello World"</listing>
+	
+	<p>Save the file!</p>
+	
+	<p>From the <em>Tools</em> menu, select <em>Run Command...</em> and fill out the box as follows:</p>
+	
+	<gallery path="helloworld" tag="thumbnail" process="thumbnail" filter="RunCommand" />
+	
+	<p>Click the Run button, and you should see the following:</p>
+	
+	<gallery path="helloworld" tag="thumbnail" process="thumbnail" filter="Success" />
+	
+	<p>Note, you now have two additional panels open: At the bottom is the result of the program (which should say <code>Hello World</code>), and on the right hand side is the toolbox. To run your program again, simply double click on the entry <code>%(ruby) %F</code>.</p>
+	
+	<p>Congratulations, you have installed Ruby and a text editor, and can execute Ruby programs.</p>
+	
+	<p>Pro Tip: Komodo Edit has a powerful macro system where you can record and playback actions. I've made an action that saves the current document, and then runs it. It also connects this to Ctrl-R keyboard shortcut. You should <a href="SaveAndRunRuby.zip">download it</a>; simply extract and open the <code>.kpz</code> file with Komodo Edit and you'll get a new entry in your toolbox: <code>Save &amp; Run Ruby</code> which has the shortcut <em>Ctrl-R</em>.</p>
+	
+	<h2>Try a few more lines</h2>
+	
+	<p>Here are a few more programs you can copy and paste to try out (hint - click on <em>View Raw Code</em> in the code listing to get an unformatted view of the source code). Don't worry about the code much, these are simply here for you to cut and paste and run, so you become more familiar with the tools.</p>
+	
+	<p>Note, that before you run your program again, make sure you save the file. This is because the command reads the file from the disk for execution, and if you haven't saved it, it won't execute your code.</p>
+	
+	<listing brush="ruby" src="ex2.txt" />
+	
+	<p>How tall is Godzilla? What time is it? Can you multiply and divide?</p>
+	
+	<gallery path="helloworld" tag="thumbnail" process="thumbnail" filter="FurtherExamples" />
+</page>

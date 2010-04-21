@@ -1,0 +1,10 @@
+
+# Null Program
+
+# = 0 characters
+
+# Hello World Program
+
+puts "Hello World"
+
+# = 18 characters
