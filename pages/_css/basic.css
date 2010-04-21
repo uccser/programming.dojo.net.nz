@@ -1,8 +1,7 @@
 /* Copyright (c) 2009 Orion Transfer Ltd. All Rights Reserved. */
 
 body, p, ol, ul, blockquote {
-	font-family: menlo, monospace;
-	font-size: 13px;
+	font-family: "Skia", verdana, arial, helvetica, sans-serif;
 	line-height: 18px;
 	
 	color: #339;
@@ -124,7 +123,7 @@ ul.trail, ul.trail li {
 }
 
 ul.trail {
-	height: 2.3em;
+	height: 2.4em;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	
@@ -139,19 +138,21 @@ ul.trail {
 }
 
 ul.trail > li {
+	font-weight: bold;
 	float: left;
 }
 
 ul.trail li {
-	line-height: 2.3em;
+	line-height: 2.4em;
 	padding-left: 10px;
 	padding-right: 10px;
 }
 
 ul.trail ul.menu {
+	font-weight: normal;
 	list-style: none;
 	
-	margin: 0px;
+	margin-top: 5px;
 	padding: 0px;
 	
 	display: block;
@@ -183,6 +184,11 @@ table.basic {
 	width: 100%;
 	padding-left: 5em;
 	padding-right: 5em;
+}
+
+table.basic th {
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .questions > li {
