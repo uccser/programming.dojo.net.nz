@@ -1,0 +1,15 @@
+<page>
+	<heading>Compiled</heading>
+	
+	<p>A compiled programming language is one where a source file is transformed into an executable file using a compiler. A compiler may report syntactic and semantic errors, as well as perform optimizations.</p>
+	
+	<p>Compilation potentially strips out many details of the source program, and thus a compiled program can be hard to debug unless this information is retained (normally in the form of debugging metadata). This also makes it hard to reverse-engineer a program back to its original source form.</p>
+	
+	<p>Due to the analysis required, compilation can potentially take a long time. However, this step is an off-line process in the sense that it only needs to be done once. After that, the resulting file can be quickly loaded and executed.</p>
+	
+	<h2>Further Reading</h2>
+	
+	<ul>
+		<li><a href="http://en.wikipedia.org/wiki/Compiler">Wikipedia: Compiler</a></li>
+	</ul>
+</page>

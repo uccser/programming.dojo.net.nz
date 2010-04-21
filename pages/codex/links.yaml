@@ -6,6 +6,10 @@ functional:
     order: 300
 imperative:
     order: 300
+compiled:
+    order: 400
+interpreted:
+    order: 400
 programming-language-posters:
     order: 1000
 programming-language-comparison:

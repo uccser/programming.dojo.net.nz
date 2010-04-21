@@ -1,0 +1,14 @@
+<page>
+	<heading>PHP</heading>
+	
+	<p>PHP is a <tt>dynamically typed</tt> <tt>interpreted</tt> language. It supports a number of different programming paradigms including <tt>imperative</tt> and <tt>object oriented</tt> features.</p>
+	
+	<listing src="example.txt" brush="php" />
+	
+	<h2>Further Reading</h2>
+	
+	<ul>
+		<li><a href="http://en.wikipedia.org/wiki/PHP">Wikipedia: PHP</a></li>
+		<li><a href="http://www.php.net/">PHP: Hypertext Preprocessor</a> (Main Website)</li>
+	</ul>
+</page>

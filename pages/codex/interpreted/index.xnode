@@ -1,0 +1,18 @@
+<page>
+	<heading>Interpreted</heading>
+	
+	<p>An interpreted programming language is one where a source file is executed directly by an interpreter. Interpreters generally have more flexibility than a <tt>compiled</tt> language, at the expense of run-time speed.</p>
+	
+	<p>Interpreters generally offer the same behavior on different platforms, unlike compiled code that is typically tied to one platform.</p>
+	
+	<p>Due to the nature of execution inside an interpreter, syntactic or semantic errors may not be reported unless a particular branch of code with the error is executed. Also an interpreter always has access to the original source code so errors can be reported clearly and accurately, and debugging can be much easier.</p>
+	
+	<p>Some interpreters also perform optimizations on the code at run-time, one of the biggest ones being JIT compilation.</p>
+	
+	<h2>Further Reading</h2>
+	
+	<ul>
+		<li><a href="http://en.wikipedia.org/wiki/Interpreter_(computing)">Wikipedia: Interpreter</a></li>
+		<li><a href="http://llvm.org/">Low Level Virtual Machine</a></li>
+	</ul>
+</page>
