@@ -3,11 +3,9 @@
 	
 	<p>Computer Science is a field of science where computational tools are used to solve problems beyond the processing and storage capacities of our own minds. Computer Science education is an important foundation of modern learning.</p>
 	
+	<h2>Further Reading</h2>
+	
 	<ul>
-		<li><a href="http://cacm.acm.org/blogs/blog-cacm/45725-how-we-teach-introductory-computer-science-is-wrong/fulltext">How we teach introductory computer science is wrong</a></li>
 		<li><a href="http://andresosinski.com.ar/blog_view_entry/?id=2">Programming languages do have speed</a></li>
-		<li><a href="http://www.edutopia.org/literacy-computer-programming">Programming is the new literacy</a></li>
-		<li><a href="http://code.google.com/">Google Code</a> &mdash; A fantastic resource for programmers.</li>
-		<li><a href="http://www.python.org/doc/essays/cp4e.html">Computer Programming for Everybody</a></li>
 	</ul>
 </page>
