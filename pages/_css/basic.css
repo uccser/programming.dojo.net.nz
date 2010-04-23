@@ -40,7 +40,7 @@ a:hover {
 	vertical-align: middle;
 }
 
-p {
+p, dl {
 	line-height: 1.4em;
 	margin: 1em;
 }
