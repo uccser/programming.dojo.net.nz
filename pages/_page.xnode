@@ -28,7 +28,7 @@
 		$(function() {
 			$('a.thumbnail').lightBox({fixedNavigation:true});
 			
-			$.syntax({root: "/_static/jquery-syntax/");
+			$.syntax({root: "/_static/jquery-syntax/"});
 		});
 		</script>
 	</head>
