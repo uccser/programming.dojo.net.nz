@@ -19,8 +19,8 @@
 		<script src="/_static/jquery.lightbox-0.5.js" type="text/javascript" charset="utf-8"></script>
 		<link rel="stylesheet" href="/_static/jquery.lightbox.css" type="text/css" media="screen" charset="utf-8" />
 		
-		<script src="/_static/jquery.syntax.js" type="text/javascript" charset="utf-8"></script>
-		<script src="/_static/jquery.syntax.cache.js?#{Time.now.to_i}" type="text/javascript" charset="utf-8"></script>
+		<script src="/_static/jquery-syntax/jquery.syntax.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/_static/jquery-syntax/jquery.syntax.cache.js" type="text/javascript" charset="utf-8"></script>
 
 		<script src="/_css/menu.js?#{Time.now.to_i}" type="text/javascript" charset="utf-8"></script>
 		
@@ -28,8 +28,7 @@
 		$(function() {
 			$('a.thumbnail').lightBox({fixedNavigation:true});
 			
-			Syntax.root = "/_static/";
-			$.syntax({layout: 'table', showColors: true});
+			$.syntax({root: "/_static/jquery-syntax/");
 		});
 		</script>
 	</head>
