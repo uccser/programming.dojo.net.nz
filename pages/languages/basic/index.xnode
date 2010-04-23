@@ -9,6 +9,24 @@
 	
 	<p>Other dialects of BASIC exist for various platforms, such as <tt>REALbasic</tt>.</p>
 	
+	<h2>Starting Points</h2>
+
+	<!-- http://www.thefreecountry.com/compilers/basic.shtml -->
+
+	<dl class="resources">
+		<dt><a href="http://gambas.sourceforge.net/en/main.html">Gambas</a></dt>
+		<dd>Gambas is a full-featured object language and development environment built on a BASIC interpreter.</dd>
+		
+		<dt><a href="http://www.freebasic.net/">FreeBASIC</a></dt>
+		<dd>FreeBASIC is a completely free, open-source, 32-bit BASIC compiler with a large supportive community.</dd>
+		
+		<dt><a href="http://msdn.microsoft.com/en-us/vbasic/ms789086.aspx">Visual Basic Developer Center</a></dt>
+		<dd>Introduction to programming with Visual Basic, as well as many other more advanced topics.</dd>
+
+		<dt><a href="http://www.homeandlearn.co.uk/NET/vbNET.html">Visual Basic .NET Tutorials for Beginners</a></dt>
+		<dd>An introduction to programming for beginners.</dd>
+	</dl>
+	
 	<h2>Further Reading</h2>
 	
 	<ul>
@@ -16,6 +34,5 @@
 		<li><a href="http://en.wikipedia.org/wiki/Commodore_64">Wikipedia: Commodore 64</a></li>
 		<li><a href="http://en.wikipedia.org/wiki/QBasic">Wikipedia: QBasic</a></li>
 		<li><a href="http://en.wikipedia.org/wiki/Visual Basic">Wikipedia: Visual Basic</a></li>
-		<li><a href="http://en.wikipedia.org/wiki/Visual_Basic_.NET">Wikipedia: Visual Basic .NET</a></li>
 	</ul>
 </page>

@@ -5,9 +5,24 @@
 	
 	<listing src="example.txt" brush="ruby" />
 	
+	<h2>Starting Points</h2>
+
+	<dl class="resources">
+		<dt><a href="http://pine.fm/LearnToProgram/">Learn to Program</a></dt>
+		<dd>A complete introduction for programming using Ruby including advice for students and teachers.</dd>
+
+		<dt><a href="http://mislav.uniqpath.com/poignant-guide/">The Poignant Guide to Ruby</a></dt>
+		<dd>A fun illustrated introduction to programming using Ruby</dd>
+
+		<dt><a href="http://www.loudthinking.com/arc/000199.html">Getting started with Ruby</a></dt>
+		<dd>A summarized list of resources for learning about programming and Ruby</dd>
+	</dl>
+	
 	<h2>Further Reading</h2>
 	
 	<ul>
 		<li><a href="http://en.wikipedia.org/wiki/Ruby_(programming_language)">Wikipedia: Ruby</a></li>
+		<li><a href="http://www.ruby-lang.org/">Ruby</a> (Main Website)</li>
+		<li><a href="http://www.rubyonrails.org/">Ruby on Rails</a></li>
 	</ul>
 </page>

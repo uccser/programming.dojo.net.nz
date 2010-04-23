@@ -5,6 +5,19 @@
 	
 	<listing src="example.txt" brush="lisp" />
 	
+	<h2>Starting Points</h2>
+
+	<dl class="resources">
+		<dt><a href="http://www.schemers.org/Education/">Schemers.org: Education</a></dt>
+		<dd>A set of resources for people interested in Scheme as a tool in education.</dd>
+
+		<dt><a href="http://plt-scheme.org/">PLT Scheme</a></dt>
+		<dd>PLT Scheme is an entire software stack including IDE for developing Scheme programs.</dd>
+
+		<dt><a href="http://www.hddp.org/2003-09-26/Book/">How to Design Programs</a></dt>
+		<dd>A complete beginners guide to programming with Scheme and designing programs.</dd>
+	</dl>
+	
 	<h2>Further Reading</h2>
 	
 	<ul>

@@ -8,9 +8,23 @@
 	
 	<p>Haskell has pioneered many modern concepts in functional programming such as <tt>monads</tt>, <tt>currying</tt> and advanced <tt>type inference</tt>.</p>
 	
+	<h2>Starting Points</h2>
+	
+	<dl class="resources">
+		<dt><a href="http://tryhaskell.org/">Try Haskell</a></dt>
+		<dd>An online interactive tutorial.</dd>
+
+		<dt><a href="http://learnyouahaskell.com/">Learn You a Haskell for Great Good!</a></dt>
+		<dd>Comprehensive Set Tutorials &mdash; suitable for introduction to programming.</dd>
+
+		<dt><a href="http://hackage.haskell.org/platform/new/contents.html">Haskell: Batteries Included</a></dt>
+		<dd>Set of resources for learning and teaching Haskell.</dd>
+	</dl>
+	
 	<h2>Further Reading</h2>
 	
 	<ul>
 		<li><a href="http://en.wikipedia.org/wiki/Haskell_(programming_language)">Wikipedia: Haskell</a></li>
+		<li><a href="http://www.haskell.org/">Haskell</a> (Main Website)</li>
 	</ul>
 </page>

@@ -5,6 +5,15 @@
 	
 	<listing src="example.txt" brush="php" />
 	
+	<p>PHP is designed for developing web applications, and generally has little use in other scenarios. It is easy to integrate with a wide range of other technologies.</p>
+	
+	<h2>Starting Points</h2>
+
+	<dl class="resources">
+		<dt><a href="http://en.wikibooks.org/wiki/PHP_Programming">PHP Programming Wikibook</a></dt>
+		<dd>A comprehensive guide to learning to program using PHP.</dd>
+	</dl>
+	
 	<h2>Further Reading</h2>
 	
 	<ul>

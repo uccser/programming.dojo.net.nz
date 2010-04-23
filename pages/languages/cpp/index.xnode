@@ -7,6 +7,19 @@
 	
 	<p>C++ is <tt>compiled</tt> and compilers exist for many platforms, however due to the complexity of the C++ standard, compilers don't always behave the same way.</p>
 	
+	<h2>Starting Points</h2>
+
+	<dl class="resources">
+		<dt><a href="http://www.cplusplus.com/doc/tutorial/introduction/">C++ Language Tutorial</a></dt>
+		<dd>A beginner guide to programming in C++.</dd>
+
+		<dt><a href="http://www.relisoft.com/book/index.htm">C++ In Action</a></dt>
+		<dd>An online book covering many C++ features from a beginner to intermediate perspective.</dd>
+
+		<dt><a href="http://www.network-theory.co.uk/docs/gccintro/index.html">An Introduction to GCC</a></dt>
+		<dd>A manual that provides an introduction to the GNU C and C++ compilers.</dd>
+	</dl>
+	
 	<h2>Further Reading</h2>
 	
 	<ul>

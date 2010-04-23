@@ -1,7 +1,7 @@
 <page>
 	<heading>Languages</heading>
 	
-	<p>There are <tt to="programming-language-comparison">many programming languages</tt> in the world. Here are some languages which are excellent for learning and improving your knowledge about programming.</p>
+	<p>There are <a href="/resources/programming-language-comparison">many programming languages</a> in the world. Here are some languages which are excellent for learning and improving your knowledge about programming.</p>
 	
 	<ul>
 	<?r links(first.node.uri_path.dirname, :files => false).each do |link| ?>

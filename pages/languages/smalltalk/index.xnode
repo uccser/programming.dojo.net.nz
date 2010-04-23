@@ -5,9 +5,23 @@
 	
 	<listing src="example.txt" brush="ruby" />
 	
+	<h2>Starting Points</h2>
+
+	<dl class="resources">
+		<dt><a href="http://www.smalltalk.org/smalltalk/learning.html">Learning Smalltalk</a></dt>
+		<dd>A set of resources for learning about Smalltalk</dd>
+
+		<dt><a href="http://www.squeakland.org/">Squeakland: home of squeak etoys</a></dt>
+		<dd>Etoys is an educational tool for teaching children programming with examples from other academic fields.</dd>
+
+		<dt><a href="http://wiki.squeak.org/squeak/377">Introduction to Squeak</a></dt>
+		<dd>A set of resources for learning about Smalltalk programming in the <a href="http://www.squeak.org/">Squeak</a> environment.</dd>
+	</dl>
+	
 	<h2>Further Reading</h2>
 	
 	<ul>
 		<li><a href="http://en.wikipedia.org/wiki/Smalltalk_(programming_language)">Wikipedia: Smalltalk</a></li>
+		<li><a href="http://www.smalltalk.org">Smalltalk</a> (Main Website)</li>
 	</ul>
 </page>

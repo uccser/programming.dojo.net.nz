@@ -9,6 +9,16 @@
 	
 	<p>Many languages have been derived from C (either in terms of syntax or semantics), such as <tt to="cpp">C++</tt>, <tt>Objective-C</tt>, <tt>PHP</tt>, <tt>Java</tt> and <tt>Python</tt> to name a few.</p>
 	
+	<h2>Starting Points</h2>
+	
+	<dl class="resources">
+		<dt><a href="http://cprog.tomsweb.net/cintro.html">An introduction to C</a></dt>
+		<dd>An extensive tutorial covering many C features.</dd>
+		
+		<dt><a href="http://www.network-theory.co.uk/docs/gccintro/index.html">An Introduction to GCC</a></dt>
+		<dd>A manual that provides an introduction to the GNU C and C++ compilers.</dd>
+	</dl>
+	
 	<h2>Further Reading</h2>
 	
 	<ul>

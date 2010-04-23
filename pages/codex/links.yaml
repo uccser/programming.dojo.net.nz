@@ -10,11 +10,7 @@ compiled:
     order: 400
 interpreted:
     order: 400
-programming-language-posters:
-    order: 1000
-programming-language-comparison:
-    order: 1000
 fizz-buzz:
-    order: 2000
+    order: 900
 100-doors:
-    order: 2000
+    order: 900

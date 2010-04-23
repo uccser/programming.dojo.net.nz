@@ -7,7 +7,17 @@
 	<listing src="example.txt" brush="clang" />
 	
 	<p>Several derivatives of Pascal exist which enhance the language, such as <tt>Object Pascal</tt>.</p>
-		
+	
+	<h2>Starting Points</h2>
+
+	<dl class="resources">
+		<dt><a href="http://www.taoyue.com/tutorials/pascal/">Learn Pascal</a></dt>
+		<dd>Beginner guide to programming using Pascal.</dd>
+
+		<dt><a href="http://www.freepascal.org/">Free Pascal</a></dt>
+		<dd>Open Source Compiler for Pascal and Object Pascal.</dd>
+	</dl>
+	
 	<h2>Further Reading</h2>
 	
 	<ul>

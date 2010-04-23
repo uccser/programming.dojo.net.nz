@@ -15,3 +15,5 @@ club:
     order: 5
 study:
     order: 3
+resources:
+    order: 10

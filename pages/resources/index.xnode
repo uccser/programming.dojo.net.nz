@@ -1,0 +1,20 @@
+<page>
+	<heading>Resources</heading>
+	
+	<p>The resources available here are designed to empower teachers at school to provide well balanced information about programming and programming languages.</p>
+	
+	<p>Most of the resources are designed for students at high school or equivalent level.</p>
+	
+	<ul>
+	<?r links(first.node.uri_path.dirname, :files => false).each do |link| ?>
+		<li>#{link.to_href}</li>
+	<?r end ?>
+	</ul>
+	
+	<h2>External Resources</h2>
+	
+	<dl>
+		<dt><a href="http://www.csedweek.org/resources/posters-and-brochures/">Computer Science Education Week Posters</a></dt>
+		<dd>A very useful set of posters about various computer science topics.</dd>
+	</dl>
+</page>

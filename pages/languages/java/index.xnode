@@ -10,9 +10,25 @@
 	
 	<p>Java (generally) runs on top of the Java Virtual Machine which allows the same <tt>bytecode</tt> to run on multiple platforms. Other languages such as <tt>JRuby</tt> can also run on top of the JVM, which makes it an interesting platform for programming language development.</p>
 	
+	<h2>Starting Points</h2>
+	
+	<dl class="resources">
+		<dt><a href="http://netbeans.org/kb/articles/learn-java.html">Learning Java - Resources</a></dt>
+		<dd>A fantastic set of resources for different levels of programmers.</dd>
+	
+	
+		<dt><a href="http://java.sun.com/new2java/">New to Java Programming Center</a></dt>
+		<dd>A set of resources for new programmers who want to understand the different capabilities of Java.</dd>
+	
+	
+		<dt><a href="http://java.sun.com/docs/books/tutorial/">The Java Tutorials</a></dt>
+		<dd>Practical guide for programmers who want to use the Java programming language.</dd>
+	</dl>
+	
 	<h2>Further Reading</h2>
 	
 	<ul>
 		<li><a href="http://en.wikipedia.org/wiki/Java_(programming_language)">Wikipedia: Java</a></li>
+		<li><a href="http://www.java.com/">Java</a> (Main Website)</li>
 	</ul>
 </page>

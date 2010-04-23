@@ -5,9 +5,20 @@
 	
 	<listing src="example.txt" brush="python" />
 	
+	<h2>Starting Points</h2>
+
+	<dl class="resources">
+		<dt><a href="http://wiki.python.org/moin/BeginnersGuide">Beginner's Guide to Python</a></dt>
+		<dd>Learn to program using Python. A beginners guide which includes to links to many useful resources.</dd>
+
+		<dt><a href="http://davidbau.com/python/learning.html">Learning to Program with Python</a></dt>
+		<dd>Learn to make a game of hangman from scratch.</dd>
+	</dl>
+	
 	<h2>Further Reading</h2>
 	
 	<ul>
 		<li><a href="http://en.wikipedia.org/wiki/Python_(programming_language)">Wikipedia: Python</a></li>
+		<li><a href="http://www.python.org/">Python</a> (Main Website)</li>
 	</ul>
 </page>
