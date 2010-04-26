@@ -24,9 +24,9 @@
 		<tbody>
 		<?r data['categories'].each do |category| ?>
 			<tr>
-				<th>#{category['title']}</th>
+				<th style="width: 30%">#{category['title']}</th>
 				<?r data['languages'].each do |name| ?>
-				<th class="language">#{name}</th>
+				<th class="language" style="width: #{sprintf("%0.2f%%", 70.0 / data['languages'].size)}">#{name}</th>
 				<?r end ?>
 			</tr>
 			<?r category['questions'].each do |question| ?>
