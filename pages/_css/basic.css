@@ -202,7 +202,8 @@ table.basic th {
 }
 
 #Intro {
-	margin-top: 20pt;
+	margin-top: 40pt;
+	margin-bottom: 20pt;
 	width: 100%;
 	border-collapse: collapse;
 }
@@ -213,7 +214,7 @@ table.basic th {
 }
 
 #Intro td {
-	font-size: 1.5em;
+	font-size: 1.3em;
 	vertical-align: top;
 }
 

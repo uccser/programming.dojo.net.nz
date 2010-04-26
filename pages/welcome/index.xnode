@@ -3,10 +3,6 @@
 	
 	<p>Welcome to the Programming Dojo. This is a place where you can learn more about programming and programming languages.</p>
 	
-	<youtube_video id="imV3pPIUy1k" />
-	
-	<p style="text-align: center">Just in case you are wondering, the <a href="http://en.wikipedia.org/wiki/Hebrew_alphabet">Hebrew alphabet</a> has 22 letters.</p>
-	
 	<table id="Intro">
 		<thead>
 			<tr><th>For Students</th><th>For Teachers</th></tr>
@@ -23,7 +19,13 @@
 		</tbody>
 	</table>
 	
+	<h2>Program or be Programmed!</h2>
+	
+	<youtube_video id="imV3pPIUy1k" />
+	
+	<p style="text-align: center">Just in case you are wondering, the <a href="http://en.wikipedia.org/wiki/Hebrew_alphabet">Hebrew alphabet</a> has 22 letters.</p>
+	
 	<h2>Did you know?</h2>
 	
-	<p>Programming is both an art and a science. It involves interpretation, abstraction and creation, as well as quantitive analysis, mathematics and algorithmic processing. Don't expect <a href="http://norvig.com/21-days.html">too much too quickly</a>. Just like many things in life, good things take time.</p>
+	<p>Programming is both an art and a science. It involves interpretation, abstraction and creation, as well as quantitive analysis, mathematics and algorithmic thinking. Don't expect <a href="http://norvig.com/21-days.html">too much too quickly</a>. Just like many things in life, good things take time.</p>
 </page>
