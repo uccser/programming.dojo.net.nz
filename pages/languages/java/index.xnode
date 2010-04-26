@@ -5,8 +5,7 @@
 	
 	<p>Java has a highly object oriented view of the world. All program logic is structured in terms of classes. This can make it difficult to write short and concise Java programs.</p>
 	
-	<!-- need a brush for java! -->
-	<listing src="example.txt" brush="clang" />
+	<listing src="example.txt" brush="java" />
 	
 	<p>Java (generally) runs on top of the Java Virtual Machine which allows the same <tt>bytecode</tt> to run on multiple platforms. Other languages such as <tt>JRuby</tt> can also run on top of the JVM, which makes it an interesting platform for programming language development.</p>
 	
