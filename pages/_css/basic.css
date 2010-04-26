@@ -200,3 +200,23 @@ table.basic th {
 	background-color: #cfc;
 	padding: 5px;
 }
+
+#Intro {
+	margin-top: 20pt;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#Intro th {
+	padding: 0.5em;
+	font-size: 20pt;
+}
+
+#Intro td {
+	font-size: 1.5em;
+	vertical-align: top;
+}
+
+#Intro td {
+	width: 50%;
+}

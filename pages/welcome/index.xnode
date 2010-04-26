@@ -7,6 +7,22 @@
 	
 	<p style="text-align: center">Just in case you are wondering, the <a href="http://en.wikipedia.org/wiki/Hebrew_alphabet">Hebrew alphabet</a> has 22 letters.</p>
 	
+	<table id="Intro">
+		<thead>
+			<tr><th>For Students</th><th>For Teachers</th></tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>
+					<p>Are you interested in <a href="/languages">programming languages</a>? <a href="/languages/random">Try a random language</a> to begin learning!</p>
+				</td>
+				<td>
+					<p>Look at <a href="/resources">our resources</a> and learn about the <a href="/resources/programming-language-posters">posters</a> which you can use in your class.</p>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	
 	<h2>Did you know?</h2>
 	
 	<p>Programming is both an art and a science. It involves interpretation, abstraction and creation, as well as quantitive analysis, mathematics and algorithmic processing. Don't expect <a href="http://norvig.com/21-days.html">too much too quickly</a>. Just like many things in life, good things take time.</p>
