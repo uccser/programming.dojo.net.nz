@@ -1,0 +1,27 @@
+<page>
+	<heading>Contact Us</heading>
+	
+	<p>Please fill out the following form to send us a message. If you want a response, please include a valid "Reply To:" email address.</p>
+	
+	<?r if request.controller[:errors] ?>
+		<ul>
+		<?r request.controller[:errors].each do |error| ?>
+			<li>#{error}</li>
+		<?r end ?>
+		</ul>
+	<?r end ?>
+	
+	<form action="index" method="post" class="basic">
+		<fieldset>
+			<dl>
+				<dt><label for="subject">Subject:</label></dt>
+				<dd><input type="text" name="subject" value="#{request.controller[:subject].to_html}" /></dd>
+				<dt><label for="from">Reply To:</label></dt>
+				<dd><input type="text" name="from" value="#{request.controller[:from].to_html}" /></dd>
+				<dt><label for="message">Message:</label></dt>
+				<dd><textarea style="height: 200px;" name="message">#{request.controller[:message].to_html}</textarea></dd>
+				<dd class="footer"><input type="submit" value="Send" /></dd>
+			</dl>
+		</fieldset>
+	</form>
+</page>
