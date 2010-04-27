@@ -8,6 +8,9 @@
 	<h2>Starting Points</h2>
 
 	<dl class="resources">
+		<dt><a href="http://tryruby.org/">Try Ruby</a></dt>
+		<dd>An online interactive tutorial.</dd>
+		
 		<dt><a href="http://pine.fm/LearnToProgram/">Learn to Program</a></dt>
 		<dd>A complete introduction for programming using Ruby including advice for students and teachers.</dd>
 
