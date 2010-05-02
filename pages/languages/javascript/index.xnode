@@ -1,0 +1,35 @@
+<page>
+	<heading>JavaScript</heading>
+	
+	<p>JavaScript is a <tt>dynamically typed</tt> <tt>interpreted</tt> <tt>imperative</tt> language with <tt>functional</tt> features.</p>
+	
+	<listing src="example.txt" brush="javascript" />
+	
+	<p>JavaScript is the main language for programming web pages; however it's use as a general purpose programming language is growing.</p>
+	
+	
+	
+	<h2>Starting Points</h2>
+
+	<dl class="resources">
+		<dt><a href="http://eloquentjavascript.net/">Eloquent JavaScript</a></dt>
+		<dd>An interactive online tutorial for the beginner programmer.</dd>
+		
+		<dt><a href="http://ejohn.org/apps/learn/">Learning Advanced Javascript</a></dt>
+		<dd>A set of tutorials covering advanced computer programming topics in JavaScript.</dd>
+		
+		<dt><a href="http://getfirebug.com/">Firebug</a></dt>
+		<dd>A fantastic tool for developing and debugging JavaScript in <a href="http://getfirefox.com">FireFox</a>.</dd>
+		
+		<dt><a href="http://developer.mozilla.org/en/docs/Main_Page">Mozilla Developer Network</a></dt>
+		<dd>A great set of resources and documentation for programming JavaScript in the web browser.</dd>
+	</dl>
+	
+	<h2>Further Reading</h2>
+	
+	<ul>
+		<li><a href="http://en.wikipedia.org/wiki/JavaScript">Wikipedia: JavaScript</a></li>
+		<li><a href="http://en.wikipedia.org/wiki/Server-side_JavaScript">Wikipedia: Server-side JavaScript</a></li>
+	</ul>
+</page>
+

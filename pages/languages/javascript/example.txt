@@ -1,0 +1,24 @@
+var CLOSED = 0;
+var OPEN = 1;
+var n = 100;
+var doors = new Array(n);
+ 
+// initialize doors
+for (var i = 0; i < n; i++) {
+	doors[i] = CLOSED;
+}
+ 
+// now, start opening and closing
+for (var step = 1; step < n; step ++) {
+	for (var idx = step; idx < n; idx += step) {
+		// toggle state of door
+		doors[idx] = (doors[idx] == OPEN ? CLOSED : OPEN)
+	}
+}
+
+// find out which doors are open
+for (i = 0; i < n; i++) {
+	if (doors[i] == OPEN) {
+		print("door " + i + " is open.");
+	}
+}

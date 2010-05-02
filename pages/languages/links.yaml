@@ -2,3 +2,5 @@ cpp:
     title: "C++"
 php:
     title: "PHP"
+javascript:
+    title: "JavaScript"
