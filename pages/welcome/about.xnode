@@ -1,0 +1,13 @@
+<page>
+	<heading>About This Site</heading>
+	
+	<p>This site was designed as part of Computer Science Education course. It has been designed to improve the awareness of different programming languages.</p>
+	
+	<h2>Content</h2>
+	
+	<p>The programming language logos on this site are copyright their respective owners, and may be registered trademarks. They have been used in good faith, but if there is a problem please <a href="/welcome/contact-us">contact us</a>.</p>
+	
+	<p>Many source code examples were borrowed from <a href="http://rosettacode.org">Rosetta Code</a>. Thanks to those people for putting together such a wide and varied resource.</p>
+	
+	<p>All other content is released under the <a href="http://www.gnu.org/licenses/fdl-1.2.html">GNU Free Documentation License</a>.</p>
+</page>
