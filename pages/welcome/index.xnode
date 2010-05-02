@@ -1,4 +1,7 @@
 <page>
+	
+	<div class="message-box">This site is currently under development. Please <a href="/welcome/contact-us">provide feedback</a>!</div>
+	
 	<heading>Welcome</heading>
 	
 	<p>Welcome to the Programming Dojo. This is a place where you can learn more about programming and programming languages.</p>

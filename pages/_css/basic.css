@@ -401,3 +401,13 @@ h1.language {
 	-moz-border-radius: 10pt;
 	border-radius: 10pt;
 }
+
+.message-box {
+	border: solid 2px #dedeff;
+	color: #222222;
+	padding: 16px;
+	text-align: center;
+	
+	background: #efefff url(/_css/flag.png) 8px center no-repeat;
+	margin: 0px 50px 0px;
+}
