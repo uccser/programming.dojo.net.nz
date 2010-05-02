@@ -1,6 +1,29 @@
+basic:
+    tags: ['imperative', 'interpreted']
+c:
+    tags: ['imperative', 'compiled']
 cpp:
     title: "C++"
-php:
-    title: "PHP"
+    tags: ['object-oriented', 'imperative', 'compiled']
+haskell:
+    tags: ['functional', 'compiled']
+java:
+    tags: ['object-oriented', 'imperative', 'compiled']
 javascript:
     title: "JavaScript"
+    tags: ['object-oriented', 'imperative', 'interpreted']
+pascal:
+    tags: ['imperative', 'compiled']
+perl:
+    tags: ['object-oriented', 'imperative', 'compiled']
+php:
+    title: "PHP"
+    tags: ['object-oriented', 'imperative', 'interpreted']
+python:
+    tags: ['object-oriented', 'imperative', 'interpreted']
+ruby:
+    tags: ['object-oriented', 'imperative', 'functional', 'interpreted']
+scheme:
+    tags: ['functional', 'interpreted']
+smalltalk:
+    tags: ['functional', 'compiled']

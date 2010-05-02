@@ -3,6 +3,8 @@
 	
 	<p>Welcome to the Programming Dojo. This is a place where you can learn more about programming and programming languages.</p>
 	
+	<p>Programming is both an art and a science. It involves interpretation, abstraction and creation, as well as quantitive analysis, mathematics and algorithmic thinking. Don't expect <a href="http://norvig.com/21-days.html">too much too quickly</a>. Just like many things in life, good things take time.</p>
+	
 	<table id="Intro">
 		<thead>
 			<tr><th>For Students</th><th>For Teachers</th></tr>
@@ -10,7 +12,7 @@
 		<tbody>
 			<tr>
 				<td>
-					<p>Are you interested in <a href="/languages">programming languages</a>? <a href="/languages/random">Try a random language</a> to begin learning!</p>
+					<p><a href="/languages/random">Try a random language</a> to begin learning! Are you going to be <a href="/study/program-or-be-programmed">program or be programmed?</a></p>
 				</td>
 				<td>
 					<p>Look at <a href="/resources">our resources</a> and learn about the <a href="/resources/programming-language-posters">posters</a> which you can use in your class.</p>
@@ -19,13 +21,50 @@
 		</tbody>
 	</table>
 	
-	<h2>Program or be Programmed!</h2>
+	<?r
+		tags = {}
+		languages = links("/languages", :files => false)
+		
+		languages.each do |language|
+			(language[:tags] || []).each do |tag|
+				(tags[tag] ||= []) << language
+			end
+		end
+	?>
+		
+	<div id="tags">
+		<a href="#">All</a>
+		<?r tags.keys.each do |tag| ?>
+		<a href="#" name="#{tag}">#{tag.to_title}</a>
+		<?r end ?>
+	</div>
+
+	<ul class="languages" id="all-languages" style="display: none">
+		<?r languages.each do |language| ?>
+		<li data-id="#{language.name}" class="#{language[:tags].join(' ')}">
+			<a href="#{language.href}" style="background-image: url(/languages/_images/#{language.name}.png)">#{language.title}</a>
+		</li>
+		<?r end ?>
+	</ul>
 	
-	<youtube_video id="imV3pPIUy1k" />
+	<ul class="languages" id="languages">
+	</ul>
 	
-	<p style="text-align: center">Just in case you are wondering, the <a href="http://en.wikipedia.org/wiki/Hebrew_alphabet">Hebrew alphabet</a> has 22 letters.</p>
-	
-	<h2>Did you know?</h2>
-	
-	<p>Programming is both an art and a science. It involves interpretation, abstraction and creation, as well as quantitive analysis, mathematics and algorithmic thinking. Don't expect <a href="http://norvig.com/21-days.html">too much too quickly</a>. Just like many things in life, good things take time.</p>
+	<script type="text/javascript">
+		$(function() {
+			$('#tags a').click(function(e) {
+				var tag = this.name;
+				
+				if (tag) {
+					tag = "." + tag;
+				}
+				
+				$('#languages').quicksand($('#all-languages li' + tag));
+				
+				e.preventDefault();
+			});
+			
+			$('#languages').quicksand($('#all-languages li'));
+		});
+	</script>
 </page>

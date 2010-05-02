@@ -237,10 +237,11 @@ table.basic th {
 	
 	border: 2px solid #ccc;
 	
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: #fafafa;
 	
 	-webkit-border-radius: 10pt;
 	-moz-border-radius: 10pt;
+	border-radius: 10pt;
 }
 
 #Intro th {
@@ -317,3 +318,82 @@ form.basic dd.footer {
 	padding: 0px 10px 0px 0px;
 }
 
+h1.language {
+	text-align: center;
+	
+	background-repeat: no-repeat;
+	background-position: 95% center;
+	
+	border: 2px solid #ccc;
+	
+	background-color: #fafafa;
+	
+	-webkit-border-radius: 10pt;
+	-moz-border-radius: 10pt;
+	border-radius: 10pt;
+	
+	padding: 50px;
+}
+
+#tags {
+	text-align: center;
+}
+
+#tags a {
+	background-color: #999;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px;
+	
+	margin: 2px;
+	
+	-webkit-border-radius: 10pt;
+	-moz-border-radius: 10pt;
+	border-radius: 10pt;
+}
+
+#tags a:hover {
+	color: black;
+	background-color: #fff;
+
+	margin: 0px;
+
+	border: 2px solid black;
+}
+
+.languages {
+	list-style: none;
+	text-align: center;
+}
+
+.languages li {
+	float: left;
+	
+	margin: 10px;
+	padding: 0px;
+}
+
+.languages li a {
+	display: block;
+	width: 100px;
+	height: 150px;
+	padding: 10px;
+	
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.languages li:hover {
+	border: 2px solid black;
+}
+
+.languages li {
+	border: 2px solid #ccc;
+	
+	background-color: #fafafa;
+	
+	-webkit-border-radius: 10pt;
+	-moz-border-radius: 10pt;
+	border-radius: 10pt;
+}
