@@ -29,7 +29,6 @@ img {
 
 a {
 	color: #33a;
-	text-decoration: underline;
 }
 
 a:hover {
@@ -51,10 +50,6 @@ ul {
 	margin-bottom: 1em;
 }
 
-a {
-	border-bottom: 2px;
-}
-
 h3, h4, h5, h6 {
 	font-weight: normal;
 }
@@ -64,6 +59,20 @@ h3, h4, h5, h6 {
 body {
 	margin: 0px;
 	padding: 0px;
+}
+
+.navigation {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+}
+
+.navigation .prev_link {
+	float: left;
+}
+
+.navigation .next_link {
+	float: right;
 }
 
 #header {
@@ -139,7 +148,8 @@ ul.trail {
 
 ul.trail > li {
 	font-weight: bold;
-	float: left;
+	display: inline;
+	position: relative;
 }
 
 ul.trail li {
