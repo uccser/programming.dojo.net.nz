@@ -337,6 +337,7 @@ h1.language {
 
 #tags {
 	text-align: center;
+	padding: 25pt;
 }
 
 #tags a {
@@ -365,11 +366,14 @@ h1.language {
 .languages {
 	list-style: none;
 	text-align: center;
+	
+	padding: 0;
+	margin: 0;
 }
 
 .languages li {
-	float: left;
-	
+	display: inline-block;
+
 	margin: 10px;
 	padding: 0px;
 }

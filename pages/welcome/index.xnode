@@ -15,7 +15,7 @@
 					<p><a href="/languages/random">Try a random language</a> to begin learning! Are you going to be <a href="/study/program-or-be-programmed">program or be programmed?</a></p>
 				</td>
 				<td>
-					<p>Look at <a href="/resources">our resources</a> and learn about the <a href="/resources/programming-language-posters">posters</a> which you can use in your class.</p>
+					<p>Look at <a href="/resources">our resources</a> and learn about the <a href="/resources/programming-language-posters">programming language posters</a> which you can use in your class.</p>
 				</td>
 			</tr>
 		</tbody>
@@ -38,8 +38,8 @@
 		<a href="#" name="#{tag}">#{tag.to_title}</a>
 		<?r end ?>
 	</div>
-
-	<ul class="languages" id="all-languages" style="display: none">
+	
+	<ul class="languages" id="languages">
 		<?r languages.each do |language| ?>
 		<li data-id="#{language.name}" class="#{language[:tags].join(' ')}">
 			<a href="#{language.href}" style="background-image: url(/languages/_images/#{language.name}.png)">#{language.title}</a>
@@ -47,11 +47,13 @@
 		<?r end ?>
 	</ul>
 	
-	<ul class="languages" id="languages">
+	<ul class="languages" id="all-languages" style="display: none">
 	</ul>
 	
 	<script type="text/javascript">
 		$(function() {
+			$('#all-languages').append($('#languages li').clone())
+			
 			$('#tags a').click(function(e) {
 				var tag = this.name;
 				
@@ -63,8 +65,6 @@
 				
 				e.preventDefault();
 			});
-			
-			$('#languages').quicksand($('#all-languages li'));
 		});
 	</script>
 </page>
