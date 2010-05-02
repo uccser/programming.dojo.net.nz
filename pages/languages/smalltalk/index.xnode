@@ -8,6 +8,9 @@
 	<h2>Starting Points</h2>
 
 	<dl class="resources">
+		<dt><a href="http://pharo-project.org/">Pharo Open Source Smalltalk</a></dt>
+		<dd>Pharo is a clean, innovative, open-source Smalltalk environment available for many platforms.</dd>
+		
 		<dt><a href="http://www.smalltalk.org/smalltalk/learning.html">Learning Smalltalk</a></dt>
 		<dd>A set of resources for learning about Smalltalk</dd>
 
