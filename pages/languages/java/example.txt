@@ -1,14 +1,28 @@
+// To compile and run: javac Doors.java && java Doors
+
 public class Doors {
-	public static void main(String[] args) {
-		boolean[] doors = new boolean[100];
-		for(int pass = 0; pass < 100; pass++){
-			for(int door = pass; door < 100; door += pass + 1){
+	void doors (int n) {
+		// Initialize an array of 100 boolean values (Java initializes to 0 by default)
+		boolean[] doors = new boolean[n];
+		
+		// Process the doors
+		for (int pass = 0; pass < n; pass++) {
+			for(int door = pass; door < n; door += pass + 1){
 				doors[door] = !doors[door];
 			}
 		}
-		for(int i = 0; i < 100; i++){
-		 	System.out.println("Door #" + (i + 1) + " is " + (doors[i] ? 
-		 				"open." : "closed."));
+		
+		// Print out the results
+		for (int i = 0; i < n; i++) {
+		 	System.out.println("Door #" + (i + 1) + " is " + (doors[i] ? "open." : "closed."));
 		}
+	}
+	
+	public static void main (String[] args) {
+		// Create a new Doors object
+		Doors d = new Doors();
+		
+		// Call the doors method with n = 100
+		d.doors(100);
 	}
 }

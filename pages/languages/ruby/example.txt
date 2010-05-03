@@ -1,14 +1,21 @@
 #!/usr/bin/env ruby
 
-N = 100
-doors = [false] * N
+def doors n
+	# Initialize an array
+	doors = [false] * n
 
-(1..N).each do |inc|
-	(inc..N).step(inc) do |d|
-		doors[d] = !doors[d]
+	# Process the doors
+	(1..n).each do |inc|
+		(inc..n).step(inc) do |d|
+			doors[d] = !doors[d]
+		end
+	end
+
+	# Print out the results
+	doors.each_with_index do |b, i|
+	    puts "Door \##{i} is #{b ? 'open' : 'closed'}."
 	end
 end
 
-doors.each_with_index { |b, i|
-    puts "Door #{i} is #{b ? 'Open' : 'Closed'}"
-}
+# Call the doors function with n = 100
+doors(100)

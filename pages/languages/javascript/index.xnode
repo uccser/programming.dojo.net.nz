@@ -1,11 +1,17 @@
 <page>
 	<heading>JavaScript</heading>
 	
-	<p>JavaScript is a <tt>dynamically typed</tt> <tt>interpreted</tt> <tt>imperative</tt> language with <tt>functional</tt> features.</p>
+	<p>JavaScript is a <tt>dynamically typed</tt> <tt>interpreted</tt> <tt>imperative</tt> language with <tt>functional</tt> features. JavaScript is the main language for programming web pages; however it's use as a general purpose programming language is growing.</p>
 	
 	<listing src="example.txt" brush="javascript" />
 	
-	<p>JavaScript is the main language for programming web pages; however it's use as a general purpose programming language is growing.</p>
+	<h3>Why would I learn this language?</h3>
+
+	<p>JavaScript is the language of the internet. To create an interactive website, JavaScript is the best choice. The web browser is a very capable application development platform and is available for the majority of platforms.</p>
+
+	<p>JavaScript has excellent debugging tools and due to the nature of its execution environment, provides a rich set of elements (such as images, audio and text) for displaying results.</p>
+
+	<p>JavaScript is a semantically simple language with first-class functions. This makes it very easy to use advanced functional concepts.</p>
 	
 	<h2>Starting Points</h2>
 
@@ -21,6 +27,9 @@
 		
 		<dt><a href="http://developer.mozilla.org/en/docs/Main_Page">Mozilla Developer Network</a></dt>
 		<dd>A great set of resources and documentation for programming JavaScript in the web browser.</dd>
+		
+		<dt><a href="http://www.jquery.org/">jQuery</a></dt>
+		<dd>A fantastic toolbox for writing simple cross-browser JavaScript code. Includes support for many advanced features.</dd>
 	</dl>
 	
 	<h2>Further Reading</h2>

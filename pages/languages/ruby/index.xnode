@@ -3,7 +3,19 @@
 	
 	<p>Ruby is a <tt>dynamically typed</tt> <tt>object oriented</tt> programming language with both <tt>imperative</tt> and <tt>functional</tt> features.</p>
 	
+	<h3>Example Code</h3>
+	
+	<p>Here is an example of the <tt>100 doors</tt> problem:</p>
+	
 	<listing src="example.txt" brush="ruby" />
+	
+	<h3>Why would I learn this language?</h3>
+	
+	<p>Ruby is a both powerful and easy to learn. It has a syntax which feels natural and is also very flexible.</p>
+	
+	<p>Ruby is surrounded by a passionate community and there are a wide range of <a href="http://rubygems.org/">3rd party libraries available</a>. This makes it easy to develop new applications by relying on existing work.</p>
+	
+	<p>Ruby is a cross platform development language with multiple implementations, including MRI (the default implementation), <a href="http://www.jruby.org/">JRuby</a>, <a href="http://ironruby.net/">IronRuby</a> and <a href="http://rubini.us/">Rubinius</a>.</p>
 	
 	<h2>Starting Points</h2>
 

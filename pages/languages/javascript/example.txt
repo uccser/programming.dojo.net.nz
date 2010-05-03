@@ -1,24 +1,28 @@
-var CLOSED = 0;
-var OPEN = 1;
-var n = 100;
-var doors = new Array(n);
+
+function doors (n) {
+	// Create an array with 100 objects
+	var is_open = new Array(n);
  
-// initialize doors
-for (var i = 0; i < n; i++) {
-	doors[i] = CLOSED;
-}
+	// Initialize the array values to false
+	for (var i = 0; i < n; i++) {
+		doors[i] = false;
+	}
  
-// now, start opening and closing
-for (var step = 1; step < n; step ++) {
-	for (var idx = step; idx < n; idx += step) {
-		// toggle state of door
-		doors[idx] = (doors[idx] == OPEN ? CLOSED : OPEN)
+	// Process the doors
+	for (var step = 0; step < n; step += 1) {
+		for (var idx = step; idx < n; idx += step + 1) {
+			doors[idx] = !doors[idx];
+		}
+	}
+
+	// Print the results
+	for (i = 0; i < n; i++) {
+		if (doors[i]) {
+			console.log("Door #" + (i+1) + " is open.");
+		} else {
+			console.log("Door #" + (i+1) + " is closed.");
+		}
 	}
 }
 
-// find out which doors are open
-for (i = 0; i < n; i++) {
-	if (doors[i] == OPEN) {
-		print("door " + i + " is open.");
-	}
-}
+doors(100);

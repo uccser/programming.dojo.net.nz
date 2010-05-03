@@ -3,10 +3,22 @@
 	
 	<p>Pascal is a <tt>compiled</tt> <tt>statically typed</tt> programming language. It was designed as a language for education.</p>
 	
+	<p>Several derivatives of Pascal exist which enhance the language, such as <tt>Object Pascal</tt>.</p>
+	
+	<h3>Example Code</h3>
+	
+	<p>Here is an example of the <tt>100 doors</tt> problem:</p>
+	
 	<!-- need a brush for pascal! -->
 	<listing src="example.txt" brush="clang" />
 	
-	<p>Several derivatives of Pascal exist which enhance the language, such as <tt>Object Pascal</tt>.</p>
+	<h3>Why would I learn this language?</h3>
+
+	<p>Pascal is considered to be one of a few languages which one can learn completely. The language is deliberately limited and (by default) there are few external libraries. In this sense, learning Pascal is a finite process.</p>
+	
+	<p>Pascal has a simple syntax and easy to understand type system. Programs are generally fairly easy to read and write.</p>
+	
+	<p>Pascal is a fairly well established language, but is also not very modern.</p>
 	
 	<h2>Starting Points</h2>
 

@@ -3,9 +3,21 @@
 	
 	<p>PHP is a <tt>dynamically typed</tt> <tt>interpreted</tt> language. It supports a number of different programming paradigms including <tt>imperative</tt> and <tt>object oriented</tt> features.</p>
 	
-	<listing src="example.txt" brush="php" />
-	
 	<p>PHP is designed for developing web applications, and generally has little use in other scenarios. It is easy to integrate with a wide range of other technologies.</p>
+	
+	<h3>Example Code</h3>
+	
+	<p>Here is an example of the <tt>100 doors</tt> problem:</p>
+	
+	<listing src="example.txt" brush="html" />
+	
+	<h3>Why would I learn this language?</h3>
+
+	<p>PHP as an environment is very easy to deploy. It is generally combined with Linux, Apache and MySQL (a LAMP setup). This makes it ideal for simple web applications and projects.</p>
+	
+	<p>One great feature of PHP as a community is the documentation. There are fantastic resources available on the main PHP website, and there are many external resources discussing PHP programming and related topics.</p>
+	
+	<p>PHP provides integration with many other libraries, such as databases, image manipulation and network communication. However, each external library tends to have its own syntax and semantic behavior. This can make larger programs unmanageable without careful planning.</p>
 	
 	<h2>Starting Points</h2>
 

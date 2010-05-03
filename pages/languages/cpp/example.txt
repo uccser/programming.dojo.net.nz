@@ -1,19 +1,25 @@
 #include <iostream>
 #include <vector>
 
-int main(int argc, char ** argv)
+void doors (int n)
 {
-	// Initialize a vector of 100 boolean values
-	std::vector<bool> is_open(100);
+	// Initialize a vector of n boolean values
+	std::vector<bool> is_open(n);
 
-	// Do the 100 passes
-	for (int pass = 0; pass < 100; ++pass)
-		for (int door = pass; door < 100; door += pass+1)
+	// Process the doors
+	for (int pass = 0; pass < n; ++pass)
+		for (int door = pass; door < n; door += pass+1)
 			is_open[door].flip();
 
 	// Print out the results
-	for (int door = 0; door < 100; ++door)
-		std::cout << "door #" << door+1 << (is_open[door] ? " is open." : " is closed.") << std::endl;
+	for (int door = 0; door < n; ++door)
+		std::cout << "Door #" << door+1 << (is_open[door] ? " is open." : " is closed.") << std::endl;
+}
+
+int main(int argc, char ** argv)
+{
+	// Call the doors function with n = 100
+	doors(100);
 	
 	return 0;
 }

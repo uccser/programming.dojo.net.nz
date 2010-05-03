@@ -1,7 +1,7 @@
 ' Define an array of 100 doors
 DIM doors(0 TO 99)
 
-' Do the 100 passes
+' Process the doors
 FOR pass = 0 TO 99
 	FOR door = pass TO 99 STEP pass + 1
 		' Toggle the door
@@ -13,8 +13,8 @@ NEXT pass
 FOR i = 0 TO 99
 	PRINT "Door #"; i + 1; " is ";
 	IF NOT doors(i) THEN
-		PRINT "closed"
+		PRINT "closed."
 	ELSE
-		PRINT "open"
+		PRINT "open."
 	END IF
 NEXT i

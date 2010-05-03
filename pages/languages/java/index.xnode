@@ -11,6 +11,16 @@
 	
 	<listing src="example.txt" brush="java" />
 	
+	<h3>Why would I learn this language?</h3>
+	
+	<p>Java is a great language because it aims to provides a "write once, run anywhere" environment. While in practice, there are always additional complexities, Java code is generally cross platform.</p>
+	
+	<p>Java provides a highly structured environment which tends to promote good practices when it comes to software development, especially when more than one person is working on the source code.</p>
+	
+	<p>Java is not a purely <tt>object oriented</tt> language, because it has primitive types (which are not objects). This creates imperfections in both syntactic and semantic constructs within the language.</p>
+	
+	<p>Due to the nature of all Java, code must always be defined within the scope of a class. This can requires a large amount of boiler plate code in certain scenarios.</p>
+	
 	<h2>Starting Points</h2>
 	
 	<dl class="resources">
