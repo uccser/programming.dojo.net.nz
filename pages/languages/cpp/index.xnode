@@ -3,7 +3,7 @@
 	
 	<p>C++ was initially designed as an extension of C and adds <tt>object oriented</tt> and <tt>meta programming</tt> features. Like C it is a <tt>statically typed</tt> <tt>imperative</tt> language, but in addition it provides many high level features such as <tt>exceptions</tt> and libraries.</p>
 	
-	<p>C++ is <tt>compiled</tt> and compilers exist for many platforms, however due to the complexity of the C++ standard, compilers don't always behave the same way.</p>
+	<p>C++ is generally <tt>compiled</tt> and compilers exist for many platforms, however due to the complexity of the C++ standard, compilers don't always behave the same way.</p>
 	
 	<h3>Example Code</h3>
 	

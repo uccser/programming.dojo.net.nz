@@ -1,29 +1,29 @@
 basic:
-    tags: ['imperative', 'interpreted']
+    tags: ['imperative', 'dynamic']
 c:
-    tags: ['imperative', 'compiled']
+    tags: ['imperative', 'static']
 cpp:
     title: "C++"
-    tags: ['object-oriented', 'imperative', 'compiled']
+    tags: ['object-oriented', 'imperative', 'static']
 haskell:
-    tags: ['functional', 'compiled']
+    tags: ['functional', 'static']
 java:
-    tags: ['object-oriented', 'imperative', 'compiled']
+    tags: ['object-oriented', 'imperative', 'static']
 javascript:
     title: "JavaScript"
-    tags: ['object-oriented', 'imperative', 'interpreted']
+    tags: ['object-oriented', 'imperative', 'dynamic']
 pascal:
-    tags: ['imperative', 'compiled']
+    tags: ['imperative', 'static']
 perl:
-    tags: ['object-oriented', 'imperative', 'compiled']
+    tags: ['object-oriented', 'imperative', 'dynamic']
 php:
     title: "PHP"
-    tags: ['object-oriented', 'imperative', 'interpreted']
+    tags: ['object-oriented', 'imperative', 'dynamic']
 python:
-    tags: ['object-oriented', 'imperative', 'interpreted']
+    tags: ['object-oriented', 'imperative', 'dynamic']
 ruby:
-    tags: ['object-oriented', 'imperative', 'functional', 'interpreted']
+    tags: ['object-oriented', 'imperative', 'functional', 'dynamic']
 scheme:
-    tags: ['functional', 'interpreted']
+    tags: ['functional', 'dynamic']
 smalltalk:
-    tags: ['functional', 'compiled']
+    tags: ['functional', 'dynamic']

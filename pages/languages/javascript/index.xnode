@@ -1,7 +1,9 @@
 <page>
 	<heading>JavaScript</heading>
 	
-	<p>JavaScript is a <tt>dynamically typed</tt> <tt>interpreted</tt> <tt>imperative</tt> language with <tt>functional</tt> features. JavaScript is the main language for programming web pages; however it's use as a general purpose programming language is growing.</p>
+	<p>JavaScript is a <tt>dynamically typed</tt> <tt>imperative</tt> programming language with <tt>functional</tt> features. JavaScript is the main language for programming web pages; however it's use as a general purpose programming language is growing.</p>
+	
+	<p>JavaScript is generally <tt>interpreted</tt>.</p>
 	
 	<listing src="example.txt" brush="javascript" />
 	

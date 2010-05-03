@@ -1,7 +1,7 @@
 <page>
 	<heading>Smalltalk</heading>
 	
-	<p>Smalltalk is a <tt>dynamically typed</tt> <tt>interpreted</tt> <tt>message passing</tt> language. It is unique due to syntax and <tt>object oriented</tt> features.</p>
+	<p>Smalltalk is a <tt>dynamically typed</tt> <tt>message passing</tt> language. It is unique due to syntax and <tt>object oriented</tt> features. It is generally <tt>interpreted</tt> but is often <tt>compiled</tt> to a bytecode first.</p>
 	
 	<h3>Example Code</h3>
 	

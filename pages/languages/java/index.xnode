@@ -1,9 +1,11 @@
 <page>
 	<heading>Java</heading>
 	
-	<p>Java is an <tt>interpreted</tt> <tt>statically typed</tt> <tt>object oriented</tt> programming language. It was designed as a language for <tt>cross platform</tt> application development.</p>
-
-	<p>Java (generally) runs on top of the Java Virtual Machine which allows the same <tt>bytecode</tt> to run on multiple platforms. Other languages such as <tt>JRuby</tt> can also run on top of the JVM, which makes it an interesting platform for programming language development.</p>
+	<p>Java is a <tt>statically typed</tt> <tt>object oriented</tt> programming language. It was designed as a language for <tt>cross platform</tt> application development.</p>
+	
+	<p>Java is generally <tt>compiled</tt> to <tt>bytecode</tt> that is then <tt>interpreted</tt> by the Java Virtual Machine. This allows the same <tt>bytecode</tt> to run on multiple platforms. The HotSpot JVM may also compile bytecode to native machine code for additional performance.</p>
+		
+	<p>Other languages such as <tt>JRuby</tt> and <tt>Clojure</tt> can also run on top of the JVM, which makes it an interesting platform for programming language development.</p>
 	
 	<h3>Example Code</h3>
 	

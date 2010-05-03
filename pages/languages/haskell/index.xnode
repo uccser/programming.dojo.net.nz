@@ -1,7 +1,9 @@
 <page>
 	<heading>Haskell</heading>
 	
-	<p>Haskell is a <tt>compiled</tt> <tt>statically typed</tt> pure <tt>functional</tt> programming language. It is based on highly sound academic theory and principal. Haskell has pioneered many modern concepts in functional programming such as <tt>monads</tt>, <tt>currying</tt> and advanced <tt>type inference</tt>.</p>
+	<p>Haskell is a <tt>statically typed</tt> pure <tt>functional</tt> programming language. It is based on highly sound academic theory and principal. Haskell has pioneered many modern concepts in functional programming such as <tt>monads</tt>, <tt>currying</tt> and advanced <tt>type inference</tt>.</p>
+	
+	<p>Haskell can be either <tt>compiled</tt> or <tt>interpreted</tt> depending on the programming environment being used.</p>
 	
 	<h3>Example Code</h3>
 	

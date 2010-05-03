@@ -1,7 +1,7 @@
 <page>
 	<heading>PHP</heading>
 	
-	<p>PHP is a <tt>dynamically typed</tt> <tt>interpreted</tt> language. It supports a number of different programming paradigms including <tt>imperative</tt> and <tt>object oriented</tt> features.</p>
+	<p>PHP is a <tt>dynamically typed</tt> language. It supports a number of different programming paradigms including <tt>imperative</tt> and <tt>object oriented</tt> features. PHP code is generally <tt>interpreted</tt> but several systems for producing <tt>compiled</tt> code are available.</p>
 	
 	<p>PHP is designed for developing web applications, and generally has little use in other scenarios. It is easy to integrate with a wide range of other technologies.</p>
 	

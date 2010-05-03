@@ -1,7 +1,7 @@
 <page>
 	<heading>Ruby</heading>
 	
-	<p>Ruby is a <tt>dynamically typed</tt> <tt>object oriented</tt> programming language with both <tt>imperative</tt> and <tt>functional</tt> features.</p>
+	<p>Ruby is a <tt>dynamically typed</tt> <tt>object oriented</tt> programming language with both <tt>imperative</tt> and <tt>functional</tt> features. Ruby code is often <tt>interpreted</tt> but several systems perform native code generation too.</p>
 	
 	<h3>Example Code</h3>
 	

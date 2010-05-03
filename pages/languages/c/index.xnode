@@ -3,7 +3,7 @@
 	
 	<p>C was developed in the early 1970s as a programming language for <tt>Unix</tt>. It is a <tt>statically typed</tt> <tt>imperative</tt> language that was designed to encourage machine-independent programming.</p>
 	
-	<p>C is <tt>compiled</tt> and compilers are widely available for many hardware platforms and operating systems. Because of this, it has become a baseline for programming in the modern computing environment.</p>
+	<p>C is generally <tt>compiled</tt> and compilers are widely available for many hardware platforms and operating systems. Because of this, it has become a baseline for programming in the modern computing environment.</p>
 	
 	<p>Many languages have been derived from C (either in terms of syntax or semantics), such as <tt to="cpp">C++</tt>, <tt>Objective-C</tt>, <tt>PHP</tt>, <tt>Java</tt> and <tt>Python</tt> to name a few.</p>
 	

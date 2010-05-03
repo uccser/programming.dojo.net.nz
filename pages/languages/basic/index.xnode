@@ -1,7 +1,7 @@
 <page>
 	<heading>Basic</heading>
 	
-	<p>BASIC (Beginner's All-purpose Symbolic Instruction Code) is a simple <tt>imperative</tt> programming language developed in the 1960s.</p>
+	<p>BASIC (Beginner's All-purpose Symbolic Instruction Code) is a simple <tt>dynamic</tt> <tt>imperative</tt> programming language developed in the 1960s.</p>
 	
 	<p>BASIC was developed by Microsoft into several platforms, including <tt>QBasic</tt> and <tt>Visual Basic</tt>. Visual Basic has <tt>object oriented</tt> features and includes a drag and drop user interface toolset. These tools are proprietary and generally only work on Microsoft Windows. Other dialects of BASIC exist for various platforms, such as <tt>REALbasic</tt>.</p>
 	

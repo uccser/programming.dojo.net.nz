@@ -1,7 +1,9 @@
 <page>
 	<heading>Scheme</heading>
 	
-	<p>Scheme is one of the main dialects of <tt>LISP</tt> and is an <tt>interpreted</tt> impure <tt>functional</tt> programming language.</p>
+	<p>Scheme is one of the main dialects of <tt>LISP</tt> and is a <tt>dynamically typed</tt> impure <tt>functional</tt> programming language.</p>
+	
+	<p>Scheme can be both <tt>compiled</tt> and <tt>interpreted</tt>.</p>
 	
 	<h3>Example Code</h3>
 	
