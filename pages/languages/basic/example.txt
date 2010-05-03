@@ -1,11 +1,15 @@
+' Define an array of 100 doors
 DIM doors(0 TO 99)
+
+' Do the 100 passes
 FOR pass = 0 TO 99
 	FOR door = pass TO 99 STEP pass + 1
-		PRINT doors(door)
-		PRINT NOT doors(door)
+		' Toggle the door
 		doors(door) = NOT doors(door)
 	NEXT door
 NEXT pass
+
+' Print out the results
 FOR i = 0 TO 99
 	PRINT "Door #"; i + 1; " is ";
 	IF NOT doors(i) THEN

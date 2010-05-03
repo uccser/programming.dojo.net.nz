@@ -2,12 +2,14 @@
 	<heading>Java</heading>
 	
 	<p>Java is an <tt>interpreted</tt> <tt>statically typed</tt> <tt>object oriented</tt> programming language. It was designed as a language for <tt>cross platform</tt> application development.</p>
+
+	<p>Java (generally) runs on top of the Java Virtual Machine which allows the same <tt>bytecode</tt> to run on multiple platforms. Other languages such as <tt>JRuby</tt> can also run on top of the JVM, which makes it an interesting platform for programming language development.</p>
 	
-	<p>Java has a highly object oriented view of the world. All program logic is structured in terms of classes. This can make it difficult to write short and concise Java programs.</p>
+	<h3>Example Code</h3>
+	
+	<p>Here is an example of the <tt>100 doors</tt> problem:</p>
 	
 	<listing src="example.txt" brush="java" />
-	
-	<p>Java (generally) runs on top of the Java Virtual Machine which allows the same <tt>bytecode</tt> to run on multiple platforms. Other languages such as <tt>JRuby</tt> can also run on top of the JVM, which makes it an interesting platform for programming language development.</p>
 	
 	<h2>Starting Points</h2>
 	
@@ -18,7 +20,6 @@
 	
 		<dt><a href="http://java.sun.com/new2java/">New to Java Programming Center</a></dt>
 		<dd>A set of resources for new programmers who want to understand the different capabilities of Java.</dd>
-	
 	
 		<dt><a href="http://java.sun.com/docs/books/tutorial/">The Java Tutorials</a></dt>
 		<dd>Practical guide for programmers who want to use the Java programming language.</dd>

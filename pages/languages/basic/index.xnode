@@ -3,11 +3,17 @@
 	
 	<p>BASIC (Beginner's All-purpose Symbolic Instruction Code) is a simple <tt>imperative</tt> programming language developed in the 1960s.</p>
 	
+	<p>BASIC was developed by Microsoft into several platforms, including <tt>QBasic</tt> and <tt>Visual Basic</tt>. Visual Basic has <tt>object oriented</tt> features and includes a drag and drop user interface toolset. These tools are proprietary and generally only work on Microsoft Windows. Other dialects of BASIC exist for various platforms, such as <tt>REALbasic</tt>.</p>
+	
+	<h3>Example Code</h3>
+	
+	<p>Here is an example of the <tt>100 doors</tt> problem:</p>
+	
 	<listing src="example.txt" brush="basic" />
 	
-	<p>BASIC was developed by Microsoft into several platforms, including <tt>QBasic</tt> and <tt>Visual Basic</tt>. Visual Basic has <tt>object oriented</tt> features and includes a drag and drop user interface toolset. These tools are proprietary and generally only work on Microsoft Windows.</p>
+	<h3>Why would I learn this language?</h3>
 	
-	<p>Other dialects of BASIC exist for various platforms, such as <tt>REALbasic</tt>.</p>
+	<p>BASIC is a simple language which is easy to learn. It provides a basic set of semantic constructs and data types. There are many <tt>free software</tt> implementations, but unfortunately the most typically used implementation is proprietary (Microsoft Visual Basic).</p>
 	
 	<h2>Starting Points</h2>
 

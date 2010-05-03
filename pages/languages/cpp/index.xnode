@@ -3,9 +3,21 @@
 	
 	<p>C++ was initially designed as an extension of C and adds <tt>object oriented</tt> and <tt>meta programming</tt> features. Like C it is a <tt>statically typed</tt> <tt>imperative</tt> language, but in addition it provides many high level features such as <tt>exceptions</tt> and libraries.</p>
 	
+	<p>C++ is <tt>compiled</tt> and compilers exist for many platforms, however due to the complexity of the C++ standard, compilers don't always behave the same way.</p>
+	
+	<h3>Example Code</h3>
+	
+	<p>Here is an example of the <tt>100 doors</tt> problem:</p>
+	
 	<listing src="example.txt" brush="clang" />
 	
-	<p>C++ is <tt>compiled</tt> and compilers exist for many platforms, however due to the complexity of the C++ standard, compilers don't always behave the same way.</p>
+	<h3>Why would I learn this language?</h3>
+	
+	<p>C++ is in some ways a super-set of <a href="C">C</a>. It was originally called "C with Objects". It adds many advanced language features such as classes, namespaces, exceptions and meta-programming.</p>
+	
+	<p>C++ has many of the same issues as C, but it also adds many new issues (complex syntax and semantic behavior). On the whole, however, it is a useful language which is used in many different industries.</p>
+	
+	<p>C++ provides a useful level of abstraction and performance, and is used in both application development. The majority of computer games are written using C++.</p>
 	
 	<h2>Starting Points</h2>
 

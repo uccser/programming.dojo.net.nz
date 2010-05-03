@@ -39,11 +39,14 @@ a:hover {
 	vertical-align: middle;
 }
 
-p, dl {
+p, dl, h3 {
 	line-height: 1.4em;
 	margin: 1em;
 }
 
+h3 {
+	border-bottom: 1px solid #ccf;
+}
 
 ul {
 	line-height: 1.4em;

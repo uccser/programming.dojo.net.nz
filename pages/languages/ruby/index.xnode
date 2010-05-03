@@ -1,7 +1,7 @@
 <page>
 	<heading>Ruby</heading>
 	
-	<p>Ruby is a <tt>dynamically typed</tt> programming language with both <tt>imperative</tt> and <tt>functional</tt> features.</p>
+	<p>Ruby is a <tt>dynamically typed</tt> <tt>object oriented</tt> programming language with both <tt>imperative</tt> and <tt>functional</tt> features.</p>
 	
 	<listing src="example.txt" brush="ruby" />
 	
