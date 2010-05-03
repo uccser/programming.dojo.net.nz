@@ -11,13 +11,16 @@
 	
 	<h3>Why would I learn this language?</h3>
 
-	<p>[To Be Continued]...?</p>
+	<p>Smalltalk is a powerful environment for exploring many different elements of computer programming, including rich media such as audio and user interfaces. It has a unique operating environment which provides for a conceptually interesting approach to programming.</p>
 	
 	<h2>Starting Points</h2>
 
 	<dl class="resources">
 		<dt><a href="http://pharo-project.org/">Pharo Open Source Smalltalk</a></dt>
 		<dd>Pharo is a clean, innovative, open-source Smalltalk environment available for many platforms.</dd>
+		
+		<dt><a href="http://www.world.st/">The World of Smalltalk</a></dt>
+		<dd>An up-to-date collection of Smalltalk related information</dd>
 		
 		<dt><a href="http://www.smalltalk.org/smalltalk/learning.html">Learning Smalltalk</a></dt>
 		<dd>A set of resources for learning about Smalltalk</dd>

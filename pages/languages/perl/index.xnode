@@ -10,15 +10,20 @@
 	<p>Here is an example of the <tt>100 doors</tt> problem:</p>
 	
 	<!-- need a brush for perl! -->
-	<listing src="example.txt" brush="clang" />
+	<listing src="example.txt" brush="ruby" />
 	
 	<h3>Why would I learn this language?</h3>
 
-	<p>[To Be Continued]...?</p>
+	<p>Perl is a flexible dynamic programming language with many features. It is a great tool for system administration, web development and software testing.</p>
+	
+	<p>Perl code is very succinct and can be written very quickly, while still having good performance.</p>
 	
 	<h2>Starting Points</h2>
 
 	<dl class="resources">
+		<dt><a href="http://perl-begin.org/">Perl Beginners' Site</a></dt>
+		<dd>A set of resources aimed at beginners interested in learning about Perl.</dd>
+		
 		<dt><a href="http://learn.perl.org/">Learning Perl</a></dt>
 		<dd>Resources and references for learning Perl.</dd>
 

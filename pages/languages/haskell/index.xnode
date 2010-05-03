@@ -11,7 +11,9 @@
 	
 	<h3>Why would I learn this language?</h3>
 	
-	<p>[To Be Continued]...?</p>
+	<p>Haskell is an advanced programming language based on rigorous theory. It has a strict type system that allows for many programming errors to be caught at compile time and has a functional design that makes concurrency and parallelism relatively easy.</p>
+	
+	<p>Knowledge of higher order functions can provide the programmer with unique ways of solving certain problems, and lazy evaluation can make certain kinds of algorithms possible that aren't possible to implement in other languages (without modification of the algorithm)</p>
 	
 	<h2>Starting Points</h2>
 	

@@ -14,7 +14,7 @@ int main()
 
 	/* Print out the results */
 	for (door = 0; door < 100; ++door)
-		printf("Door #%d is %s.\n", door+1, (is_open[door] ? "open." : "closed."));
+		printf("Door #%d is %s.\n", door+1, (is_open[door] ? "open" : "closed"));
 
 	return 0;
 }

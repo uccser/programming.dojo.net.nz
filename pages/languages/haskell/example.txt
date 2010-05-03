@@ -1,8 +1,23 @@
-data Door = Open | Closed deriving Show
- 
-toggle Open   = Closed
-toggle Closed = Open
- 
-pass k = zipWith ($) (cycle $ replicate k id ++ [toggle])
- 
-run n = foldl (flip pass) (replicate n Closed) [0..n]
+doorOpen :: Int -> Bool
+doorOpen door = doh door door
+
+doh :: Int -> Int -> Bool
+doh door 0 = True
+doh door pass =
+	if (door `rem` (pass+1)) == pass
+	then not (doh door (pass-1))
+	else doh door (pass-1)
+
+doors :: [Bool]
+doors = [doorOpen n | n <- [0..]]
+
+printDoor :: (Int,Bool) -> IO ()
+printDoor (door,open) =
+	putStrLn ("Door #" ++ (show door) ++ " is " ++
+		if open then "open." else "closed.")
+
+printUpTo :: Int -> IO ()
+printUpTo n =
+	mapM_ printDoor (zip [0..(n-1)] doors)
+
+printUpTo 100
