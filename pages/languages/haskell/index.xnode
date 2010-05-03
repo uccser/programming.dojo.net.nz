@@ -22,6 +22,9 @@
 		<dt><a href="http://learnyouahaskell.com/">Learn You a Haskell for Great Good!</a></dt>
 		<dd>Comprehensive Set Tutorials &mdash; suitable for introduction to programming.</dd>
 
+		<dt><a href="http://www.haskell.org/haskellwiki/Learn_Haskell_in_10_minutes">Learn Haskell in 10 minutes</a></dt>
+		<dd>A quick introduction to programming with Haskell suitable for those already familiar with programming.</dd>
+
 		<dt><a href="http://hackage.haskell.org/platform/new/contents.html">Haskell: Batteries Included</a></dt>
 		<dd>Set of resources for learning and teaching Haskell.</dd>
 	</dl>
