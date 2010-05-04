@@ -17,6 +17,10 @@ categories:
             -
                 summary: "Are the development environments cross-platform?"
                 'Visual Basic': "red - Visual Basic is Windows only."
+                'Java': "blue - Java is well suited for cross-platform development."
+                'Python': "blue - Python is well suited for cross-platform development."
+                'Ruby': "blue - Ruby is well suited for cross-platform development."
+                'Smalltalk': "blue - Smalltalk is well suited for cross-platform development."
             -
                 summary: "Is there a compiler/interpreter available at no cost?"
                 'Visual Basic': "orange - VB6 is now deprecated. To use any copy of Visual Basic, one must have already purchased Windows. There are potentially other costs involved in acquiring the offical development environment."
@@ -36,28 +40,28 @@ categories:
                 'Java': "red - Java is a highly verbose language with many constructs and keywords required for even the most basic program."
                 'C++': "red - C++ is a highly verbose language with many constructs and keywords, some of which have different meanings depending on context."
                 'Visual Basic': "orange - Visual Basic has a highly structured syntax which could be considered limiting."
-                'Python': "orange - Python syntax is generally good, but some people do not like the indentation strategy. The core syntax relies on quite a few additional syntactic constructs which have not been cleanly designed."
                 'Perl': "red - Perl syntax is extremely concise to the point of being a fault."
                 'Pascal': "orange - Pascal syntax is fairly verbose."
+                'Ruby': "blue - Ruby has a very elegent and understandable syntax."
             -
                 summary: "Is it generally easy to write new code?"
                 'C': "orange - C can be used for solving simple problems, but does not provide any builtin support for"
                 'Java': "orange - Java requires a huge amount of boiler plate code and every class needs to be in a separate file."
                 'C++': "orange - C++ requires a header/implementation file structure which causes a significant amount of overhead."
                 'Perl': "orange - Perl is generally a good language but in an educational context there are simply too many ways of expressing the same concept."
-                'Haskell': "orange - Haskell has a consise syntax which lends itself well to people who understand the problem they are trying to solve."
+                'Haskell': "orange - Writing Haskell code requires a sound theoretical understanding of the language."
             -
                 summary: "Is it generally easy to read existing code?"
                 'Perl': "red - Perl code tends to be very terse and difficult to read."
                 'Java': "orange - Java code tends to have many separate files and implementations incorporate many disparate programming techniques."
                 'C++': "orange - C++ code is highly context sensitive and relating together dependent functionality can be complex."
                 'C': "orange - C code can be written clearly, however due to the dependence on external libraries (including libc) which have few, if any, shared code conventions, and poor programming practice, it can sometimes be difficult to read C code."
-                'Haskell': orange
+                'Haskell': "orange - Reading Haskell code requires a sound theoretical understanding of the language."
+                'Ruby': "blue - Ruby code is generally well written and easy to read due to its hybrid object-oriented/functional approach."
             -
                 summary: "Does the language have a type system conducive education?"
                 'C': "red - C is statically typed. C also has a huge number of similar types."
                 'C++': "red - C++ has a large number of compile type meta-programming features based around static typing."
-                'Scheme': "orange - Scheme has a single datatype - a list - and is so generic that it often doesn't provide the scaffolding required for complex programs."
                 'Haskell': "orange - Haskell has a fantastically powerful type system which may be considered too complex for the majority of educational problems."
     -
         title: "Language Semantics"
@@ -68,6 +72,7 @@ categories:
                 'C': "red - C code tends to be very explicit, which makes reuse difficult. The language features do not make code reuse easy."
                 'C++': "orange - C++ code tends to be very explicit, which makes reuse difficult."
                 'Perl': "orange - It can be difficult to understand what a particular piece of Perl code does, and therefore difficult to reuse it."
+                'Ruby': "blue - Ruby provides a fanstic set of accessible online libraries."
             -
                 summary: "Does the language provide a useful and consistent set of imperative constructs?"
                 'Haskell': "red"
@@ -81,10 +86,10 @@ categories:
                 'Pascal': "red"
             -
                 summary: "Does the language provide a useful and consistent set of object oriented constructs?"
-                'Python': "orange - Many core concepts in Python are exposed through non-polymorphic free functions."
                 'Scheme': "orange - Scheme does not provide any object-oriented data structures by default."
                 'Pascal': "red"
                 'C': "red"
+                'Perl': "orange - Perl does not provide a consistent framework by default for object-oriented programming. However, there are extensions which improve it."
     -
         title: "Existing Knowledge"
         questions:
@@ -112,3 +117,11 @@ categories:
                 summary: "Is there comprehensive consistent documentation suitable for educational use?"
                 'C': "orange - Documation is remarkably sparse and inconsistent."
                 'C++': "red - Easy to understand documentation is almost non-existant."
+            -
+                summary: "Is there an accessible and friendly community who are able to help both students and teachers?"
+                'C': "orange - There are few, if any, cohesive communitys for this purpose."
+                'C++': "orange - There are few, if any, cohesive communitys for this purpose."
+                'Scheme': "orange - The main communities seem highly academic."
+                'Visual Basic': "orange - The Visual Basic community does not seem highly cohesive."
+                'Ruby': "blue - The Ruby community is a fantasic place for new programmers."
+                'Python': "blue - The Python community is a fantasic place for new programmers."
