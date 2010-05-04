@@ -1,12 +1,16 @@
-/* Include the standard input / output functions */
+/* Include printf */
 #include <stdio.h>
+/* Include malloc and free */
+#include <stdlib.h>
 
 void doors (int n)
 {
-	/* Initialize the array of doors to 0 (closed) */
-	char is_open[n] = {0};
+	/* Allocate memory for the array of doors */
+	char *is_open = (char*)calloc(n, sizeof(char));
+	
+	/* Counters for loops */
 	int pass, door;
-
+	
 	/* Process the doors */
 	for (pass = 0; pass < n; ++pass)
 		for (door = pass; door < n; door += pass+1)
@@ -15,12 +19,15 @@ void doors (int n)
 	/* Print out the results */
 	for (door = 0; door < n; ++door)
 		printf("Door #%d is %s.\n", door+1, (is_open[door] ? "open" : "closed"));
+	
+	/* Free the memory used for the array of doors */
+	free(is_open);
 }
 
 int main()
 {
-	/* Call the doors function with n = 100 */
-	doors(100);
-	
-	return 0;
+    /* Call the doors function with n = 100 */
+    doors(100);
+    
+    return 0;
 }
