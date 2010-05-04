@@ -10,7 +10,7 @@ function doors (n) {
  
 	// Process the doors
 	for (var step = 0; step < n; step += 1) {
-		for (var idx = step; idx < n; idx += step + 1) {
+		for (var idx = step; idx < n; idx += step+1) {
 			doors[idx] = !doors[idx];
 		}
 	}
