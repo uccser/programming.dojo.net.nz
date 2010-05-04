@@ -3,33 +3,41 @@
 use strict;
 use warnings;
 
-# Define the number of doors, to avoid magic numbers.
-my $num_doors = 100;
-
-# All the doors are closed by default.
-my @is_open = ((0) x $num_doors);
-
-# Loop over the passes of all the doors.
-for my $pass (0 .. ($num_doors-1))
+sub doors
 {
-	my $door = $pass;
-	# Loop over all the doors in the pass.
-	while ($door < $num_doors)
-	{
-		# Flip the door's state.
-		$is_open[$door] = !$is_open[$door];
-	}
-	continue
-	{
-		# Advance the door number.
-		$door += $pass+1;
-	}
+    # doors accept the number of doors as an argument.
+    my ($num_doors) = @_;
+    # All the doors are closed by default.
+    my @is_open = ((0) x $num_doors);
+
+    # Loop over the passes of all the doors.
+    for my $pass (0 .. ($num_doors-1))
+    {
+        my $door = $pass;
+        # Loop over all the doors in the pass.
+        while ($door < $num_doors)
+        {
+            # Flip the door's state.
+            $is_open[$door] = !$is_open[$door];    
+        }
+        continue
+        {
+            # Advance the door number.
+            $door += $pass+1;
+        }
+    }
+
+    # Print the status of all the doors.
+    foreach my $door (0 .. $#is_open)
+    {
+        printf("Door #%d is %s.\n",
+            $door+1, ($is_open[$door] ? "open" : "closed")
+        );
+    }
+
+    # Return false so programmers won't depend on our return value.
+    # See Perl Best Practices .
+    return;
 }
 
-# Print the status of all the doors.
-foreach my $door (0 .. $#is_open)
-{
-	printf("Door #%d is %s.\n",
-		$door+1, ($is_open[$door] ? "open" : "closed")
-	);
-}
+doors(100);

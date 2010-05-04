@@ -3,7 +3,7 @@
 	
 	<p>Perl is an <tt>dynamically typed</tt> programming language. It was initially designed as a language for system administration, but has since grown to provide a wide range of functionality in many different areas of software development and computer science.</p>
 	
-	<p>Perl has both <tt>imperative</tt> and <tt>functional</tt> features, including both <tt>lexical scope</tt> and <tt>dynamic scope</tt> (although this isn't used much). Perl code is generally <tt>interpreted</tt> but is compiled to an intermediate bytecode first.</p>
+	<p>Perl has <tt>imperative</tt>, <tt>functional</tt> and <tt>object oriented</tt> features, including both <tt>lexical scoping</tt> and <tt>dynamic scoping</tt> (although the latter isn't used much). Perl source code is executed by the Perl <tt to="interpreted">interpreter</tt> which internally <tt>compiles</tt> the code to bytecode for better performance.</p>
 	
 	<h3>Example Code</h3>
 	
