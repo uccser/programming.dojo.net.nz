@@ -40,15 +40,15 @@ categories:
                 'Java': "red - Java is a highly verbose language with many constructs and keywords required for even the most basic program."
                 'C++': "red - C++ is a highly verbose language with many constructs and keywords, some of which have different meanings depending on context."
                 'Visual Basic': "orange - Visual Basic has a highly structured syntax which could be considered limiting."
-                'Perl': "red - Perl syntax is extremely concise to the point of being a fault."
+                'Perl': "red - Perl syntax is extremely concise to the point of making it difficult to use without having a good understanding of many different keywords and operators."
                 'Pascal': "orange - Pascal syntax is fairly verbose."
                 'Ruby': "blue - Ruby has a very elegent and understandable syntax."
+                'Haskell': "orange - Basic Haskell syntax is fairly simple, but complete programs require relatively advanced syntax."
             -
                 summary: "Is it generally easy to write new code?"
                 'C': "orange - C can be used for solving simple problems, but does not provide any builtin support for"
                 'Java': "orange - Java requires a huge amount of boiler plate code and every class needs to be in a separate file."
                 'C++': "orange - C++ requires a header/implementation file structure which causes a significant amount of overhead."
-                'Perl': "orange - Perl is generally a good language but in an educational context there are simply too many ways of expressing the same concept."
                 'Haskell': "orange - Writing Haskell code requires a sound theoretical understanding of the language."
             -
                 summary: "Is it generally easy to read existing code?"
