@@ -58,6 +58,7 @@ categories:
                 'C': "orange - C code can be written clearly, however due to the dependence on external libraries (including libc) which have few, if any, shared code conventions, and poor programming practice, it can sometimes be difficult to read C code."
                 'Haskell': "orange - Reading Haskell code requires a sound theoretical understanding of the language."
                 'Ruby': "blue - Ruby code is generally well written and easy to read due to its hybrid object-oriented/functional approach."
+                'Scheme': "orange - Due to many parenthesis, it can be hard to read deeply nested programs."
             -
                 summary: "Does the language have a type system conducive education?"
                 'C': "red - C is statically typed. C also has a huge number of similar types."
