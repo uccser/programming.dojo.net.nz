@@ -1,22 +1,22 @@
-| count doors |
-count := 100.
-"Initialize the array of doors to 0 (closed)"
-doors := (Array new: count) atAllPut:  false.
+doors := [ :count |
+	"Initialize the array of doors to 0 (closed)"
+	a := Array new: count withAll: false.
 
-"Process the doors"
-1 to: count do: 
-	[ :pass |
-	pass to: count by: pass do: 
-		[ :door |
-		doors 
-			at: door 
-			put: (doors at: door) not ] ].
+	"Process the doors"
+	a withIndexDo: [ :each :index |
+		index to: (a size) by: index do: [:this |
+			a at: this put: (a at: this) not
+		]
+	].
 
-"Print out the results"
-1 to: count do: 
-	[ :n |
-	Transcript 
-		show: 'Door #', n, ' is ';
-		show: ((doors at: door) ifTrue: [#open] ifFalse: [#closed]);
-		show: '.';
-		cr]
+	"Print out the results"
+	1 to: count do:
+		[ :n |
+		Transcript 
+			show: 'Door #', n, ' is ';
+			show: ((doors at: door) ifTrue: [#open] ifFalse: [#closed]);
+			show: '.';
+			cr]
+].
+
+doors value: 100.
