@@ -1,7 +1,7 @@
 <page>
 	<heading>Python</heading>
 	
-	<p>Python is a <tt>dynamically typed</tt> programming language with both <tt>imperative</tt> and <tt>functional</tt> features. It is generally <tt>interpreted</tt> but is <tt>compiled</tt> to a bytecode first.</p>
+	<p>Python is a <tt>dynamically typed</tt> programming language with both <tt>imperative</tt> and <tt>functional</tt> features. Python source code is executed by the Python <tt to="interpreted">interpreter</tt> which internally <tt>compiles</tt> the code to bytecode for better performance.</p>
 	
 	<h3>Example Code</h3>
 	
