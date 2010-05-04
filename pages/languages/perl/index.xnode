@@ -9,8 +9,7 @@
 	
 	<p>Here is an example of the <tt>100 doors</tt> problem:</p>
 	
-	<!-- need a brush for perl! -->
-	<listing src="example.txt" brush="ruby" />
+	<listing src="example.txt" brush="perl5" />
 	
 	<h3>Why would I learn this language?</h3>
 
