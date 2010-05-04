@@ -85,6 +85,7 @@ categories:
                 'C++': "red"
                 'Visual Basic': "red"
                 'Pascal': "red"
+                'Haskell': "blue - Haskell is an excellent language for advanced functional programming."
             -
                 summary: "Does the language provide a useful and consistent set of object oriented constructs?"
                 'Scheme': "orange - Scheme does not provide any object-oriented data structures by default."
