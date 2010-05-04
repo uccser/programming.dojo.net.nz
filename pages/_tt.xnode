@@ -1,5 +1,5 @@
 <?r 
-	to = (attributes['to'] || content).gsub(/\s+/, "-")
+	to = (attributes['to'] || content).downcase.gsub(/\s+/, "-")
 	
 	language_path = first.node.local_path("/languages/#{to}")
 	codex_path = first.node.local_path("/codex/#{to}")
