@@ -1,25 +1,25 @@
 <?php
 
-function doors (n) {
-	// Create a new array with n entries starting from 0, all set to CLOSED)
-	$doors = array_fill(0, $n, false);
+function doors ($n) {
+    // Create a new array with n entries starting from 0, all set to CLOSED)
+    $doors = array_fill(0, $n, false);
 
-	// Now, start opening and closing
-	for ($step = 1; $step < $n; $step ++) {
-		for ($idx = $step; $idx < $n; $idx += $step) {
-			// Toggle state of door
-			$doors[$idx] != $doors[$idx];
-		}
-	}
+    // Now, start opening and closing
+    for ($step = 0; $step < $n; $step++) {
+        for ($idx = $step; $idx < $n; $idx += $step+1) {
+            // Toggle state of door
+            $doors[$idx] = !$doors[$idx];
+        }
+    }
 
-	// Find out which doors are open
-	foreach($doors as $i => $door) {
-		if ($door)
-			echo "Door #$i is open.\n";
-		else
-			echo "Door #$i is closed.\n";
-	}
-	
+    // Find out which doors are open
+    foreach($doors as $i => $door) {
+        if ($door)
+            echo "Door #" .($i+1) . " is open.\n";
+        else
+            echo "Door #" .($i+1) . " is closed.\n";
+    }
+    
 }
 
 doors(100);
