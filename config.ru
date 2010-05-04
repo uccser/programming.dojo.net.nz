@@ -35,11 +35,13 @@ use Utopia::Middleware::Redirector, {
 	:redirects => {
 		"/" => "/welcome/index",
 		# Posters
-		"/java" => "/languages/java/index",
-		"/clang" => "/languages/clang",
-		"/ruby" => "/languages/ruby",
 		"/python" => "/languages/python",
-		"/scheme" => "/languages/scheme"
+		"/ruby" => "/languages/ruby",
+		"/c" => "/languages/c",
+		"/java" => "/languages/java",
+		"/scheme" => "/languages/scheme",
+		"/basic" => "/languages/basic",
+		"/posters-2010" => "/resources/programming-language-posters"
 	},
 	:errors => {
 		404 => "/errors/file-not-found"
