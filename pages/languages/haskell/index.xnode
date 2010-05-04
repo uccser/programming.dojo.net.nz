@@ -9,7 +9,7 @@
 	
 	<p>Here is an example of the <tt>100 doors</tt> problem:</p>
 	
-	<listing src="example.txt" brush="clang" />
+	<listing src="example.txt" brush="haskell" />
 	
 	<h3>Why would I learn this language?</h3>
 	

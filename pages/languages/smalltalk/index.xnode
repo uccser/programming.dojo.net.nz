@@ -7,11 +7,13 @@
 	
 	<p>Here is an example of the <tt>100 doors</tt> problem:</p>
 	
-	<listing src="example.txt" brush="ruby" />
+	<listing src="example.txt" brush="smalltalk" />
 	
 	<h3>Why would I learn this language?</h3>
 
-	<p>Smalltalk is a powerful environment for exploring many different elements of computer programming, including rich media such as audio and user interfaces. It has a unique operating environment which provides for a conceptually interesting approach to programming.</p>
+	<p>Smalltalk is a powerful environment for exploring many different elements of computer programming, including rich media such as audio and user interfaces. Smalltalk code is generally concise and easily readable due to its message based syntax.</p>
+	
+	<p>Smalltalk provides an integrated code browser and debugger which are incredibly powerful and easy to use. This makes Smalltalk a highly productive environment where code can be modified and fixed in the running application.</p>
 	
 	<h2>Starting Points</h2>
 

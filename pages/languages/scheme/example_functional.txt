@@ -1,0 +1,27 @@
+; door-open? : integer -> boolean
+; Tells whether a given door is open at the end of the experiment.
+; Since no pass larger than the door number can possibly affect it, we'll only run that many passes.
+(define (door-open? door)
+	(doh? door door))
+
+; doh?, short for door-open-helper : integer integer -> boolean
+; First parameter is the number of the door you're interested in.
+; Second parameter is the number of the last pass you want to do.
+(define (doh? door pass)
+	(cond 
+		[(= pass 0) true]                     ; on pass 0, make everything open
+		[(= (remainder door (+ pass 1)) pass) ; if door number is 1 less than a multiple of (pass+1), ...
+			(not (doh? door (- pass 1)))]     ; ... flip it
+		[else (doh? door (- pass 1))]))       ; otherwise don't
+
+; print-doors : list-of-boolean -> output, 1 line per list element
+(define (print-doors doors)
+	(for ((door-num (in-range (length doors))) (open? doors))
+		(printf "Door #~a is ~a.~n" door-num (if open? "open" "closed"))))
+
+; print-doors-up-to : integer -> output
+(define (print-doors-up-to n)
+	(print-doors (build-list n door-open?)))
+
+; Run the program with n = 100
+(print-doors-up-to 100)

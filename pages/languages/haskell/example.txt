@@ -1,23 +1,29 @@
 doorOpen :: Int -> Bool
+-- Tells whether a given door is open at the end of the experiment.
+-- Since no pass larger than the door number can possibly affect it,
+-- we'll only run that many passes.
 doorOpen door = doh door door
 
 doh :: Int -> Int -> Bool
-doh door 0 = True
+-- First parameter is the number of the door you're interested in.
+-- Second parameter is the number of the last pass you want to do.
+doh door 0 = True                         -- on pass 0, make everything open
 doh door pass =
-	if (door `rem` (pass+1)) == pass
-	then not (doh door (pass-1))
-	else doh door (pass-1)
+	if (door `rem` (pass+1)) == pass  -- if door number is 1 less than a multiple of (pass+1), ...
+	then not (doh door (pass-1))      -- ... flip it
+	else doh door (pass-1)            -- otherwise don't
 
+-- a variable containing the final answer for every door
 doors :: [Bool]
 doors = [doorOpen n | n <- [0..]]
 
+-- print information about a single door
 printDoor :: (Int,Bool) -> IO ()
 printDoor (door,open) =
 	putStrLn ("Door #" ++ (show door) ++ " is " ++
-		if open then "open." else "closed.")
+		if open then "open.." else "closed..")
 
+-- print information about all the doors up to a specified number
 printUpTo :: Int -> IO ()
 printUpTo n =
 	mapM_ printDoor (zip [0..(n-1)] doors)
-
-printUpTo 100
