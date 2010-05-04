@@ -1,12 +1,15 @@
-Program OneHundredDoors;
+program OneHundredDoors;
  
 var
 	doors	: Array[1..100] of Boolean;
 	i, j	: Integer;
- 
+
 begin
+	(* Initialize the array of doors to closed *)
 	for i := 1 to 100 do
-		doors[i] := False;
+		doors[i] := false;
+	
+	(* Process the doors *)
 	for i := 1 to 100 do begin
 		j := i;
 		while j <= 100 do begin
@@ -14,11 +17,13 @@ begin
 			j := j + i
 		end
 	end;
+	
+	(* Print out the results *)
 	for i := 1 to 100 do begin
-		Write(i, ' ');
+		Write('Door #', i, ' is ');
 		if doors[i] then
-			WriteLn('open')
+			WriteLn('open.')
 		else
-			WriteLn('closed');
-	end
+			WriteLn('closed.');
+	end;
 end.
