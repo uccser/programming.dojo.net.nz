@@ -17,13 +17,16 @@
 	
 	<h3>Why would I learn this language?</h3>
 
-	<p>Scheme is a syntactically simple language with many interesting features such as homoiconicity. It provides a powerful environment for learning about algorithms and functional programming, and computer concepts in general.</p>
+	<p>Scheme is a syntactically simple language with many interesting features such as homoiconicity. It provides a powerful environment for learning about algorithms and functional programming, and computer science concepts in general.</p>
 	
 	<h2>Starting Points</h2>
 
 	<dl class="resources">
 		<dt><a href="http://www.schemers.org/Education/">Schemers.org: Education</a></dt>
 		<dd>A set of resources for people interested in Scheme as a tool in education.</dd>
+
+		<dt><a href="http://www.crockford.com/javascript/scheme.html">Little Scheme</a></dt>
+		<dd>An online Scheme evaluator which can be used to run simple Scheme code.</dd>
 
 		<dt><a href="http://www.htdp.org/">How To Design Programs</a></dt>
 		<dd>A complete teaching guide and student resource for learning about computer programming and computer science.</dd>
@@ -40,5 +43,6 @@
 	<ul>
 		<li><a href="http://en.wikipedia.org/wiki/Scheme_(programming_language)">Wikipedia: Scheme</a></li>
 		<li><a href="http://en.wikipedia.org/wiki/Homoiconicity">Wikipedia: Homoiconicity</a></li>
+		<li><a href="http://www.plai.org/">Programming Languages: Application and Interpretation</a></li>
 	</ul>
 </page>
