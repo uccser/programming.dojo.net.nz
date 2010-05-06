@@ -3,6 +3,8 @@ languages:
     - C++
     - Haskell
     - Java
+    - JavaScript
+    - PHP
     - Pascal
     - Perl
     - Python
@@ -59,6 +61,7 @@ categories:
                 'Haskell': "orange - Reading Haskell code requires a sound theoretical understanding of the language."
                 'Ruby': "blue - Ruby code is generally well written and easy to read due to its hybrid object-oriented/functional approach."
                 'Scheme': "orange - Due to many parenthesis, it can be hard to read deeply nested programs."
+                'PHP': "orange - Due to the nature of PHP syntax and standard library it can sometimes be hard to read and understand code written by someone else."
             -
                 summary: "Does the language have a type system conducive education?"
                 'C': "red - C is statically typed. C also has a huge number of similar types."
@@ -86,6 +89,7 @@ categories:
                 'Visual Basic': "red"
                 'Pascal': "red"
                 'Haskell': "blue - Haskell is an excellent language for advanced functional programming."
+                'PHP': "orange - The very latest version of PHP finally supports functional programming, but it isn't widely used yet."
             -
                 summary: "Does the language provide a useful and consistent set of object oriented constructs?"
                 'Scheme': "orange - Scheme does not provide any object-oriented data structures by default."
@@ -97,24 +101,24 @@ categories:
         questions:
             -
                 summary: "Are people in education already familiar with the language and environment?"
-                'Ruby': "red - There are few teachers familar with Ruby."
+                'Ruby': red
                 'C': "orange - There are relatively few teachers with a comprehensive understanding of C."
-                'C++': "red"
+                'C++': red
                 'Python': "orange - There are a few teachers with a good understanding of Python, but this number is growing."
                 'Java': "orange - There are a few teachers with a good understanding of Java."
                 'Scheme': red
-                'Perl': red
+                'Perl': "orange - There are a few teachers familar with Perl."
                 'Smalltalk': red
                 'Haskell': red
-                'Pascal': orange
+                'Pascal': 'orange - Many teachers are no longer interested in teaching Pascal since it is often considered an old programming language.'
+                'JavaScript': 'orange - There are a few teachers with a relatively good understanding of JavaScript.'
             -
                 summary: "Are there good learning resources available for use in education?"
                 'Ruby': "orange - There are many good resources targetted at people learning programming in their own time, but few resources targetted directly at education."
                 'C++': red
                 'Python': "orange - There are many good resources available, and even a few specifically targetted at education."
                 'Visual Basic': "orange - There are many online and offline resources - but many of them a buggy or covered in advertising."
-                'Perl': "red"
-                'Scheme': "orange - There are a few good educational resources, but many of them are quite old."
+                'Scheme': "orange - There are a few good educational resources, but many of them are quite old and uninspiring."
             -
                 summary: "Is there comprehensive consistent documentation suitable for educational use?"
                 'C': "orange - Documation is remarkably sparse and inconsistent."
