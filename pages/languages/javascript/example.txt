@@ -1,23 +1,23 @@
 
 function doors (n) {
 	// Create an array with 100 objects
-	var is_open = new Array(n);
+	var is_open = [];
  
 	// Initialize the array values to false
 	for (var i = 0; i < n; i++) {
-		doors[i] = false;
+		is_open[i] = false;
 	}
  
 	// Process the doors
 	for (var step = 0; step < n; step += 1) {
 		for (var idx = step; idx < n; idx += step+1) {
-			doors[idx] = !doors[idx];
+			is_open[idx] = !is_open[idx];
 		}
 	}
 
 	// Print the results
 	for (i = 0; i < n; i++) {
-		if (doors[i]) {
+		if (is_open[i]) {
 			console.log("Door #" + (i+1) + " is open.");
 		} else {
 			console.log("Door #" + (i+1) + " is closed.");
