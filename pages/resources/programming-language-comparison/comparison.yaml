@@ -106,6 +106,7 @@ categories:
                 'C++': red
                 'Python': "orange - There are a few teachers with a good understanding of Python, but this number is growing."
                 'Java': "orange - There are a few teachers with a good understanding of Java."
+                'PHP': "orange - There are a few teachers with a good understanding of PHP, but it is a fairly popular language."
                 'Scheme': red
                 'Perl': "orange - There are a few teachers familar with Perl."
                 'Smalltalk': red
