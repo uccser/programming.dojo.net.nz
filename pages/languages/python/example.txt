@@ -2,11 +2,11 @@
 
 def doors (n):
 	# Initialize an array
-	doors = [False] * 100
+	doors = [False] * n
 	
 	# Process the doors
-	for i in range(100):
-		for j in range(i, 100, i+1):
+	for i in range(n):
+		for j in range(i, n, i+1):
 			doors[j] = not doors[j]
 	
 	# Print out the results
