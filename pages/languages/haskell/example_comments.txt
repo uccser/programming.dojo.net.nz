@@ -1,38 +1,30 @@
--- Tells whether a given door is open at the end of the experiment.
--- Since no pass larger than the door number can possibly affect it,
--- we'll only run that many passes.
+{- This function takes an Int, and passes it to doh twice returning the result. -}
 doorOpen :: Int -> Bool
 doorOpen door = doh door door
 
--- First parameter is the number of the door you're interested in.
--- Second parameter is the number of the last pass you want to do.
-doh :: Int -> Int -> Bool
 {- This function takes two Ints, returning True when the second Int is 0. If the second Int isn't 0, it checks to see if the first Int modulus the second Int plus one, is equal to the second Int. This condition will only be true when the first number has the following relationship to the second one: n*i+i. E. G. given 10 as the second number, this would be true for 10, 21, 32, 43, etc. If the condition is true it calls itself recursively while decrementing the second Int by one, and inverting the return value. If the condition is false it calls itself recursively while decrementing the second Int by one, and returns the result unmodified. -}
-doh door 0 = True                         -- on pass 0, make everything open
+doh :: Int -> Int -> Bool
+doh door 0 = True
 doh door pass =
-	if (door `rem` (pass+1)) == pass  -- if door number is 1 less than a multiple of (pass+1), ...
-	then not (doh door (pass-1))      -- ... flip it
-	else doh door (pass-1)            -- otherwise don't
+       if (door `rem` (pass+1)) == pass
+       then not (doh door (pass-1))
+       else doh door (pass-1)
 
--- a variable containing the final answer for every door
+{- This produces an infinite list created by calling doorOpen with the numbers 0 to infinity -}
 doors :: [Bool]
 doors = [doorOpen n | n <- [0..]]
 
 {- Utility function to print a tuple with some explanation text. Note that this is inside the IO monad and therefore impure. -}
 printDoor :: (Int,Bool) -> IO ()
--- print information about a single door
 printDoor (door,open) =
-	putStrLn ("Door #" ++ (show door) ++ " is " ++
-		if open then "open." else "closed.")
+       putStrLn ("Door #" ++ (show door) ++ " is " ++
+               if open then "open." else "closed.")
 
 {- Given an Int this prints the first n elements from the doors list. This works because zip only produces a list as long as the shortest of its two arguments. mapM_ is a varient of map that functions on monads and that discards its result. Ordinarily this would be pointless and might as well be a no-op, but because printDoor executes inside the IO monad it can have side effects from executing, and therefore must be evaluated every time. -}
 printUpTo :: Int -> IO ()
 printUpTo n =
-	mapM_ printDoor (zip [0..(n-1)] doors)
+       mapM_ printDoor (zip [0..(n-1)] doors)
 
 {- The main entry point to the program, calls printUpTo with 100 -}
 main :: IO ()
 main = printUpTo 100
-
-
-
