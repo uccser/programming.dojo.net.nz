@@ -64,7 +64,7 @@
 					tag = "." + tag;
 				}
 				
-				$('#languages').quicksand($('#all-languages li' + tag));
+				$('#languages').quicksand($('#all-languages li' + tag), {adjustHeight: false});
 				
 				e.preventDefault();
 			});
