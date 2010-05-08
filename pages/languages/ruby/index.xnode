@@ -31,6 +31,9 @@
 
 		<dt><a href="http://www.loudthinking.com/arc/000199.html">Getting started with Ruby</a></dt>
 		<dd>A summarized list of resources for learning about programming and Ruby</dd>
+		
+		<dt><a href="http://ruby-doc.org/docs/ProgrammingRuby/">Programming Ruby: The Pragmatic Programmer's Guide</a></dt>
+		<dd>A tutorial and reference for the Ruby programming language.</dd>
 	</dl>
 	
 	<h2>Further Reading</h2>
