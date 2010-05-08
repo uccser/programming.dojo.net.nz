@@ -1,6 +1,6 @@
 <page>
 	<link rel="stylesheet" href="table.css" type="text/css" />
-	<script src="@rel@/_static/jquery-ui-1.8.custom.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="@rel@/_static/jquery-ui-1.8.custom.min.js" type="text/javascript"></script>
 	
 	<heading>Programming Language Comparison</heading>
 	
@@ -66,7 +66,7 @@
 		<?r end ?>
 	<?r end ?>
 	
-	<script type="text/javascript" charset="utf-8">
+	<script type="text/javascript">
 		$(function() {
 			$('.comparison tbody tr td.language:nth-child(even)').addClass('alt');
 			
