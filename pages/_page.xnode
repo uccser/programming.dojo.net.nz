@@ -24,7 +24,7 @@
 		<script src="/_static/jquery-syntax/jquery.syntax.js" type="text/javascript"></script>
 		<script src="/_static/jquery-syntax/jquery.syntax.cache.js" type="text/javascript"></script>
 
-		<script src="/_css/menu.js?#{Time.now.to_i}" type="text/javascript"></script>
+		<script src="/_static/jquery-menu/jquery.menu.js" type="text/javascript"></script>
 		
 		<script type="text/javascript">
 		$(function() {
