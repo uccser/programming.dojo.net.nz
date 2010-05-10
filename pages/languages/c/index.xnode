@@ -31,6 +31,9 @@
 		
 		<dt><a href="http://www.network-theory.co.uk/docs/gccintro/index.html">An Introduction to GCC</a></dt>
 		<dd>A manual that provides an introduction to the GNU C and C++ compilers.</dd>
+		
+		<dt><a href="http://beej.us/guide/bgc/">Beej's Guide to C Programming</a></dt>
+		<dd>An introduction to programming C for beginners.</dd>
 	</dl>
 	
 	<h2>Further Reading</h2>
