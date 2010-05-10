@@ -413,6 +413,8 @@ h1.language {
 	
 	background: #efefff url(/_css/flag.png) 8px center no-repeat;
 	margin: 0px 50px 0px;
+	
+	line-height: 1.5em;
 }
 
 .trail .icon {
