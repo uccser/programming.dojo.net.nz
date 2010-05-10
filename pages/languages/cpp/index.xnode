@@ -13,7 +13,7 @@
 	
 	<h3>Why would I learn this language?</h3>
 	
-	<p>C++ is in some ways a super-set of <a href="C">C</a>. It was originally called "C with Objects". It adds many advanced language features such as classes, namespaces, exceptions and meta-programming.</p>
+	<p>C++ is in some ways a super-set of <a href="../c">C</a>. It was originally called "C with Objects". It adds many advanced language features such as classes, namespaces, exceptions and meta-programming.</p>
 	
 	<p>C++ has many of the same issues as C, but it also adds many new issues (complex syntax and semantic behavior). On the whole, however, it is a useful language which is used in many different industries.</p>
 	
