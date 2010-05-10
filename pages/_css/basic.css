@@ -408,9 +408,18 @@ h1.language {
 .message-box {
 	border: solid 2px #dedeff;
 	color: #222222;
-	padding: 16px;
+	padding: 10px 32px 10px;
 	text-align: center;
 	
 	background: #efefff url(/_css/flag.png) 8px center no-repeat;
 	margin: 0px 50px 0px;
+}
+
+.trail .icon {
+	float: right;
+	padding: 3px;
+}
+
+.trail .icon img {
+	padding: 0px 5px 0px;
 }
