@@ -26,4 +26,4 @@ ruby:
 scheme:
     tags: ['functional', 'dynamic']
 smalltalk:
-    tags: ['functional', 'dynamic']
+    tags: ['functional', 'dynamic', 'object-oriented']
