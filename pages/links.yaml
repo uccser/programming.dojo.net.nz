@@ -1,5 +1,5 @@
 errors:
-    hidden: true
+    display: false
 welcome:
     title: "programming.dojo.net.nz"
     order: 0
@@ -8,10 +8,10 @@ languages:
 codex:
     order: 2
 courses:
-    hidden: true
+    display: false
     order: 4
 club:
-    hidden: true
+    display: false
     order: 5
 study:
     order: 3

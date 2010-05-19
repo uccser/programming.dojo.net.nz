@@ -4,10 +4,9 @@ UTOPIA_ENV = (ENV['UTOPIA_ENV'] || ENV['RAILS_ENV'] || :development).to_sym
 $LOAD_PATH << File.join(File.dirname(__FILE__), "lib")
 $stderr.puts "Running in #{UTOPIA_ENV} mode."
 
-gem 'utopia', '0.9.26'
+gem 'utopia', '0.9.32'
 require 'utopia/middleware/all'
 require 'utopia/tags/all'
-require 'utopia/session/encrypted_cookie'
 
 gem 'rack-contrib'
 require 'rack/contrib'
@@ -32,7 +31,7 @@ use Rack::ContentLength
 use Utopia::Middleware::Logger
 
 use Utopia::Middleware::Redirector, {
-	:redirects => {
+	:strings => {
 		"/" => "/welcome/index",
 		# Posters
 		"/python" => "/languages/python",
@@ -50,17 +49,8 @@ use Utopia::Middleware::Redirector, {
 
 use Utopia::Middleware::Requester
 use Utopia::Middleware::DirectoryIndex
-
-use Utopia::Session::EncryptedCookie, {
-	:expire_after => 2592000,
-	:secret => '018cc0c375fd4d789e640de988aaeafe'
-}
-
 use Utopia::Middleware::Controller
-
-use Utopia::Middleware::Static, :types => Utopia::Middleware::Static::DEFAULT_TYPES + [
-	["ogg", "audio/vorbis"]
-]
+use Utopia::Middleware::Static
 
 if UTOPIA_ENV == :production
 	use Rack::Cache, {
@@ -68,10 +58,6 @@ if UTOPIA_ENV == :production
 		:entitystore => "file:#{Utopia::Middleware::default_root("cache/body")}",
 		:verbose => false
 	}
-else
-	#use Rack::Cache, {
-	#	:verbose => true
-	#}
 end
 
 use Utopia::Middleware::Content

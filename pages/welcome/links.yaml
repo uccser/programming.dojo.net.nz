@@ -1,4 +1,4 @@
 contact-us:
-    hidden: true
+    display: false
 about:
-    hidden: true
+    display: false
