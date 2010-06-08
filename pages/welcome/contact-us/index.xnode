@@ -1,27 +1,44 @@
 <page>
+	<script src="/_static/jquery-1.4.2.min.js" type="text/javascript"></script>
+	<script src="/_static/jquery.validate-1.6.js" type="text/javascript"></script>
+	
 	<heading>Contact Us</heading>
 	
 	<p>Please fill out the following form to send us a message. If you want a response, please include a valid "Reply To:" email address.</p>
 	
-	<?r if request.controller[:errors] ?>
-		<ul>
-		<?r request.controller[:errors].each do |error| ?>
-			<li>#{error}</li>
-		<?r end ?>
-		</ul>
-	<?r end ?>
-	
-	<form action="index" method="post" class="basic">
+	<form action="index" method="post" class="basic central_form" id="contact">
 		<fieldset>
 			<dl>
 				<dt><label for="subject">Subject:</label></dt>
-				<dd><input type="text" name="subject" value="#{request.controller[:subject].to_html}" /></dd>
+				<dd><input type="text" name="subject" /></dd>
 				<dt><label for="from">Reply To:</label></dt>
-				<dd><input type="text" name="from" value="#{request.controller[:from].to_html}" /></dd>
+				<dd><input type="text" name="from" /></dd>
 				<dt><label for="message">Message:</label></dt>
-				<dd><textarea style="height: 200px;" name="message">#{request.controller[:message].to_html}</textarea></dd>
-				<dd class="footer"><input type="submit" value="Send" /></dd>
+				<dd><textarea name="message"></textarea></dd>
+				<dd class="footer"><input type="submit" value="Send Message" /></dd>
 			</dl>
 		</fieldset>
 	</form>
+	
+	<script type="text/javascript">
+		$(function() {
+			var contact = $("#contact");
+			
+			contact.validate({
+				rules: {
+					subject: "required",
+					from: {
+						email: true
+					},
+					message: "required"
+				}
+			});
+			
+			var params = $.deparam.querystring();
+			
+			for (key in params) {
+				$("[name=" + key + "]", contact).val(params[key]);
+			}
+		})
+	</script>
 </page>

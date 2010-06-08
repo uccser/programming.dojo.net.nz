@@ -261,66 +261,6 @@ table.basic th {
 	width: 50%;
 }
 
-form.basic fieldset {
-	margin: auto;
-	width: 75%;
-	border: 2px solid black;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-	background-color: #fafafa;
-	text-shadow: #ccc 2px 2px 4px;
-	font-size: 16pt;
-	padding: 20px;
-}
-
-form.basic dl {
-	padding: 0px;
-	margin: 0px;
-}
-
-form.basic dt {
-	margin: 0px 0px 0px;
-	padding: 3px 0px 0px;
-	
-	clear: both;
-	font-size: 12pt;
-	display: block;
-	float: left;
-	text-align: right;
-	width: 26%;
-	padding-right: 10px;
-}
-
-form.basic dd {
-	margin: 0px 0px 20px 30%;
-	padding: 0px;
-	font-size: 1.2em;
-}
-
-form.basic dd input, form.basic dd textarea {
-	margin: 0px;
-}
-
-form.basic dd div {
-	left: 0px; right: 0px;
-	border: 1px solid orange;
-}
-
-form.basic dd input[type="text"],
-form.basic dd input[type="password"] {
-	width: 60%;
-}
-
-form.basic dd textarea {
-	width: 90%;
-}
-
-form.basic dd.footer {
-	text-align: right;
-	padding: 0px 10px 0px 0px;
-}
-
 h1.language {
 	text-align: center;
 	
@@ -424,4 +364,76 @@ h1.language {
 
 .trail .icon img {
 	padding: 0px 5px 0px;
+}
+
+/* Forms v2.1 */
+.central_form {
+	margin: auto;
+	width: 75%;
+	border: 2px solid black;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background-color: #fafafa;
+	text-shadow: #ccc 2px 2px 4px;
+	padding: 20px;
+}
+
+form.basic fieldset {
+	margin: auto;
+	border: none;
+	padding: 10px;
+}
+
+form.basic dl {
+	padding: 0px;
+	margin: 0px;
+}
+
+form.basic dt {
+	margin: 0px 0px 0px;
+	padding: 3px 0px 0px;
+	
+	clear: both;
+	font-size: 12pt;
+	display: block;
+	float: left;
+	text-align: right;
+	width: 26%;
+	padding-right: 10px;
+}
+
+form.basic dd {
+	margin: 0px 0px 20px 30%;
+	padding: 0px;
+	font-size: 12pt;
+}
+
+form.basic dd input, form.basic dd textarea {
+	margin: 0px;
+}
+
+form.basic dd div {
+	left: 0px; right: 0px;
+	border: 1px solid orange;
+}
+
+form.basic dd input[type="text"],
+form.basic dd input[type="password"] {
+	width: 60%;
+}
+
+form.basic dd textarea {
+	width: 90%;
+	height: 200px;
+}
+
+form.basic dd.footer {
+	text-align: right;
+	padding: 0px 10px 0px 0px;
+}
+
+form.basic dd label.error {
+	display: block;
+	color: red;
 }
