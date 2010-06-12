@@ -33,6 +33,3 @@ printUpTo n =
 {- The main entry point to the program, calls printUpTo with 100 -}
 main :: IO ()
 main = printUpTo 100
-
-
-
