@@ -44,6 +44,7 @@ use Utopia::Middleware::Redirector, {
 		"/python" => "/languages/python",
 		"/ruby" => "/languages/ruby",
 		"/c" => "/languages/c",
+		"/c-sharp" => "/languages/c-sharp",
 		"/java" => "/languages/java",
 		"/scheme" => "/languages/scheme",
 		"/basic" => "/languages/basic",
