@@ -4,9 +4,36 @@
 	
 	<heading>Programming Language Comparison</heading>
 	
-	<p>This table outlines several major languages which are commonly used for educational purposes. Each question is asked specifically within the scope of education and use in the classroom. Green indicates that the language suitably meets the requirements, while orange indicates that there are potentially some issues that need to be considered, while red indicates that there are likely issues which will affect the usage in an educational environment. Blue indicates that a language is particularly good in a specific area.</p>
+	<p>This table outlines several major languages which are commonly used for educational purposes. Each question is asked specifically within the scope of education and use in the classroom.</p>
+	
+	<table class="basic ranking">
+		<thead>
+			<tr>
+				<th style="width: 25%">Red</th>
+				<th style="width: 25%">Orange</th>
+				<th style="width: 25%">Green</th>
+				<th style="width: 25%">Blue</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><img src="red.png" /></td>
+				<td><img src="orange.png" /></td>
+				<td><img src="green.png" /></td>
+				<td><img src="blue.png" /></td>
+			</tr>
+			<tr>
+				<td>There are likely issues which will affect the usage in an educational environment.</td>
+				<td>There are there are potentially some issues that need to be considered.</td>
+				<td>The language meets the requirements.</td>
+				<td>The language is particularly good in this specific area.</td>
+			</tr>
+		</tbody>
+	</table>
 	
 	<p>Some of the issues are clarified at the bottom of the page. If you hover over (or click) on the colored circle, the exact comment will be highlighted. This page is highly subjective, but I have done my best to review and consider all appropriate material. If you wish to suggest some adjustment, I'm more than happy to <a href="/welcome/contact-us">listen to your input</a>.</p>
+
+	<h2>Comparison Table</h2>
 	
 	<?r
 		comment_id = 1
@@ -57,9 +84,11 @@
 		</tbody>
 	</table>
 	
+	<h2>Notes</h2>
+	
 	<?r notes.each do |language, comments| ?>
 	<a name="#{language}" />
-	<h2>#{language.to_html}</h2>
+	<h3>#{language.to_html}</h3>
 	
 		<?r comments.each do |id, comment| ?>
 			<p id="#{id}"><a name="#{id}">[#{id}]</a> #{comment.to_html}</p>

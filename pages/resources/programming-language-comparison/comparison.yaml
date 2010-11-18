@@ -11,6 +11,7 @@ languages:
     - Ruby
     - Scheme
     - Smalltalk
+    - "C#"
     - Visual Basic
 categories:
     -
@@ -19,6 +20,7 @@ categories:
             -
                 summary: "Are the development environments cross-platform?"
                 'Visual Basic': "red - Visual Basic is Windows only."
+                'C#': "orange - Tools and development environment keyed towards Windows based development, but alternative implementations do exist."
                 'Java': "blue - Java is well suited for cross-platform development."
                 'Python': "blue - Python is well suited for cross-platform development."
                 'Ruby': "blue - Ruby is well suited for cross-platform development."
@@ -29,9 +31,11 @@ categories:
             -
                 summary: "Is the source code of the core compiler/interpreter available under a free software license?"
                 'Visual Basic': "red - Visual Basic is not available under an OSI approved license."
+                'C#': "orange - The main .NET implemetation is not available under an OSI approved license."
             -
                 summary: "Is there an implementation of the core libraries available under a free software license?"
                 'Visual Basic': "red - Visual Basic core libraries are not available under an OSI approved license."
+                'C#': "orange - The main .NET implemetation is not available under an OSI approved license."
                 'Java': "orange - Most of Java has now been reimplemented and released under an OSI approved license, but some parts remain proprietary. Hopefully this will be rectified."
     -
         title: "Language Syntax"
@@ -39,6 +43,7 @@ categories:
             -
                 summary: "Is the general syntax simple and concise?"
                 'C': "orange - The basic C syntax is relatively simple, however its type system often leads to typecasing and other complex syntactic elements."
+                'C#': "orange - C# is a highly verbose language with many constructs and keywords required for even the most basic program."
                 'Java': "red - Java is a highly verbose language with many constructs and keywords required for even the most basic program."
                 'C++': "red - C++ is a highly verbose language with many constructs and keywords, some of which have different meanings depending on context."
                 'Visual Basic': "orange - Visual Basic has a highly structured syntax which could be considered limiting."
@@ -49,6 +54,7 @@ categories:
             -
                 summary: "Is it generally easy to write new code?"
                 'C': "orange - C can be used for solving simple problems, but does not provide any builtin support for"
+                'C#': "orange - C# can require a large amount of boiler plate code."
                 'Java': "orange - Java requires a huge amount of boiler plate code and every class needs to be in a separate file."
                 'C++': "orange - C++ requires a header/implementation file structure which causes a significant amount of overhead."
                 'Haskell': "orange - Writing Haskell code requires a sound theoretical understanding of the language."
@@ -56,6 +62,7 @@ categories:
                 summary: "Is it generally easy to read existing code?"
                 'Perl': "red - Perl code tends to be very terse and difficult to read."
                 'Java': "orange - Java code tends to have many separate files and implementations incorporate many disparate programming techniques."
+                'C#': "orange - C#  code tends to have many separate files and implementations incorporate many disparate programming techniques."
                 'C++': "orange - C++ code is highly context sensitive and relating together dependent functionality can be complex."
                 'C': "orange - C code can be written clearly, however due to the dependence on external libraries (including libc) which have few, if any, shared code conventions, and poor programming practice, it can sometimes be difficult to read C code."
                 'Haskell': "orange - Reading Haskell code requires a sound theoretical understanding of the language."
@@ -65,6 +72,7 @@ categories:
             -
                 summary: "Does the language have a type system conducive education?"
                 'C': "red - C is statically typed. C also has a huge number of similar types."
+                'C#': "orange - C# has a good type system but it is also very large and complex, which may be daunting to new programmers."
                 'C++': "red - C++ has a large number of compile type meta-programming features based around static typing."
                 'Haskell': "orange - Haskell has a fantastically powerful type system which may be considered too complex for the majority of educational problems."
     -
