@@ -46,6 +46,7 @@ use Utopia::Middleware::Redirector, {
 		"/c" => "/languages/c",
 		"/c-sharp" => "/languages/c-sharp",
 		"/java" => "/languages/java",
+		"/scratch" => "/languages/scratch",
 		"/scheme" => "/languages/scheme",
 		"/basic" => "/languages/basic",
 		"/posters-2010" => "/resources/programming-language-posters"
