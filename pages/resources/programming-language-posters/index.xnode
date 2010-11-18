@@ -44,4 +44,14 @@
 	
 	<p>Each poster has a link to this website where further resources and research material can be found. This can be used as an educational tool for learning about programming in a particular language, or in a situation where a student is evaluating several languages / frameworks for solving a particular problem.</p>
 	
+	<h2>How were these posters made?</h2>
+	
+	<p>Several software tools and resources were used to produce these posters:</p>
+	
+	<ul>
+		<li><a href="http://www.syntax-highlighting.com">Syntax-Highlighting.com</a> was used to highlight the code.</li>
+		<li><a href="http://rosettacode.org/">RosettaCode.org</a> was used as a starting point for code examples.</li>
+		<li><a href="http://www.omnigroup.com/products/omnigraffle/">OmniGraffle</a> was used to design and author the actual posters.</li>
+	</ul>
+	
 </page>
