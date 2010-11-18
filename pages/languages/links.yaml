@@ -27,3 +27,6 @@ scheme:
     tags: ['functional', 'dynamic']
 smalltalk:
     tags: ['functional', 'dynamic', 'object-oriented']
+c-sharp:
+    title: "C#"
+    tags: ['imperative', 'object-oriented', 'static', 'dynamic']
