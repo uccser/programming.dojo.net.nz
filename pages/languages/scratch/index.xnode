@@ -1,0 +1,33 @@
+<page>
+	<heading>Scratch</heading>
+	
+	<p>Scratch is a graphical programming environment which allows for drag and drop program creation. Scrach provides basic set of <tt>imperative</tt> features along with support for a variety of different kinds of audio and visual media.</p>
+	
+	<h3>Example Code</h3>
+	
+	<p>Here is an example of the <tt>100 doors</tt> problem. You can download this program: <a href="Scratch-FizzBuzz.zip">Scratch-FizzBuzz.zip</a> and try it out too.</p>
+	
+	<div class="gallery">
+		<img src="example.png" />
+	</div>
+	
+	<h3>Why would I learn this language?</h3>
+	
+	<p>Scratch is a great language for people who are not yet familiar with programming language syntax or structure. It provides a simple framework for exploring programming concepts.</p>
+	
+	<h2>Starting Points</h2>
+
+	<dl class="resources">
+		<dt><a href="http://scratch.mit.edu/">Scratch Home Page</a></dt>
+		<dd>Create and share your own interactive stories, games, music and art!</dd>
+		
+		<dt><a href="http://wiki.scratch.mit.edu/wiki/Scratch_Wiki">Scratch Wiki</a></dt>
+		<dd>A wide variety of Scratch resources and information.</dd>
+	</dl>
+	
+	<h2>Further Reading</h2>
+	
+	<ul>
+		<li><a href="http://en.wikipedia.org/wiki/Scratch_(programming_language)">Wikipedia: Scratch</a></li>
+	</ul>
+</page>

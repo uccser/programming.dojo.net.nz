@@ -30,3 +30,6 @@ smalltalk:
 c-sharp:
     title: "C#"
     tags: ['imperative', 'object-oriented', 'static', 'dynamic']
+scratch:
+    title: "Scratch"
+    tags: ['imperative', 'dynamic']
