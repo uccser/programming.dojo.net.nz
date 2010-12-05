@@ -5,7 +5,7 @@
 	
 	<h3>Example Code</h3>
 	
-	<p>Here is an example of the <tt>100 doors</tt> problem. You can download this program: <a href="Scratch-FizzBuzz.zip">Scratch-FizzBuzz.zip</a> and try it out too.</p>
+	<p>Here is an example of the <tt>100 doors</tt> problem. You can download this program: <a href="Scratch - 100 Doors.zip">Scratch - 100 Doors.zip</a> and try it out.</p>
 	
 	<div class="gallery">
 		<img src="example.png" />
@@ -23,6 +23,9 @@
 		
 		<dt><a href="http://wiki.scratch.mit.edu/wiki/Scratch_Wiki">Scratch Wiki</a></dt>
 		<dd>A wide variety of Scratch resources and information.</dd>
+		
+		<dt><a href="Scratch - FizzBuzz.zip">FizzBuzz</a> in Scratch (<a href="FizzBuzz-example.png">Screenshot</a>)</dt>
+		<dd>As featured on the <a href="/resources/programming-language-posters">Programming Language Posters</a></dd>
 	</dl>
 	
 	<h2>Further Reading</h2>
