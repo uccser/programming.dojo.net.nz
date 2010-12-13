@@ -12,8 +12,8 @@ courses:
     order: 4
 club:
     display: false
-    order: 5
+    order: 10
 study:
     order: 3
 resources:
-    order: 10
+    order: 30
