@@ -21,8 +21,7 @@
 		
 		<script src="/_static/quicksand/jquery.quicksand.js" type="text/javascript"></script>
 		
-		<script src="/_static/jquery-syntax/jquery.syntax.js" type="text/javascript"></script>
-		<script src="/_static/jquery-syntax/jquery.syntax.cache.js" type="text/javascript"></script>
+		<script src="/_static/jquery-syntax/jquery.syntax.min.js" type="text/javascript"></script>
 
 		<script src="/_static/jquery-menu/jquery.menu.js" type="text/javascript"></script>
 		
@@ -30,7 +29,7 @@
 		$(function() {
 			$('a.thumbnail').lightBox({fixedNavigation:true});
 			
-			$.syntax({root: "/_static/jquery-syntax/"});
+			$.syntax();
 		});
 		</script>
 	</head>

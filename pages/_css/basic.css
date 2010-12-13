@@ -120,8 +120,8 @@ body {
 	vertical-align: middle;
 }
 
-pre {
-	overflow: auto;
+pre.syntax, .syntax-container {
+	margin: 4em;
 }
 
 h2 {
