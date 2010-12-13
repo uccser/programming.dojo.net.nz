@@ -48,7 +48,8 @@ use Utopia::Middleware::Redirector, {
 		"/scratch" => "/languages/scratch",
 		"/scheme" => "/languages/scheme",
 		"/basic" => "/languages/basic",
-		"/posters-2010" => "/resources/programming-language-posters"
+		"/posters-2010" => "/resources/programming-language-posters",
+		"/posters-2011" => "/resources/programming-language-posters"
 	},
 	:errors => {
 		404 => "/errors/file-not-found"
