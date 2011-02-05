@@ -3,14 +3,14 @@
 .syntax .del {
   color: red; }
 .syntax .insert {
-  color: green;
-  background-color: #ccffcc;
-  display: block; }
+  color: green; }
+.syntax .insert-line {
+  background-color: #ccffcc !important; }
 .syntax .remove {
-  color: red;
-  background-color: #ffcccc;
-  display: block; }
+  color: red; }
+.syntax .remove-line {
+  background-color: #ffcccc !important; }
 .syntax .offset {
-  color: blue;
-  background-color: #ccccff;
-  display: block; }
+  color: blue; }
+.syntax .offset-line {
+  background-color: #ccccff !important; }
