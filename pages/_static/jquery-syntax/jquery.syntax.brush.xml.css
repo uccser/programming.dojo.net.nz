@@ -1,7 +1,7 @@
 .syntax .xml .cdata-content {
   color: #004466;
   border-radius: 0.5em; }
-.syntax .xml .tag, .syntax .xml .cdata {
+.syntax .xml .xml-tag, .syntax .xml .cdata {
   color: #0000cc; }
 .syntax .xml .tag-name, .syntax .xml .cdata-tag {
   color: blue;
