@@ -3,7 +3,7 @@
 UTOPIA_ENV = (ENV['UTOPIA_ENV'] || ENV['RAILS_ENV'] || :development).to_sym
 $stderr.puts "Running in #{UTOPIA_ENV} mode on Ruby #{VERSION}."
 
-gem 'utopia', '0.9.51'
+gem 'utopia', '0.9.52'
 require 'utopia/middleware/all'
 require 'utopia/tags/all'
 
