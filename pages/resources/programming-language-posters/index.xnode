@@ -1,9 +1,11 @@
 <page>
 	<heading>Programming Language Posters</heading>
 	
-	<p>Posters are available free of charge which can be used in the class room to stimulate questions and inquiry into different programming languages, their syntax, semantics and features.</p>
+	<p>Posters are available free to download which can be used in the class room to stimulate questions and inquiry into different programming languages, their syntax, semantics and features.</p>
 	
 	<gallery path="_posters" filetypes="pdf" tag="pdf_thumbnail" process="pdf_thumbnail:png" filter="Dec2010" />
+	
+	<p>Complete sets of A3 or A4 posters are also available for purchase. Please <a href="/welcome/contact-us">contact us</a> if you are interested. We can ship anywhere in the world.</p>
 	
 	<h2>What is Fizz Buzz?</h2>
 	
