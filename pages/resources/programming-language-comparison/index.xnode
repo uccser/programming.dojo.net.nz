@@ -72,7 +72,7 @@
 				?>
 				<td class="language">
 					<?r if comment ?>
-						<a href="\##{name}" title="c#{comment_id}" class="comment"><img src="#{color || 'green'}.png" title="#{comment.to_html}"/></a>
+						<a href="##{name}" title="c#{comment_id}" class="comment"><img src="#{color || 'green'}.png" title="#{comment.to_html}"/></a>
 					<?r else ?>
 						<img src="#{color || 'green'}.png" />
 					<?r end ?>
@@ -96,11 +96,13 @@
 	<?r end ?>
 	
 	<script type="text/javascript">
-		$(function() {
+		jQuery(function($) {
 			$('.comparison tbody tr td.language:nth-child(even)').addClass('alt');
 			
 			$('.comparison a.comment').each(function() {
-				var id = this.title.split("#").pop()
+				console.log("each:", this);
+				
+				var id = this.title.split("#").pop();
 				
 				$(this).bind('click', function() {
 					$('#' + id).effect("pulsate", {times: 5, color: "#aaf"}, 500);
