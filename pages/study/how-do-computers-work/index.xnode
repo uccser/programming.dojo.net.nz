@@ -1,0 +1,25 @@
+<page>
+	<heading>How do computers work?</heading>
+	
+	<p>While this is a rather broad question, I got asked some specific questions in this area and I wanted to provide some starting points which cover specific topics in this area.</p>
+	
+	<h2>How do I create a computer processor?</h2>
+
+	<ul>
+		<li><a href="http://www.colinmackenzie.net/electronics/7-fpga/16-your-first-cpu-chapter-1-basic-cpu">Your first CPU</a> &mdash; a comprehensive guide with source code implementing a standard fetch-decode-execute-store processor.</li>
+		<li><a href="http://en.wikipedia.org/wiki/Verilog">Wikipedia: Verilog</a></li>
+	</ul>
+	
+	<h2>How do I make a computer language?</h2>
+	
+	<ul>
+		<li><a href="http://www.oriontransfer.co.nz/learn/pl0-language-tools/index">PL/0 Language Tools</a> &mdash; a simple parser and interpreter for the PL/0 programming language.</li>
+		<li><a href="http://www.oriontransfer.co.nz/learn/register-machine-interpreter">Register Machine Interpreter</a> &mdash; a turning complete programming language.</li>
+	</ul>
+		
+	<h2>How do I create an operating system?</h2>
+	
+	<ul>
+		<li><a href="http://code.google.com/p/onyxkernel/wiki/FirstStep">Learn how to make a simple Operating System</a> &mdash; compile and boot your own simple operating system.</li>
+	</ul>
+</page>
