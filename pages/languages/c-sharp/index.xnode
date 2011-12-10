@@ -1,6 +1,8 @@
 <page>
 	<heading>C#</heading>
 	
+	<p>C# was originally designed by Microsoft as an application development language and thus has many features in common with <a href="../java">Java</a>. It is now standardised and there are several implementations that run on a variety of platforms. C# is a <tt>statically typed</tt> <tt>imperative</tt> programming language with both <tt>functional</tt> and <tt>object oriented</tt> features.</p>
+	
 	<h3>Example Code</h3>
 	
 	<p>Here is an example of the <tt>100 doors</tt> problem:</p>
@@ -9,7 +11,9 @@
 	
 	<h3>Why would I learn this language?</h3>
 	
-	<p>C# is a modern and fully featured programming language. It is built on top of the CLR which provides a wide range of APIs from 3D graphics to databases.... [etc]</p>
+	<p>C# is a modern, fully featured programming language. It is built on top of the CLR which provides a wide range of APIs from 3D graphics to databases.</p>
+	
+	<p>Specifically, using Mono.NET it is possible to develop cross-platform desktop applications, web applications and games.</p>
 	
 	<h2>Starting Points</h2>
 	
@@ -21,7 +25,8 @@
 	<h2>Further Reading</h2>
 	
 	<ul>
-		<li><a href="http://en.wikipedia.org/wiki/C_Sharp_(programming_language)">Wikipedia: Java</a></li>
-		<li><a href="http://en.wikipedia.org/wiki/.NET_Framework">Wikipedia: .NET Framework</a></li>
+		<li><a href="http://en.wikipedia.org/wiki/C_Sharp_(programming_language)">Wikipedia: C#</a></li>
+		<li><a href="http://en.wikipedia.org/wiki/Mono_(software)">Wikipedia: Mono</a></li>
+		<li><a href="http://unity3d.com/">Unity 3D</a></li>
 	</ul>
 </page>
