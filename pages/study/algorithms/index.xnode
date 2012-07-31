@@ -1,0 +1,11 @@
+<page>
+	<heading>Algorithms</heading>
+	
+	<p>Below are a variety of algorithms used in computer science.</p>
+	
+	<ul>
+	<?r links.each do |link| ?>
+		<li>#{link.to_href}</li>
+	<?r end ?>
+	</ul>
+</page>

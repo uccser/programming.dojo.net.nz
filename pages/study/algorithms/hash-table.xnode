@@ -1,0 +1,13 @@
+<page>
+	<h2>Hash Table</h2>
+
+	<p>This hash table implementation shows the difference between a hash function with good distribution and a hash function with bad distribution.</p>
+
+	<listing src="hash-table.py.txt" brush="python" />
+	
+	<h2>Further Reading</h2>
+	
+	<ul>
+		<li><a href="http://en.wikipedia.org/wiki/Hash_table">Wikipedia: Hash table</a></li>
+	</ul>
+</page>

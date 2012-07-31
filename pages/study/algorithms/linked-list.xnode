@@ -1,0 +1,13 @@
+<page>
+	<h2>Linked List</h2>
+
+	<p>This linked list implementation shows the use of recursive functions (in this case for printing out the list) and includes a basic insertion sort.</p>
+
+	<listing src="hash-table.py.txt" brush="python" />
+	
+	<h2>Further Reading</h2>
+	
+	<ul>
+		<li><a href="http://en.wikipedia.org/wiki/Linked_list">Wikipedia: Linked list</a></li>
+	</ul>
+</page>

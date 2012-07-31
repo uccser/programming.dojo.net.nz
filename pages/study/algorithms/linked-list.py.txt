@@ -1,0 +1,48 @@
+#!/usr/bin/env python
+
+class Link:
+  def __init__(self, data, next = None):
+    self.data = data
+    self.next = next
+  
+  def __repr__(self):
+    return repr((self.data, self.next,))
+
+link = Link(30, Link(20, Link(25, Link(10, Link(5, Link(40))))))
+
+def insertion_sort(top, link):
+  if top is None:
+    return Link(link.data)
+  else:
+    previous = None
+    current = top
+    while current and link.data >= current.data:
+      previous = current
+      current = current.next
+  
+  if previous is None:
+    print "Inserting", link.data, "at start"
+    return Link(link.data, current)
+  elif current is None:
+    print "Inserting", link.data, "at end"
+    previous.link = Link(link.data, current)
+    return top
+  else:
+    print "Inserting", link.data, "between", previous.data, "and", current.data
+    previous.next = Link(link.data, current)
+    return top
+
+def print_links(link, count = 0, max_count=10):
+  if link:
+    print "Data is", link.data
+    print_links(link.next, count+1, max_count)
+
+top = Link(link.data)
+current = link.next
+while current:
+  print top
+  top = insertion_sort(top, current)
+  current = current.next
+
+print top
+

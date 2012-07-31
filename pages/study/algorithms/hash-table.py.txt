@@ -1,0 +1,60 @@
+#!/usr/box/env python
+
+import time
+
+class Box(object):
+  def __init__(self, key, value):
+    self.key = key
+    self.value = value
+  
+  def __repr__(self):
+    return repr((self.key, self.value,))
+
+class HashTable:
+  def __init__(self, hash_function = hash):
+    self.boxes = [[] for i in xrange(32)]
+    self.hash = hash_function
+  
+  def insert(self, key, value):
+    offset = self.hash(key) % len(self.boxes)
+    
+    for box in self.boxes[offset]:
+      if box.key == key:
+        box.value = value
+        return
+    
+    box = Box(key, value)
+    #print "Adding", box, "to", self.boxes[offset]
+    self.boxes[offset].append(box)
+  
+  # Amortized O(1)
+  def fetch(self, key):
+    # O(1)
+    offset = self.hash(key) % len(self.boxes)
+    
+    # Amortized O(1)
+    for box in self.boxes[offset]:
+      if box.key == key:
+        return box.value
+    
+    return None
+  
+  def __repr__(self):
+    return repr(self.boxes)
+
+fast_hash_table = HashTable()
+slow_hash_table = HashTable(lambda x : 0)
+
+start = time.clock()
+for i in xrange(1024 * 40):
+  fast_hash_table.insert(i % 1025, "Hello World " + repr(i))
+end = time.clock()
+
+print "Fast Hash Time =", (end - start)
+
+start = time.clock()
+for i in xrange(1024 * 40):
+  slow_hash_table.insert(i % 1025, "Hello World " + repr(i))
+end = time.clock()
+
+print "Slow Hash Time =", (end - start)
