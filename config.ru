@@ -1,9 +1,9 @@
 #!/usr/bin/env rackup
 
-UTOPIA_ENV = (ENV['UTOPIA_ENV'] || ENV['RAILS_ENV'] || :development).to_sym
-$stderr.puts "Running in #{UTOPIA_ENV} mode on Ruby #{VERSION}."
+UTOPIA_ENV = (ENV['UTOPIA_ENV'] || ENV['RACK_ENV'] || :development).to_sym
+$LOAD_PATH << File.join(File.dirname(__FILE__), "lib")
 
-gem 'utopia', '0.9.57'
+gem 'utopia', '0.10.0'
 require 'utopia/middleware/all'
 require 'utopia/tags/all'
 
