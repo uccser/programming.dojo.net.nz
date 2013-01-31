@@ -2,7 +2,7 @@
 def on_random(path, request)
 	languages = %w(basic c cpp haskell java pascal perl php python ruby scheme smalltalk)
 	
-	return redirect(languages[rand(languages.size)])
+	redirect! languages[rand(languages.size)]
 end
 
 def process!(path, request)
