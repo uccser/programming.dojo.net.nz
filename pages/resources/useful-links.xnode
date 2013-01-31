@@ -1,17 +1,5 @@
 <page>
-	<heading>Resources</heading>
-	
-	<p>The resources available here are designed to empower teachers at school to provide well balanced information about programming and programming languages.</p>
-	
-	<p>Most of the resources are designed for students at high school or equivalent level.</p>
-	
-	<ul>
-	<?r links(first.node.uri_path.dirname, :files => false).each do |link| ?>
-		<li>#{link.to_href}</li>
-	<?r end ?>
-	</ul>
-	
-	<h2>External Resources</h2>
+	<heading>Useful Links</heading>
 	
 	<dl>
 		<dt><a href="http://www.csedweek.org/resources/posters-and-brochures/">Computer Science Education Week Posters</a></dt>
@@ -19,6 +7,9 @@
 		
 		<dt><a href="http://www.levenez.com/lang/">Computer Languages Timeline</a></dt>
 		<dd>A timeline of computer programming languages available as a poster.</dd>
+		
+		<dt><a href="https://github.com/">GitHub</a></dt>
+		<dd>A great place to find and share open source code.</dd>
 		
 		<dt><a href="http://code.google.com/">Google Code</a></dt>
 		<dd>A fantastic starting point for many different areas of computer science and computer programming.</dd>
@@ -37,5 +28,11 @@
 		
 		<dt><a href="http://computinged.wordpress.com/2010/04/14/is-learning-to-program-inherently-hard/">Is learning to program inherently hard?</a></dt>
 		<dd>An article about learning to program, and why it is difficult.</dd>
+		
+		<dt><a href="http://andresosinski.com.ar/blog_view_entry/?id=2">Programming languages do have speed</a></dt>
+		<dd>A discussion about what makes programming languages inherently fast or slow.</dd>
+			
+		<dt><a href="http://www.sorting-algorithms.com/">Visualisation of Sorting Algorithms</a></dt>
+		<dd>A great website to assist with teaching various sorting algorithms.</dd>
 	</dl>
 </page>
