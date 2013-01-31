@@ -4,7 +4,7 @@ body, p, ol, ul, blockquote {
 	font-family: "Skia", verdana, arial, helvetica, sans-serif;
 	line-height: 18px;
 	
-	color: #339;
+	color: black;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -29,6 +29,7 @@ img {
 
 a {
 	color: #33a;
+	text-decoration: none;
 }
 
 a:hover {
@@ -118,6 +119,18 @@ body {
 
 .gallery img {
 	vertical-align: middle;
+}
+
+code.basic {
+	display: block;
+}
+
+pre.code, code.basic {
+	margin: 10px;
+	padding: 2em;
+	background-color: #404040;
+	color: #d0d0d0;
+	border-radius: 5px;
 }
 
 pre.syntax, .syntax-container {
