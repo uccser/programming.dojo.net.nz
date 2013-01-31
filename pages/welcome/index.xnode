@@ -1,28 +1,36 @@
 <page>
+	<style type="text/css">
+		.front-heading h2 {
+			margin-top: 0.3em;
+			margin-bottom: 0.1em;
+			
+			font-size: 14pt;
+		}
+		
+		#intro {
+			margin: 1em 1em 1em 0;
+			padding: 1em;
+			border: 2px solid #ccc;
+			background-color: white;
+			border-radius: 10pt;
+		}
+	</style>
 	
-	<div class="message-box">This site is currently under development. <a href="http://twitter.com/oriontransfer">Follow us</a> on Twitter to get updates about the site! Thanks.</div>
+	<div class="front-heading" style="overflow: auto; background-color: #f0f0ff; border: 1px solid black">
+		<div style="float: left; width: 38%">
+			<p style="font-size: 20pt; font-weight: bold">Learn about different programming languages.</p>
+			
+			<p>Programming is both an art and a science. It involves interpretation, abstraction and creation, as well as quantitive analysis, mathematics and algorithmic thinking. Don't expect <a href="http://norvig.com/21-days.html">too much too quickly</a>. Just like many things in life, good things take time.</p>
+		</div>
 	
-	<heading>Welcome</heading>
-	
-	<p>Welcome to the Programming Dojo. This is a place where you can learn more about programming and programming languages.</p>
-	
-	<p>Programming is both an art and a science. It involves interpretation, abstraction and creation, as well as quantitive analysis, mathematics and algorithmic thinking. Don't expect <a href="http://norvig.com/21-days.html">too much too quickly</a>. Just like many things in life, good things take time.</p>
-	
-	<table id="Intro">
-		<thead>
-			<tr><th>For Students</th><th>For Teachers</th></tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>
-					<p>Have you ever seen <a href="/languages/random">this programming language?</a> Are you going to <a href="/study/program-or-be-programmed">program or be programmed?</a></p>
-				</td>
-				<td>
-					<p>Look at <a href="/resources">our resources</a> and learn about the <a href="/resources/programming-language-posters">programming language posters</a> which you can use in your class.</p>
-				</td>
-			</tr>
-		</tbody>
-	</table>
+		<div style="float: right; width: 50%" id="intro">
+			<h2>For Students</h2>
+			<p>Have you ever seen <a href="/languages/random">this programming language?</a> Are you going to <a href="/study/program-or-be-programmed">program or be programmed?</a></p>
+		
+			<h2>For Teachers</h2>
+			<p>Check out the <a href="/resources/programming-language-posters">programming language posters</a> which you can use in your class. Use our <a href="/study/register-machine-interpreter">register machine interpreter</a> to teach the basics of computational theory!</p>
+		</div>
+	</div>
 	
 	<?r
 		tags = {}

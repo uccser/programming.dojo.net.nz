@@ -246,34 +246,6 @@ table.basic th {
 	padding: 5px;
 }
 
-#Intro {
-	margin-top: 40pt;
-	margin-bottom: 20pt;
-	width: 100%;
-	
-	border: 2px solid #ccc;
-	
-	background-color: #fafafa;
-	
-	-webkit-border-radius: 10pt;
-	-moz-border-radius: 10pt;
-	border-radius: 10pt;
-}
-
-#Intro th {
-	padding: 0.5em;
-	font-size: 20pt;
-}
-
-#Intro td {
-	font-size: 1.3em;
-	vertical-align: top;
-}
-
-#Intro td {
-	width: 50%;
-}
-
 h1.language {
 	text-align: center;
 	
