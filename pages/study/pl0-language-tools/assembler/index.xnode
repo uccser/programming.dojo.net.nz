@@ -1,0 +1,21 @@
+<page>
+	<heading>Assembler</heading>
+	
+	<p>An assembler converts symbolic opcodes and labels into executable machine code.</p>
+	
+	<p>Symbolic opcodes such as <code class="syntax asm"><span class="function">LOAD</span></code> or <code class="syntax asm"><span class="function">ADD</span></code> cannot be executed directly, the need to be converted to machine executable bytecode. These get converted by using a lookup table.</p>
+	
+	<p>Labels need to be converted to memory addresses. Because symbolic assembly code may have a non-specific location, using labels makes it easier to produce output from compiler and by hand.</p>
+	
+	<p>The PL/0 assembler is very simple. It supports all the pl1 symbolic opcodes, and direct labels.</p>
+	
+	<h2>Example Usage</h2>
+	
+	<p>The following program is a program that generates the fibonacci sequence.</p>
+	
+	<listing src="fibonacci.txt" brush="asm" />
+	
+	<p>This code can be compiled to machine executable code:</p>
+	
+	<listing src="assemble.txt" brush="bash" />
+</page>

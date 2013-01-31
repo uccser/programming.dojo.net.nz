@@ -1,4 +1,21 @@
+program-or-be-programmed:
+    order: 5
 how-do-computers-work:
     title: "How do computers work?"
+    order: 10
+the-halting-problem:
+    order: 15
+register-machine-interpreter:
+    order: 25
+truth-table-generator:
+    order: 30
+pl0-language-tools:
+    order: 40
+    title: "PL/0 Language Tools"
+algorithms:
+    title: "Basic Algorithms"
+    order: 20
 learn-ruby:
     display: false
+programming-challenges:
+    order: 90

@@ -1,0 +1,40 @@
+<page>
+	<heading>Installation</heading>
+	
+	<p>You will need to install the following requirements:</p>
+	
+	<ul>
+		<li><a href="http://www.python.org/getit/">Python 2.6+</a></li>
+		<li><a href="http://www.dabeaz.com/ply/">Ply 3.0+</a></li>
+		<li><a href="http://www.graphviz.org/">GraphViz 2.2+</a> (Optional)</li>
+	</ul>
+	
+	<h2>Linux</h2>
+	
+	<h3>Debian/Ubuntu</h3>
+	
+	<listing src="debian.txt" brush="bash" />
+	
+	<h3>RedHat/CentOS</h3>
+	
+	<listing src="redhat.txt" brush="bash" />
+	
+	<h2>Mac OS X</h2>
+	
+	<h3>MacPorts</h3>
+	
+	<p>You will need to download and install <a href="http://www.macports.org/">MacPorts</a> before following these instructions.</p>
+	
+	<listing src="macosx.txt" brush="bash" />
+	
+	<h2>Main Download</h2>
+	
+	<p>You will need to download the source code:</p>
+	
+	<ul>
+		<li><a href="https://github.com/oriontransfer/pl0-language-tools/downloads">Stable Releases</a> (Zip file, Tar archive)</li>
+		<li><a href="https://github.com/oriontransfer/pl0-language-tools">Source Code</a> (Github)</li>
+	</ul>
+	
+	<p>Once you have downloaded the source code, you can directly modify and execute the <code>pl0_*.py</code> scripts.</p>
+</page>

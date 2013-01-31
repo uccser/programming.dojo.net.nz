@@ -1,0 +1,2 @@
+$ sudo port install graphviz
+$ sudo easy_install ply

@@ -1,0 +1,2 @@
+State: Register + Next-State
+State: Register - Next-State e Next-State

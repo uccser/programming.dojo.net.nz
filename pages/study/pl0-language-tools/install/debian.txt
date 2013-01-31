@@ -1,0 +1,2 @@
+$ sudo apt-get install python graphviz
+$ sudo easy_install ply

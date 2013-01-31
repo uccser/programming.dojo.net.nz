@@ -1,0 +1,13 @@
+A = 6
+1: A - 2 e N
+2: B + 3
+3: K + 1
+N: B - N1 e M
+N1: C + N2
+N2: D + N
+# Move D into B
+M: D - M1 e O
+M1: B + M
+O: K - O1 e .
+O1: C - O2 e N
+O2: A + O1

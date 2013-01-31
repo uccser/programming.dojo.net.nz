@@ -1,0 +1,21 @@
+# Calculates integer division N = QD + R, where N and D are given.
+# e.g. for 16/5: 16 = 5 * 3 + 1
+
+# Q contains the result of division (quotient)
+Q = 0
+# R contains the remainder of division
+R = 0
+# N contains the numerator
+N = 16
+# D contains the denominator
+D = 5
+
+S: D - M1 e F
+M1: D + M2
+M2: D - M3 e M5
+M3: R + M4
+M4: N - M2 e F
+M5: Q + M6
+M6: R - M7 e M2
+M7: D + M6
+F: R - . e .

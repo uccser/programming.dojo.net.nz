@@ -1,0 +1,6 @@
+-- You will need to install graphviz in order to generate graphs from source code files.
+$ ./pl0_graphviz.py < examples/multiply.pl1 
+Generating Graph...
+dot - graphviz version 2.26.3 (20100126.1600)
+-- Snip --
+Opening Graph...

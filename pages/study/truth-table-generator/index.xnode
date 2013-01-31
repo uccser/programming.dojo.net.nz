@@ -1,0 +1,139 @@
+<page>
+	<?r
+		@evaluator = TruthTableSolver::Evaluator.new
+	?>
+	<style type="text/css">
+		.info-box {
+			float: right;
+			margin-left: 20px;
+			width: 180px;
+			
+			font-size: 10pt;
+			
+			background: url("/_css/sidebar.png") white;
+			box-shadow: 0px 0px 2px #ccc;
+			
+			padding: 10px;
+			
+			background-color: #fafafa;
+			text-align: justify;
+		}
+		
+		.info-box p {
+			margin: 1px;
+		}
+		
+		.central_form {
+			margin-top: 6em;
+		}
+	</style>
+	
+	<div class="info-box">
+		<a href="http://www.oriontransfer.co.nz/software/truth-tables" target="_blank">
+			<img src="http://www.oriontransfer.co.nz/software/truth-tables/logo.png" style="width: 100%" />
+		</a>
+	
+		<p>Strugging with truth tables? I made this app just for you - quickly generate truth tables from any boolean logic statement - it also includes an interactive tutor that teaches you how to solve truth tables step-by-step!</p>
+
+		<a href="http://www.oriontransfer.co.nz/software/truth-tables" target="_blank">
+			<img src="Truth Tables App.png" style="width: 100%" />
+		</a>
+	</div>
+	
+	<div style="margin-right:256px">
+		<heading>Truth Table Generator</heading>
+		
+		<p>This truth table generator can show you the results of boolean logic statements quickly.</p>
+		
+		<?r func = request['func'] ?>
+
+		<form action="index" method="post" class="basic central_form">
+			<fieldset>
+				<dl>
+					<dt><label for="function">Function:</label></dt>
+					<dd><input name="func" value="#{(func || "A | B").to_html}" type="text" /></dd>
+					<dd class="footer"><input type="submit" value="Compute" /></dd>
+				</dl>
+			</fieldset>
+		</form>
+	</div>
+	
+	<div style="clear: both"></div>
+	
+	<?r if func != nil ?>
+		<h2>Results</h2>
+		
+		<code class="basic"><pre>#{@evaluator.evaluate(func).to_html}</pre></code>
+	<?r end ?>
+	
+	<h2>Examples</h2>
+	
+	<h3>De Morgan's Law (<a href="http://en.wikipedia.org/wiki/De_Morgan's_laws">Wikipedia</a>)</h3>
+	
+	<?r functions = ["~(P | Q) <-> (~P & ~Q)", "~(P & Q) <-> ~P | ~Q"] ?>
+	
+	<ul>
+		<?r functions.each do |f| ?>
+			<li><a href="index?func=#{Rack::Utils.escape(f)}">#{f.to_html}</a></li>
+		<?r end ?>
+	</ul>
+	
+	<h3>Satisfiability (3-CNF)</h3>
+	
+	<?r functions = ["(A | B | C) & (A | ~B | ~C) & (~A | ~B | C)", "(A | ~B | ~C) & (~A | ~B | ~C) & (A | B | ~C) & (A | ~B | C)"] ?>
+	
+	<ul>
+		<?r functions.each do |f| ?>
+			<li><a href="index?func=#{Rack::Utils.escape(f)}">#{f.to_html}</a></li>
+		<?r end ?>
+	</ul>
+	
+	<h3>Full Adder</h3>
+	
+	<?r functions = ["(A + B) + Cin / (A & B) + (Cin & (A + B))"] ?>
+	
+	<ul>
+		<?r functions.each do |f| ?>
+			<li><a href="index?func=#{Rack::Utils.escape(f)}">#{f.to_html}</a></li>
+		<?r end ?>
+	</ul>
+	
+	<h2>Usage</h2>
+	
+	<p>Operators in order of evaluation. All identifiers must be uppercase.</p>
+	
+	<?r
+		symbol_table = {
+			"1" => "Always true.",
+			"0" => "Always false.",
+			"~" => "Takes one postfix argument. True if the arugment is false, and false if the argument is true.",
+			"+" => "Takes two arguments. True if exactly one of the arguments is true, false otherwise.",
+			"&" => "Takes two arguments. True if both of the arguments are true, false otherwise.",
+			"|" => "Takes two arguments. True if either of the are true, false otherwise.",
+			"->" => "Takes two arguments. False, if and only if the first term is true, and the second term is false.",
+			"<->" => "Takes two arguments. True if both arguments are the same, false otherwise.",
+			"/" => "Splits an expression, so that multiple expressions can be entered."
+		}
+	?>
+	
+	<table class="basic">
+		<thead>
+			<tr>
+				<th>Symbol</th>
+				<th>Meaning</th>
+			</tr>
+		</thead>
+		<tbody>
+			<?r @evaluator.operators.each do |symbol| ?>
+			<tr>
+				<td style="text-align: center">#{symbol.to_html}</td>
+				<td>#{(symbol_table[symbol] || "").to_html}</td>
+			</tr>
+			<?r end ?>
+		</tbody>
+	</table>
+
+	<h2>Implementation</h2>
+
+	<p>This truth table generator is written in ruby by Samuel Williams. It uses a unique parsing algorithm which supports arbitrary complexity operators, precedence and runs in linear time.</p>
+</page>

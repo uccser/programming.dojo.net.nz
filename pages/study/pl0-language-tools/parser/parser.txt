@@ -1,0 +1,29 @@
+$ ./pl0_parser.py < examples/multiply.pl1 
+PROGRAM
+  BLOCK
+    VARIABLES
+      ('NAME', 'x')
+      ('NAME', 'y')
+      ('NAME', 'z')
+    BEGIN
+      SET
+        ('NAME', 'x')
+        EXPRESSION
+          TERM
+            ('NUMBER', 10)
+      SET
+        ('NAME', 'y')
+        EXPRESSION
+          TERM
+            ('NUMBER', 20)
+      SET
+        ('NAME', 'z')
+        EXPRESSION
+          TERM
+            ('NAME', 'x')
+            TIMES
+              ('NAME', 'y')
+      PRINT
+        EXPRESSION
+          TERM
+            ('NAME', 'z')

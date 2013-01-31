@@ -1,0 +1,25 @@
+<page>
+	<heading>A* Maze Solver</heading>
+	
+	<p>This is a simple algorithm visualisation of the A* algorithm working in a 2D maze. Reload the page for a new maze. Click the update button to see the next step.</p>
+	
+	<p>Green <img src="open.png" /> means the tile is in the open list, and it has a cost associated with it. Red <img src="closed.png" /> means the tile is in the closed list. Each step, the lowest cost option is moved from open list to closed list, and adjacent unexplored tiles are added to open list. The blue line represents the best path currently found.</p>
+	
+	<div class="gallery">
+		<canvas id="maze" style="border: 1px solid black; width: 0; height: 0;">
+			<p>Your browser doesn't support canvas.</p>
+		</canvas>
+	</div>
+	
+	<div class="gallery">
+		<button onclick="javascript:updateSearch()">Update</button>
+	</div>
+	
+	<script src="heap.js" type="text/javascript"></script>
+	<script src="pathfinder.js" type="text/javascript"></script>
+	<script src="main.js" type="text/javascript"></script>
+	
+	<h2>Implementation</h2>
+	
+	<p>The entire implementation is in JavaScript, using HTML5 Canvas for rasterisation.</p>
+</page>

@@ -13,8 +13,8 @@
 	<h2>How do I make a computer language?</h2>
 	
 	<ul>
-		<li><a href="http://www.oriontransfer.co.nz/learn/pl0-language-tools/index">PL/0 Language Tools</a> &mdash; a simple parser and interpreter for the PL/0 programming language.</li>
-		<li><a href="http://www.oriontransfer.co.nz/learn/register-machine-interpreter">Register Machine Interpreter</a> &mdash; a turning complete programming language.</li>
+		<li><a href="../pl0-language-tools/index">PL/0 Language Tools</a> &mdash; a simple parser and interpreter for the PL/0 programming language.</li>
+		<li><a href="..//register-machine-interpreter">Register Machine Interpreter</a> &mdash; a turning complete programming language.</li>
 	</ul>
 		
 	<h2>How do I create an operating system?</h2>

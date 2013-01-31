@@ -1,0 +1,6 @@
+$ ./pl0_interpreter.py < examples/multiply.pl1 
+200
+-- Stack Frame --
+Constants: {}
+Variables: {'y': 20, 'x': 10, 'z': 200}
+Procedures: {}

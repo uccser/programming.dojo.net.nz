@@ -1,0 +1,21 @@
+<page>
+	<heading>Parser</heading>
+	
+	<p>A parser converts a sequence of tokens into a tree data structure. This tree can then be used for analyzing the program.</p>
+	
+	<h2>Example</h2>
+	
+	<p>Here is the PL/0 syntax tree for the multiply program:</p>
+	
+	<listing src="parser.txt" brush="bash" />
+	
+	<h3>Source Code Visualisation</h3>
+	
+	<p>We can also visualise programs using graphviz:</p>
+	
+	<listing src="graphviz.txt" brush="bash" />
+	
+	<div class="gallery">
+		<img src="multiply.png" />
+	</div>
+</page>

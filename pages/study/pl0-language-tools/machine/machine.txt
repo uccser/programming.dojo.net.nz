@@ -1,0 +1,11 @@
+-- Generate some machine code to print out the number 25
+$ echo "PUSH 25 PRINT" | ./pl0_assembler.py
+[10, 25, 50]
+
+-- Execute the machine code
+$ echo "[10, 25, 50]" | ./pl0_machine.py
+25
+-- Machine State --
+Sequence: [10, 25, 50]
+Stack: [25]
+Offset: 3

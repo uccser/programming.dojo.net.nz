@@ -1,0 +1,19 @@
+<page>
+	<heading>Compiler</heading>
+	
+	<p>The PL/0 compiler processes PL/0 source code and produces PL/0 assembly language.</p>
+	
+	<h2>Example</h2>
+	
+	<p>Here is an example PL/0 program to generate the fibonacci sequence:</p>
+	
+	<listing src="fibonacci_pl1.txt" brush="pascal" />
+	
+	<p>Using the PL/0 compiler we can convert this program to PL/0 assembly language:</p>
+	
+	<listing src="compiler.txt" brush="bash" />
+	
+	<p>The assembly code generated:</p>
+	
+	<listing src="fibonacci_pl1a.txt" brush="asm" />
+</page>

@@ -3,7 +3,7 @@
 
 	<p>This linked list implementation shows the use of recursive functions (in this case for printing out the list) and includes a basic insertion sort.</p>
 
-	<listing src="hash-table.py.txt" brush="python" />
+	<listing src="linked-list.py.txt" brush="python" />
 	
 	<h2>Further Reading</h2>
 	
