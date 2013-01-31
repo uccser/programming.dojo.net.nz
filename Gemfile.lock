@@ -1,0 +1,35 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    daemons (1.1.9)
+    eventmachine (1.0.0)
+    mime-types (1.19)
+    rack (1.4.4)
+    rack-cache (1.2)
+      rack (>= 0.4)
+    rack-contrib (1.1.0)
+      rack (>= 0.9.1)
+    rmagick (2.13.1)
+    thin (1.5.0)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
+    trenni (1.2.0)
+    utopia (0.11.2)
+      mime-types
+      rack (~> 1.4.1)
+      rack-cache
+      rack-contrib
+      trenni (~> 1.2.0)
+    utopia-extras (0.11.0)
+      rmagick
+      utopia (~> 0.11.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rack
+  thin
+  utopia (~> 0.11)
+  utopia-extras (= 0.11)

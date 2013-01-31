@@ -3,7 +3,7 @@
 UTOPIA_ENV = (ENV['UTOPIA_ENV'] || ENV['RACK_ENV'] || :development).to_sym
 $LOAD_PATH << File.join(File.dirname(__FILE__), "lib")
 
-gem 'utopia', '0.10.0'
+gem 'utopia', '~> 0.11'
 require 'utopia/middleware/all'
 require 'utopia/tags/all'
 
