@@ -7,6 +7,9 @@ gem 'utopia', '~> 0.11'
 require 'utopia/middleware/all'
 require 'utopia/tags/all'
 
+gem 'utopia-extras', '~> 0.11'
+require 'utopia/tags/gallery'
+
 gem 'rack-contrib'
 require 'rack/contrib'
 
