@@ -9,6 +9,7 @@ require 'utopia/tags/all'
 
 gem 'utopia-extras', '~> 0.11'
 require 'utopia/tags/gallery'
+require 'utopia/tags/google_analytics'
 
 gem 'rack-contrib'
 require 'rack/contrib'
