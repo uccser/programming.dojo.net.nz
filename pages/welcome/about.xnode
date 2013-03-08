@@ -1,7 +1,7 @@
 <page>
 	<heading>About This Site</heading>
 	
-	<p>This site was designed by Samuel Williams as part of Computer Science Education course run by Tim Bell and Lynn Lambert. It has been designed to improve the awareness of different programming languages.</p>
+	<p>This site was designed by <a href="https://plus.google.com/114381916415364466124" rel="me">Samuel Williams</a> as part of Computer Science Education course run by Tim Bell and Lynn Lambert. It has been designed to improve the awareness of different programming languages.</p>
 	
 	<p>For more details regarding the research that lead to the development of this site, please see the <a href="Programming Dojo Report.pdf">report</a>.</p>
 	
@@ -25,7 +25,7 @@
 	
 	<h2>Sponsors</h2>
 	
-	<p><a href="http://www.oriontransfer.co.nz/">My company</a> sponsored the development and hosting of this website.</p>
+	<p><a href="http://www.oriontransfer.co.nz/">My company</a> sponsors the development and hosting of this website.</p>
 	
 	<div class="gallery"><a href="http://www.oriontransfer.co.nz/"><img src="/_css/OrionTransfer.png" /></a></div>
 </page>
