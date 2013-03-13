@@ -3,37 +3,25 @@
 UTOPIA_ENV = (ENV['UTOPIA_ENV'] || ENV['RACK_ENV'] || :development).to_sym
 $LOAD_PATH << File.join(File.dirname(__FILE__), "lib")
 
-gem 'utopia', '~> 0.11'
+# It is recommended that you always explicity specify the version of the gem you are using.
+gem 'utopia', "~> 0.12"
 require 'utopia/middleware/all'
 require 'utopia/tags/all'
 
-gem 'utopia-extras', '~> 0.11'
+# From utopia-extras:
+gem 'utopia-extras', "~> 0.12"
 require 'utopia/tags/gallery'
 require 'utopia/tags/google_analytics'
 
-gem 'rack-contrib'
-require 'rack/contrib'
-
+# Utopia relies heavily on accurately caching resources
 gem 'rack-cache'
 require 'rack/cache'
-
-gem 'mail'
-require 'mail'
-
-Mail.defaults do
-  delivery_method :smtp, { :enable_starttls_auto => false }
-end
 
 if UTOPIA_ENV == :development
 	use Rack::ShowExceptions
 else
 	use Utopia::Middleware::ExceptionHandler, "/errors/exception"
-
-	use Rack::MailExceptions do |mail|
-		mail.from "websites@oriontransfer.org"
-		mail.to "samuel@oriontransfer.org"
-		mail.subject "www.oriontransfer.co.nz: %s"
-	end
+	use Utopia::Middleware::MailExceptions
 end
 
 use Rack::ContentLength
