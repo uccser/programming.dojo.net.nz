@@ -63,4 +63,4 @@ end
 
 use Utopia::Middleware::Content
 
-run lambda { [404, {}, []] }
+run lambda { |env| [404, {}, []] }
