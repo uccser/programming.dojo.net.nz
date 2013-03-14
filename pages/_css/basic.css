@@ -422,3 +422,7 @@ form.basic dd label.error {
 	display: block;
 	color: red;
 }
+
+#disqus_thread {
+	margin-top: 4em;
+}
