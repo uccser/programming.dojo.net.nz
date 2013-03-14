@@ -136,4 +136,6 @@
 	<h2>Implementation</h2>
 
 	<p>This truth table generator is written in ruby by Samuel Williams. It uses a unique parsing algorithm which supports arbitrary complexity operators, precedence and runs in linear time.</p>
+	
+	<comments />
 </page>
