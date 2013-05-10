@@ -14,12 +14,10 @@ def on_index(path, request)
 			end
 
 			if params["from"].size == 0
-				return redirect("success-no-reply")
+				redirect! "success-no-reply"
 			else
-				return redirect("success")
+				redirect! "success"
 			end
 		end
 	end
-	
-	return nil
 end
