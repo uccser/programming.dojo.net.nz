@@ -8,13 +8,14 @@ GEM
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
-    mime-types (1.21)
+    mime-types (1.23)
+    nokogiri (1.5.9)
     polyglot (0.3.3)
-    rack (1.4.5)
+    rack (1.5.2)
     rack-cache (1.2)
       rack (>= 0.4)
     rmagick (2.13.2)
-    thin (1.5.0)
+    thin (1.5.1)
       daemons (>= 1.0.9)
       eventmachine (>= 0.12.6)
       rack (>= 1.0.0)
@@ -22,22 +23,32 @@ GEM
       polyglot
       polyglot (>= 0.3.1)
     trenni (1.2.0)
-    utopia (0.12.0)
+    utopia (0.12.1)
       mail
       mime-types
-      rack (~> 1.4.1)
+      rack (~> 1.4)
       rack-cache
       trenni (~> 1.2.0)
-    utopia-extras (0.12.0)
+    utopia-tags-gallery (0.12.0)
       rmagick
-      utopia (~> 0.12)
+      utopia (~> 0.12.0)
+    utopia-tags-google-analytics (0.12.0)
+    xapian-core (1.2.7.1)
+    xapian-indexer (1.2.3.4)
+      nokogiri
+      xapian-core
+    xapian-rack (1.2.3.3)
+      rack
+      xapian-indexer
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   mail
-  rack
+  rack-cache
   thin
-  utopia (~> 0.12)
-  utopia-extras (= 0.12)
+  utopia (~> 0.12.0)
+  utopia-tags-gallery
+  utopia-tags-google-analytics
+  xapian-rack

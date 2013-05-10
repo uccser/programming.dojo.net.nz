@@ -1,6 +1,6 @@
 <div class="pdf_thumbnail">
 	<a href="#{attributes["src"].original}" title="#{attributes["alt"]}">
-		<img src="#{attributes["src"].pdf_thumbnail}" alt="#{attributes["alt"]}" />
+		<img src="#{attributes["src"].document}" alt="#{attributes["alt"]}" />
 	</a>
 	<div class="caption">#{attributes["alt"]}</div>
 </div>

@@ -426,3 +426,9 @@ form.basic dd label.error {
 #disqus_thread {
 	margin-top: 4em;
 }
+
+.pdf_thumbnail img
+{
+	box-shadow: 2px 2px 5px #ccc;
+	margin: 1em;
+}

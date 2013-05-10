@@ -3,19 +3,22 @@
 UTOPIA_ENV = (ENV['UTOPIA_ENV'] || ENV['RACK_ENV'] || :development).to_sym
 $LOAD_PATH << File.join(File.dirname(__FILE__), "lib")
 
-# It is recommended that you always explicity specify the version of the gem you are using.
-gem 'utopia', "~> 0.12"
 require 'utopia/middleware/all'
 require 'utopia/tags/all'
-
-# From utopia-extras:
-gem 'utopia-extras', "~> 0.12"
+require 'utopia/session/encrypted_cookie'
 require 'utopia/tags/gallery'
-require 'utopia/tags/google_analytics'
+require 'utopia/tags/google-analytics'
 
-# Utopia relies heavily on accurately caching resources
-gem 'rack-cache'
+require 'mail'
+
+Mail.defaults do
+	# Don't use TLS for localhost delivery, because cerficiate won't match up.
+	delivery_method :smtp, :enable_starttls_auto => false
+end
+
 require 'rack/cache'
+
+require 'xapian/rack/search'
 
 if UTOPIA_ENV == :development
 	use Rack::ShowExceptions
