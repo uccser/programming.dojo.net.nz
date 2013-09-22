@@ -51,7 +51,7 @@
 	<p>Several software tools and resources were used to produce these posters:</p>
 	
 	<ul>
-		<li><a href="http://www.syntax-highlighting.com">Syntax-Highlighting.com</a> was used to highlight the code.</li>
+		<li><a href="http://www.codeotaku.com/projects/jquery-syntax">jQuery.Syntax</a> was used to highlight the code.</li>
 		<li><a href="http://rosettacode.org/">RosettaCode.org</a> was used as a starting point for code examples.</li>
 		<li><a href="http://www.omnigroup.com/products/omnigraffle/">OmniGraffle</a> was used to design and author the actual posters.</li>
 	</ul>
