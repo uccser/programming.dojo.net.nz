@@ -6,7 +6,7 @@ prev_links, current_link, next_links = sibling_links.split_at{|link| link.path =
 prev_link = prev_links.last if prev_links
 next_link = next_links.first if next_links
 
-logo_path = current.node.uri_path.dirname + ["_images", parent.node.uri_path.dirname.basename + ".png"]
+logo_path = current.node.uri_path.dirname + ["_static", parent.node.uri_path.dirname.basename.to_s + ".png"]
 
 unless File.exist?(current.node.local_path(logo_path))
 	logo_path = nil

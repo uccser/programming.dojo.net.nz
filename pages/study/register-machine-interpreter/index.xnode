@@ -11,7 +11,7 @@
 		<fieldset>
 			<dl>
 				<dt><label for="function">Function:</label></dt>
-				<dd><textarea name="function">#{(func || "").to_html}</textarea></dd>
+				<dd><textarea name="function">#{Strings::to_html(func || "")}</textarea></dd>
 				<dd class="footer"><input type="submit" value="Compute" /></dd>
 			</dl>
 		</fieldset>
@@ -21,7 +21,7 @@
 		<h2>Results</h2>
 
 		<code class="basic">
-			#{RegisterMachineInterpreter.evaluate(func).to_html.gsub("\n", "<br />")}
+			#{Strings::to_html(RegisterMachineInterpreter.evaluate(func)).gsub("\n", "<br />")}
 		</code>
 	<?r end ?>
 

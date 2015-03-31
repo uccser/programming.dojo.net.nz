@@ -51,7 +51,7 @@
 			<fieldset>
 				<dl>
 					<dt><label for="function">Function:</label></dt>
-					<dd><input name="func" value="#{(func || "A | B").to_html}" type="text" /></dd>
+					<dd><input name="func" value="#{Strings::to_html(func || "A | B")}" type="text" /></dd>
 					<dd class="footer"><input type="submit" value="Compute" /></dd>
 				</dl>
 			</fieldset>
@@ -63,7 +63,7 @@
 	<?r if func != nil ?>
 		<h2>Results</h2>
 		
-		<code class="basic"><pre>#{@evaluator.evaluate(func).to_html}</pre></code>
+		<code class="basic"><pre>#{Strings::to_html @evaluator.evaluate(func)}</pre></code>
 	<?r end ?>
 	
 	<h2>Examples</h2>
@@ -74,7 +74,7 @@
 	
 	<ul>
 		<?r functions.each do |f| ?>
-			<li><a href="index?func=#{Rack::Utils.escape(f)}">#{f.to_html}</a></li>
+			<li><a href="index?func=#{Rack::Utils.escape(f)}">#{Strings::to_html f}</a></li>
 		<?r end ?>
 	</ul>
 	
@@ -84,7 +84,7 @@
 	
 	<ul>
 		<?r functions.each do |f| ?>
-			<li><a href="index?func=#{Rack::Utils.escape(f)}">#{f.to_html}</a></li>
+			<li><a href="index?func=#{Rack::Utils.escape(f)}">#{Strings::to_html f}</a></li>
 		<?r end ?>
 	</ul>
 	
@@ -94,7 +94,7 @@
 	
 	<ul>
 		<?r functions.each do |f| ?>
-			<li><a href="index?func=#{Rack::Utils.escape(f)}">#{f.to_html}</a></li>
+			<li><a href="index?func=#{Rack::Utils.escape(f)}">#{Strings::to_html f}</a></li>
 		<?r end ?>
 	</ul>
 	
@@ -126,8 +126,8 @@
 		<tbody>
 			<?r @evaluator.operators.each do |symbol| ?>
 			<tr>
-				<td style="text-align: center">#{symbol.to_html}</td>
-				<td>#{(symbol_table[symbol] || "").to_html}</td>
+				<td style="text-align: center">#{Strings::to_html symbol}</td>
+				<td>#{Strings::to_html(symbol_table[symbol] || "")}</td>
 			</tr>
 			<?r end ?>
 		</tbody>

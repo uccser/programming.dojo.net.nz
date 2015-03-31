@@ -72,7 +72,7 @@
 				?>
 				<td class="language">
 					<?r if comment ?>
-						<a href="##{name}" title="c#{comment_id}" class="comment"><img src="#{color || 'green'}.png" title="#{comment.to_html}"/></a>
+						<a href="##{name}" title="c#{comment_id}" class="comment"><img src="#{color || 'green'}.png" title="#{Strings::to_html comment}"/></a>
 					<?r else ?>
 						<img src="#{color || 'green'}.png" />
 					<?r end ?>
@@ -88,10 +88,10 @@
 	
 	<?r notes.each do |language, comments| ?>
 	<a name="#{language}" />
-	<h3>#{language.to_html}</h3>
+	<h3>#{Strings::to_html language}</h3>
 	
 		<?r comments.each do |id, comment| ?>
-			<p id="#{id}"><a name="#{id}">[#{id}]</a> #{comment.to_html}</p>
+			<p id="#{id}"><a name="#{id}">[#{id}]</a> #{Strings::to_html comment}</p>
 		<?r end ?>
 	<?r end ?>
 	

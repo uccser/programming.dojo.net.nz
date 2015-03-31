@@ -14,6 +14,8 @@ require 'utopia'
 require 'utopia/tags/gallery'
 require 'utopia/tags/google-analytics'
 
+require 'utopia/extensions/array'
+
 require 'mail'
 require 'rack/cache'
 

@@ -29,7 +29,6 @@ PLATFORMS
 DEPENDENCIES
   mail
   puma
-  rack-cache
-  utopia (= 1.0.4)
+  utopia (~> 1.0.4)
   utopia-tags-gallery
   utopia-tags-google-analytics

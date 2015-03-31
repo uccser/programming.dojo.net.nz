@@ -46,7 +46,7 @@
 	<div id="tags">
 		<a href="#">All</a>
 		<?r tags.keys.each do |tag| ?>
-		<a href="#" name="#{tag}">#{tag.to_title}</a>
+		<a href="#" name="#{tag}">#{Strings::to_title tag}</a>
 		<?r end ?>
 	</div>
 	
