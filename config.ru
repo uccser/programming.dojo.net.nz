@@ -71,7 +71,9 @@ use Utopia::Content,
 		'deferred' => Utopia::Tags::Deferred,
 		'override' => Utopia::Tags::Override,
 		'node' => Utopia::Tags::Node,
-		'environment' => Utopia::Tags::Environment.for(RACK_ENV)
+		'environment' => Utopia::Tags::Environment.for(RACK_ENV),
+		'gallery' => Utopia::Tags::Gallery,
+		'google-analytics' => Utopia::Tags::GoogleAnalytics,
 	}
 
 run lambda { |env| [404, {}, []] }
