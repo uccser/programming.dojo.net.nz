@@ -1,15 +1,10 @@
-# A sample Gemfile
+
 source "https://rubygems.org"
 
-gem 'mail'
-
-gem 'utopia', '~> 0.12.0'
-gem 'utopia-tags-google-analytics'
-gem 'utopia-tags-gallery'
-
-gem 'rack-cache'
-gem 'xapian-rack'
+gem "utopia", "~> 1.0.4"
+# gem "utopia-tags-gallery"
+# gem "utopia-tags-google-analytics"
 
 group :development do
-	gem "thin"
+	gem "puma"
 end
