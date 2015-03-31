@@ -10,9 +10,9 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=8" />
 		<meta name="google-site-verification" content="J9DVX-xhcxDKcqvGpv4ZgyUZKactHmxxhop7mv4C1UM" />
 		
-		<link rel="icon" type="image/png" href="/_images/icon.png" />
+		<link rel="icon" type="image/png" href="/_static/icon.png" />
 
-		<link rel="stylesheet" href="/_css/basic.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="/_static/basic.css" type="text/css" media="screen" />
 
 		<script src="/_static/jquery-1.4.2.min.js" type="text/javascript"></script>
 		

@@ -53,7 +53,7 @@
 	<ul class="languages" id="languages">
 		<?r languages.each do |language| ?>
 		<li data-id="#{language.name}" class="#{language[:tags].join(' ')}">
-			<a href="#{language.href}" style="background-image: url(/languages/_images/#{language.name}.png)">#{language.title}</a>
+			<a href="#{language.href}" style="background-image: url(/languages/_static/#{language.name}.png)">#{language.title}</a>
 		</li>
 		<?r end ?>
 	</ul>

@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-	background: url(/_css/background.png) #fff center no-repeat fixed;
+	background: url(/_static/background.png) #fff center no-repeat fixed;
 }
 
 blockquote {
@@ -178,11 +178,11 @@ ul.trail > li > .link {
 ul.trail > li.children > .link {
 	background-repeat: no-repeat;
 	background-position: right center;
-	background-image: url(/_css/nav-arrow-down.png);
+	background-image: url(/_static/nav-arrow-down.png);
 }
 
 ul.trail > li.children:hover > .link {
-	background-image: url(/_css/nav-arrow-down-open.png);
+	background-image: url(/_static/nav-arrow-down-open.png);
 }
 
 ul.trail li {
@@ -336,7 +336,7 @@ h1.language {
 	padding: 10px 48px 10px;
 	text-align: center;
 	
-	background: #efefff url(/_css/flag.png) 8px center no-repeat;
+	background: #efefff url(/_static/flag.png) 8px center no-repeat;
 	margin: 0px 50px 0px;
 	
 	line-height: 1.5em;

@@ -27,5 +27,5 @@
 	
 	<p><a href="http://www.oriontransfer.co.nz/">My company</a> sponsors the development and hosting of this website.</p>
 	
-	<div class="gallery"><a href="http://www.oriontransfer.co.nz/"><img src="/_css/OrionTransfer.png" /></a></div>
+	<div class="gallery"><a href="http://www.oriontransfer.co.nz/"><img src="/_static/OrionTransfer.png" /></a></div>
 </page>
