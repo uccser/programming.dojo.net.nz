@@ -1,38 +1,45 @@
 #!/usr/bin/env rackup
 
-UTOPIA_ENV = (ENV['UTOPIA_ENV'] || ENV['RACK_ENV'] || :development).to_sym
-$LOAD_PATH << File.join(File.dirname(__FILE__), "lib")
+# Setup default encoding:
+Encoding.default_external = Encoding::UTF_8
+Encoding.default_internal = Encoding::UTF_8
 
-require 'utopia/middleware/all'
-require 'utopia/tags/all'
-require 'utopia/session/encrypted_cookie'
+# Setup the server environment:
+RACK_ENV = ENV.fetch('RACK_ENV', :development).to_sym unless defined?(RACK_ENV)
+
+# Allow loading library code from lib directory:
+$LOAD_PATH << File.expand_path("../lib", __FILE__)
+
+require 'utopia'
 require 'utopia/tags/gallery'
 require 'utopia/tags/google-analytics'
 
 require 'mail'
-
-Mail.defaults do
-	# Don't use TLS for localhost delivery, because cerficiate won't match up.
-	delivery_method :smtp, :enable_starttls_auto => false
-end
-
 require 'rack/cache'
 
-require 'xapian/rack/search'
-
-if UTOPIA_ENV == :development
+if RACK_ENV == :production
+	use Utopia::ExceptionHandler, "/errors/exception"
+	use Utopia::MailExceptions
+elsif RACK_ENV == :development
 	use Rack::ShowExceptions
-else
-	use Utopia::Middleware::ExceptionHandler, "/errors/exception"
-	use Utopia::Middleware::MailExceptions
+end
+
+use Rack::Sendfile
+
+if RACK_ENV == :production
+	use Rack::Cache,
+		metastore: "file:#{Utopia::default_root("cache/meta")}",
+		entitystore: "file:#{Utopia::default_root("cache/body")}",
+		verbose: RACK_ENV == :development
 end
 
 use Rack::ContentLength
 
-use Utopia::Middleware::Logger
-
-use Utopia::Middleware::Redirector, {
-	:strings => {
+use Utopia::Redirector, {
+	patterns: [
+		Utopia::Redirector::DIRECTORY_INDEX
+	],
+	strings: {
 		"/" => "/welcome/index",
 		# Posters
 		"/python" => "/languages/python",
@@ -46,24 +53,23 @@ use Utopia::Middleware::Redirector, {
 		"/posters-2010" => "/resources/programming-language-posters",
 		"/posters-2011" => "/resources/programming-language-posters"
 	},
-	:errors => {
+	errors: {
 		404 => "/errors/file-not-found"
 	}
 }
 
-use Utopia::Middleware::Requester
-use Utopia::Middleware::DirectoryIndex
-use Utopia::Middleware::Controller
-use Utopia::Middleware::Static
+use Utopia::Controller,
+	cache_controllers: (RACK_ENV == :production)
 
-if UTOPIA_ENV == :production
-	use Rack::Cache, {
-		:metastore   => "file:#{Utopia::Middleware::default_root("cache/meta")}",
-		:entitystore => "file:#{Utopia::Middleware::default_root("cache/body")}",
-		:verbose => false
+use Utopia::Static
+
+use Utopia::Content,
+	cache_templates: (RACK_ENV == :production),
+	tags: {
+		'deferred' => Utopia::Tags::Deferred,
+		'override' => Utopia::Tags::Override,
+		'node' => Utopia::Tags::Node,
+		'environment' => Utopia::Tags::Environment.for(RACK_ENV)
 	}
-end
-
-use Utopia::Middleware::Content
 
 run lambda { |env| [404, {}, []] }

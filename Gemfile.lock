@@ -1,54 +1,35 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    daemons (1.1.9)
-    eventmachine (1.0.3)
-    i18n (0.6.4)
-    mail (2.5.3)
-      i18n (>= 0.4.0)
-      mime-types (~> 1.16)
-      treetop (~> 1.4.8)
-    mime-types (1.23)
-    nokogiri (1.5.9)
-    polyglot (0.3.3)
-    rack (1.5.2)
+    mail (2.6.3)
+      mime-types (>= 1.16, < 3)
+    mime-types (2.4.3)
+    puma (2.11.1)
+      rack (>= 1.1, < 2.0)
+    rack (1.6.0)
     rack-cache (1.2)
       rack (>= 0.4)
-    rmagick (2.13.2)
-    thin (1.5.1)
-      daemons (>= 1.0.9)
-      eventmachine (>= 0.12.6)
-      rack (>= 1.0.0)
-    treetop (1.4.12)
-      polyglot
-      polyglot (>= 0.3.1)
-    trenni (1.2.0)
-    utopia (0.12.1)
-      mail
-      mime-types
-      rack (~> 1.4)
-      rack-cache
-      trenni (~> 1.2.0)
-    utopia-tags-gallery (0.12.0)
+    rmagick (2.14.0)
+    trenni (1.4.1)
+    utopia (1.0.4)
+      mail (~> 2.6.1)
+      mime-types (~> 2.0)
+      rack (~> 1.5)
+      rack-cache (~> 1.2.0)
+      trenni (~> 1.4.1)
+    utopia-tags-gallery (1.0.0)
       rmagick
-      utopia (~> 0.12.0)
-    utopia-tags-google-analytics (0.12.0)
-    xapian-core (1.2.7.1)
-    xapian-indexer (1.2.3.4)
-      nokogiri
-      xapian-core
-    xapian-rack (1.2.3.3)
-      rack
-      xapian-indexer
+      utopia (~> 1.0.0)
+    utopia-tags-google-analytics (1.0.0)
+      utopia (~> 1.0.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   mail
+  puma
   rack-cache
-  thin
-  utopia (~> 0.12.0)
+  utopia (= 1.0.4)
   utopia-tags-gallery
   utopia-tags-google-analytics
-  xapian-rack
