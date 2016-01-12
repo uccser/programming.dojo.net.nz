@@ -1,34 +1,39 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    concurrent-ruby (1.0.0)
+    json (1.8.3)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
-    mime-types (2.4.3)
-    puma (2.11.1)
-      rack (>= 1.1, < 2.0)
-    rack (1.6.0)
+    mime-types (2.99)
+    puma (2.15.3)
+    rack (1.6.4)
     rack-cache (1.2)
       rack (>= 0.4)
-    rmagick (2.14.0)
-    trenni (1.4.1)
-    utopia (1.0.4)
+    rmagick (2.15.4)
+    trenni (1.4.5)
+    utopia (1.2.4)
+      concurrent-ruby (~> 1.0.0)
       mail (~> 2.6.1)
       mime-types (~> 2.0)
-      rack (~> 1.5)
+      rack (~> 1.6)
       rack-cache (~> 1.2.0)
-      trenni (~> 1.4.1)
-    utopia-tags-gallery (1.0.0)
+      trenni (~> 1.4.5)
+    utopia-tags-gallery (1.0.2)
       rmagick
-      utopia (~> 1.0.0)
-    utopia-tags-google-analytics (1.0.0)
-      utopia (~> 1.0.0)
+      utopia (~> 1.0)
+    utopia-tags-google-analytics (1.0.1)
+      json
+      utopia (~> 1.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  mail
   puma
-  utopia (~> 1.0.4)
+  utopia (~> 1.2.4)
   utopia-tags-gallery
   utopia-tags-google-analytics
+
+BUNDLED WITH
+   1.10.6
