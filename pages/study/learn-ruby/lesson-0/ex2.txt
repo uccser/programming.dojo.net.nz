@@ -1,9 +1,0 @@
-# Do you wear a watch? Ruby can help you out!
-puts "The time is: #{Time.now}"
-
-# Put down that calculator!?
-puts "(10 * 25) / 50 is #{(10 * 25) / 50}"
-
-# How big is Godzilla?
-x = "Godzilla"
-puts "#{x} is #{x.length}m tall!"
