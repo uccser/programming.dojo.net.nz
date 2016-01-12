@@ -1,5 +1,5 @@
 
-require 'expression'
+require_relative 'expression'
 
 class Array
 	def map_to(with)
