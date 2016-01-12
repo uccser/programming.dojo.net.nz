@@ -8,15 +8,9 @@ Encoding.default_internal = Encoding::UTF_8
 RACK_ENV = ENV.fetch('RACK_ENV', :development).to_sym unless defined?(RACK_ENV)
 
 # Allow loading library code from lib directory:
-$LOAD_PATH << File.expand_path("../lib", __FILE__)
+$LOAD_PATH << File.expand_path("lib", __dir__)
 
 require 'utopia'
-require 'utopia/tags/gallery'
-require 'utopia/tags/google-analytics'
-
-require 'utopia/extensions/array'
-
-require 'mail'
 require 'rack/cache'
 
 if RACK_ENV == :production
@@ -37,28 +31,21 @@ end
 
 use Rack::ContentLength
 
-use Utopia::Redirector, {
+use Utopia::Redirector,
 	patterns: [
 		Utopia::Redirector::DIRECTORY_INDEX
 	],
 	strings: {
-		"/" => "/welcome/index",
-		# Posters
-		"/python" => "/languages/python",
-		"/ruby" => "/languages/ruby",
-		"/c" => "/languages/c",
-		"/c-sharp" => "/languages/c-sharp",
-		"/java" => "/languages/java",
-		"/scratch" => "/languages/scratch",
-		"/scheme" => "/languages/scheme",
-		"/basic" => "/languages/basic",
-		"/posters-2010" => "/resources/programming-language-posters",
-		"/posters-2011" => "/resources/programming-language-posters"
+		'/' => '/welcome/index',
 	},
 	errors: {
 		404 => "/errors/file-not-found"
 	}
-}
+
+use Utopia::Localization,
+	:default_locale => 'en',
+	:locales => ['en', 'de', 'ja', 'zh'],
+	:nonlocalized => ['/_static/', '/_cache/']
 
 use Utopia::Controller,
 	cache_controllers: (RACK_ENV == :production)
@@ -71,9 +58,7 @@ use Utopia::Content,
 		'deferred' => Utopia::Tags::Deferred,
 		'override' => Utopia::Tags::Override,
 		'node' => Utopia::Tags::Node,
-		'environment' => Utopia::Tags::Environment.for(RACK_ENV),
-		'gallery' => Utopia::Tags::Gallery,
-		'google-analytics' => Utopia::Tags::GoogleAnalytics,
+		'environment' => Utopia::Tags::Environment.for(RACK_ENV)
 	}
 
 run lambda { |env| [404, {}, []] }
