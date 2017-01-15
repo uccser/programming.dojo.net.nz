@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     concurrent-ruby (1.0.0)
-    json (1.8.3)
+    json (2.0.3)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
     mime-types (2.99)
@@ -36,4 +36,4 @@ DEPENDENCIES
   utopia-tags-google-analytics
 
 BUNDLED WITH
-   1.10.6
+   1.13.6
