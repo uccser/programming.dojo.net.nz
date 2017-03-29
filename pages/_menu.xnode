@@ -18,5 +18,7 @@
 </ul>
 
 <script type="text/javascript">
+//<![CDATA[
 	$('.trail').menu();
+//]]>
 </script>

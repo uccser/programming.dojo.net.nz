@@ -1,5 +1,5 @@
-<page>
-	<heading>A* Maze Solver</heading>
+<content:page>
+	<content:heading>A* Maze Solver</content:heading>
 	
 	<p>This is a simple algorithm visualisation of the A* algorithm working in a 2D maze. Reload the page for a new maze. Click the update button to see the next step.</p>
 	
@@ -22,4 +22,4 @@
 	<h2>Implementation</h2>
 	
 	<p>The entire implementation is in JavaScript, using HTML5 Canvas for rasterisation.</p>
-</page>
+</content:page>

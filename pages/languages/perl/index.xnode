@@ -1,15 +1,15 @@
-<page>
-	<heading>Perl</heading>
+<content:page>
+	<content:heading>Perl</content:heading>
 	
-	<p>Perl is an <tt>dynamically typed</tt> programming language. It was initially designed as a language for system administration, but has since grown to provide a wide range of functionality in many different areas of software development and computer science.</p>
+	<p>Perl is an <content:tt>dynamically typed</content:tt> programming language. It was initially designed as a language for system administration, but has since grown to provide a wide range of functionality in many different areas of software development and computer science.</p>
 	
-	<p>Perl has <tt>imperative</tt>, <tt>functional</tt> and <tt>object oriented</tt> features, including both <tt>lexical scoping</tt> and <tt>dynamic scoping</tt> (although the latter isn't used much). Perl source code is executed by the Perl <tt to="interpreted">interpreter</tt> which internally <tt>compiles</tt> the code to bytecode for better performance.</p>
+	<p>Perl has <content:tt>imperative</content:tt>, <content:tt>functional</content:tt> and <content:tt>object oriented</content:tt> features, including both <content:tt>lexical scoping</content:tt> and <content:tt>dynamic scoping</content:tt> (although the latter isn't used much). Perl source code is executed by the Perl <content:tt to="interpreted">interpreter</content:tt> which internally <content:tt>compiles</content:tt> the code to bytecode for better performance.</p>
 	
 	<h3>Example Code</h3>
 	
-	<p>Here is an example of the <tt>100 doors</tt> problem:</p>
+	<p>Here is an example of the <content:tt>100 doors</content:tt> problem:</p>
 	
-	<listing src="example.txt" brush="perl5" />
+	<content:listing src="example.txt" brush="perl5" />
 	
 	<h3>Why would I learn this language?</h3>
 
@@ -41,4 +41,4 @@
 	</ul>
 	
 	<comments />
-</page>
+</content:page>

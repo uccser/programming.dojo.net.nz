@@ -1,13 +1,13 @@
-<page>
-	<heading>Object Oriented</heading>
+<content:page>
+	<content:heading>Object Oriented</content:heading>
 	
-	<p>Object oriented programming is a form of programming initially described by <tt>Alan Kay</tt> and used in his programming language <tt>Smalltalk</tt>. It describes programming language semantics where objects and messages between objects are the basis for computation.</p>
+	<p>Object oriented programming is a form of programming initially described by <content:tt>Alan Kay</content:tt> and used in his programming language <content:tt>Smalltalk</content:tt>. It describes programming language semantics where objects and messages between objects are the basis for computation.</p>
 	
-	<p>From this basis, other important concepts emerge including <tt>encapsulation</tt>, <tt>inheritance</tt> and <tt>polymorphism</tt>.</p>
+	<p>From this basis, other important concepts emerge including <content:tt>encapsulation</content:tt>, <content:tt>inheritance</content:tt> and <content:tt>polymorphism</content:tt>.</p>
 	
 	<h2>Further Reading</h2>
 
 	<ul>
 		<li><a href="http://en.wikipedia.org/wiki/Object_oriented">Wikipedia: Object oriented</a></li>
 	</ul>
-</page>
+</content:page>

@@ -1,5 +1,5 @@
-<page>
-	<heading>The Halting Problem</heading>
+<content:page>
+	<content:heading>The Halting Problem</content:heading>
 	
 	<p>The <a href="http://en.wikipedia.org/wiki/Halting_problem">halting problem</a> is an important theory in computer science. It gives us tools to explains the fundamental limitations of computers: what kind of problems can we solve with computers? What problems are impossible?</p>
 	
@@ -12,9 +12,9 @@
 	
 	<h2>Video Explanation</h2>
 	
-	<youtube_video id="dhs04ofFJPI" />
+	<content:youtube_video id="dhs04ofFJPI" />
 	
-	<youtube_video id="fsE1bFWXlJQ" />
+	<content:youtube_video id="fsE1bFWXlJQ" />
 	
 	<h2>Questions</h2>
 	
@@ -39,7 +39,7 @@
 		<!-- Comprehension -->
 		<li>
 			Classify the following examples into halts and doesn't halt. Trace the programs with the inputs given.
-			<listing src="halt_ex.txt" brush="ruby" />
+			<content:listing src="halt_ex.txt" brush="ruby" />
 			
 			<answer>
 				<ul>
@@ -51,7 +51,7 @@
 				
 				<p>See the annotated examples below:</p>
 				
-				<listing src="halt_answer.txt" brush="ruby" />
+				<content:listing src="halt_answer.txt" brush="ruby" />
 			</answer>
 		</li>
 		
@@ -105,4 +105,4 @@
 		<li><a href="http://www.chiark.greenend.org.uk/~sgtatham/infinity.html">Infinity Machine</a></li>
 		<li><a href="http://en.wikipedia.org/wiki/Quantum_computer">Quantum Computer</a></li>
 	</ul>
-</page>
+</content:page>

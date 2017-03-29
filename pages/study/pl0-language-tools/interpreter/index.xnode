@@ -1,5 +1,5 @@
-<page>
-	<heading>Interpreter</heading>
+<content:page>
+	<content:heading>Interpreter</content:heading>
 	
 	<p>The PL/0 interpreter uses a tree traversal approach to execute code. This means that it directly executes the tree data structure produced by the parser.</p>
 	
@@ -7,5 +7,5 @@
 	
 	<p>We can execute the multiply program using the interpreter:</p>
 	
-	<listing src="interpreter.txt" brush="bash" />
-</page>
+	<content:listing src="interpreter.txt" brush="bash" />
+</content:page>

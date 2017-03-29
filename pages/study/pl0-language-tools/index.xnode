@@ -1,5 +1,5 @@
-<page>
-	<heading>PL/0 Language Tools</heading>
+<content:page>
+	<content:heading>PL/0 Language Tools</content:heading>
 	
 	<p>PL/0 is a collection of tools for learning about parsers, interpreters, compilers and virtual machines. It has been designed from the ground up to be a minimal implementation of several common interpreter and compiler functions, including the following:</p>
 	
@@ -55,4 +55,4 @@
 	<h2>Credits</h2>
 	
 	<p>This project was developed by Samuel Williams, with support from Tadao Takaoka and the University of Canterbury Summer Scholarship program (2010/2011).</p>
-</page>
+</content:page>

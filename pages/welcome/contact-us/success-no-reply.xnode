@@ -1,7 +1,7 @@
-<page>
-	<heading>Contact Us</heading>
+<content:page>
+	<content:heading>Contact Us</content:heading>
 	
 	<p>Your message was sent successfully. As you did not supply a "Reply To:" address, you will not receive a response.</p>
 	
 	<p>Thank you for taking the time to get in touch with us.</p>
-</page>
+</content:page>

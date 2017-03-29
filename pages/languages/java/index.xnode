@@ -1,17 +1,17 @@
-<page>
-	<heading>Java</heading>
+<content:page>
+	<content:heading>Java</content:heading>
 	
-	<p>Java is a <tt>statically typed</tt> <tt>object oriented</tt> programming language. It was designed as a language for <tt>cross platform</tt> application development.</p>
+	<p>Java is a <content:tt>statically typed</content:tt> <content:tt>object oriented</content:tt> programming language. It was designed as a language for <content:tt>cross platform</content:tt> application development.</p>
 	
-	<p>Java is generally <tt>compiled</tt> to <tt>bytecode</tt> that is then <tt>interpreted</tt> by the Java Virtual Machine. This allows the same <tt>bytecode</tt> to run on multiple platforms. The HotSpot JVM may also compile bytecode to native machine code for additional performance.</p>
+	<p>Java is generally <content:tt>compiled</content:tt> to <content:tt>bytecode</content:tt> that is then <content:tt>interpreted</content:tt> by the Java Virtual Machine. This allows the same <content:tt>bytecode</content:tt> to run on multiple platforms. The HotSpot JVM may also compile bytecode to native machine code for additional performance.</p>
 		
-	<p>Other languages such as <tt>JRuby</tt> and <tt>Clojure</tt> can also run on top of the JVM, which makes it an interesting platform for programming language development.</p>
+	<p>Other languages such as <content:tt>JRuby</content:tt> and <content:tt>Clojure</content:tt> can also run on top of the JVM, which makes it an interesting platform for programming language development.</p>
 	
 	<h3>Example Code</h3>
 	
-	<p>Here is an example of the <tt>100 doors</tt> problem:</p>
+	<p>Here is an example of the <content:tt>100 doors</content:tt> problem:</p>
 	
-	<listing src="example.txt" brush="java" />
+	<content:listing src="example.txt" brush="java" />
 	
 	<h3>Why would I learn this language?</h3>
 	
@@ -19,7 +19,7 @@
 	
 	<p>Java provides a highly structured environment which tends to promote good practices when it comes to software development, especially when more than one person is working on the source code.</p>
 	
-	<p>Java is not a purely <tt>object oriented</tt> language, because it has primitive types (which are not objects). This creates imperfections in both syntactic and semantic constructs within the language.</p>
+	<p>Java is not a purely <content:tt>object oriented</content:tt> language, because it has primitive types (which are not objects). This creates imperfections in both syntactic and semantic constructs within the language.</p>
 	
 	<p>Due to the nature of all Java, code must always be defined within the scope of a class. This can requires a large amount of boiler plate code in certain scenarios.</p>
 	
@@ -45,4 +45,4 @@
 	</ul>
 	
 	<comments />
-</page>
+</content:page>

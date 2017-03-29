@@ -1,5 +1,5 @@
-<page>
-	<heading>100 Doors</heading>
+<content:page>
+	<content:heading>100 Doors</content:heading>
 	
 	<p>100 doors is a relatively simple mathematical problem. If you have 100 doors that are initially closed, and follow this procedure:</p>
 	
@@ -12,4 +12,4 @@
 	<ul>
 		<li><a href="http://rosettacode.org/wiki/100_doors">RosettaCode: 100 Doors</a></li>
 	</ul>
-</page>
+</content:page>

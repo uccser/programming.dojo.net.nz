@@ -1,5 +1,5 @@
-<page>
-	<heading>Error</heading>
+<content:page>
+	<content:heading>Error</content:heading>
 	
 	<p>An error has occurred while accessing the page. All relevant details have been emailed to the site administrator. We apologize for this inconvenience.</p>
-</page>
+</content:page>

@@ -1,15 +1,15 @@
-<page>
-	<heading>Haskell</heading>
+<content:page>
+	<content:heading>Haskell</content:heading>
 	
-	<p>Haskell is a <tt>statically typed</tt> pure <tt>functional</tt> programming language. It is based on highly sound academic theory and principal. Haskell has pioneered many modern concepts in functional programming such as <tt>monads</tt>, <tt>currying</tt> and advanced <tt>type inference</tt>.</p>
+	<p>Haskell is a <content:tt>statically typed</content:tt> pure <content:tt>functional</content:tt> programming language. It is based on highly sound academic theory and principal. Haskell has pioneered many modern concepts in functional programming such as <content:tt>monads</content:tt>, <content:tt>currying</content:tt> and advanced <content:tt>type inference</content:tt>.</p>
 	
-	<p>Haskell can be either <tt>compiled</tt> or <tt>interpreted</tt> depending on the programming environment being used.</p>
+	<p>Haskell can be either <content:tt>compiled</content:tt> or <content:tt>interpreted</content:tt> depending on the programming environment being used.</p>
 	
 	<h3>Example Code</h3>
 	
-	<p>Here is an example of the <tt>100 doors</tt> problem:</p>
+	<p>Here is an example of the <content:tt>100 doors</content:tt> problem:</p>
 	
-	<listing src="example.txt" brush="haskell" />
+	<content:listing src="example.txt" brush="haskell" />
 	
 	<h3>Why would I learn this language?</h3>
 	
@@ -42,4 +42,4 @@
 	</ul>
 	
 	<comments />
-</page>
+</content:page>

@@ -27,5 +27,5 @@ end
 
 <?r @title ||= content ?>
 <h1 class="language" style="background-image: url(#{logo_path})">
-	<content/>
+	<utopia:content/>
 </h1>

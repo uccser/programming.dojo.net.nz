@@ -1,15 +1,13 @@
-<page>
-	<heading>Programming Language Posters</heading>
+<content:page>
+	<content:heading>Programming Language Posters</content:heading>
 	
-	<p>Posters are available free to download which can be used in the class room to stimulate questions and inquiry into different programming languages, their syntax, semantics and features.</p>
-	
-	<gallery path="_posters" filetypes="pdf" tag="pdf_thumbnail" process="document" filter="Dec2010" />
+	<p><a href="Programming-Language-Posters-Dec2010.pdf">Posters are available free to download</a> which can be used in the class room to stimulate questions and inquiry into different programming languages, their syntax, semantics and features.</p>
 	
 	<p>Complete sets of A3 or A4 posters are also available for purchase. Please <a href="/welcome/contact-us">contact us</a> if you are interested. We can ship anywhere in the world.</p>
 	
 	<h2>What is Fizz Buzz?</h2>
 	
-	<p>The algorithm used on the posters is the game Fizz Buzz. For more information, please see the page about <tt to='fizz-buzz'>Fizz Buzz</tt>.</p>
+	<p>The algorithm used on the posters is the game Fizz Buzz. For more information, please see the page about <content:tt to='fizz-buzz'>Fizz Buzz</content:tt>.</p>
 	
 	<h2>How to use these posters</h2>
 	
@@ -19,7 +17,7 @@
 		<li>Stimulate discussion about programming languages in the class room.</li>
 		<li>Students can look at the posters and see examples of different programming languages.</li>
 		<li>The posters can be used as a starting point for further research and inquiry learning.</li>
-		<li>The algorithm <tt>fizz buzz</tt> can be used as a teaching tool for algorithmic thinking.</li>
+		<li>The algorithm <content:tt>fizz buzz</content:tt> can be used as a teaching tool for algorithmic thinking.</li>
 	</ul>
 	
 	<h3>Discussing Programming Languages</h3>
@@ -34,7 +32,7 @@
 	
 	<p>Often in programming, we have to read code which we did not write. Sometimes this is not even in a language that we are familiar with. This is an important skill and also helps us to appreciate the way in which we think and express our ideas.</p>
 	
-	<p>The posters all express the same game <tt>fizz buzz</tt>, which in many cases is a game that students will have not come across. Have the students divide up into even groups and assign them a poster each. Have them read the poster and do their best to come up with an explanation for how the game works.</p>
+	<p>The posters all express the same game <content:tt>fizz buzz</content:tt>, which in many cases is a game that students will have not come across. Have the students divide up into even groups and assign them a poster each. Have them read the poster and do their best to come up with an explanation for how the game works.</p>
 	
 	<p>The key to this problem is that most programming languages usually have a formal syntax and semantic which is cohesive and systematic. Systematic thinking is an important part of programming and computer science.</p>
 	
@@ -56,4 +54,4 @@
 		<li><a href="http://www.omnigroup.com/products/omnigraffle/">OmniGraffle</a> was used to design and author the actual posters.</li>
 	</ul>
 	
-</page>
+</content:page>

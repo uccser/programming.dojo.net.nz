@@ -1,13 +1,19 @@
 <?r 
-if attributes['src']
-	path = parent.node.local_path(Utopia::Path.create(attributes['src']))
+if attributes[:src]
+	path = parent.node.local_path(Utopia::Path.create(attributes[:src]))
 	code = File.read(path)
 else
 	code = content
 end
 
-if lang = (attributes['lang'] || attributes['brush']) ?>
-	<pre class="syntax brush-#{lang}">#{Strings::to_html code}</pre>
+escaped_code = MarkupString.new(code)
+
+escaped_code = escaped_code.gsub(/%%([a-z]+)\{(.*?)\}/) do |match|
+	"<span class=\"#{$1}\">#{$2}</span>"
+end
+
+if lang = (attributes[:lang] || attributes[:brush]) ?>
+	<pre><code class="syntax brush-#{lang}">#{escaped_code}</code></pre>
 <?r else ?>
-	<pre class="syntax">#{Strings::to_html code}</pre>
+	<pre><code class="syntax brush-plain">#{escaped_code}</code></pre>
 <?r end ?>

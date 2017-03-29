@@ -112,6 +112,8 @@ module TruthTableSolver
 			buffer.puts
 		
 			return buffer.string
+		rescue
+			return "Syntax error in #{function.inspect}: #{$!.message}"
 		end
 	end
 end

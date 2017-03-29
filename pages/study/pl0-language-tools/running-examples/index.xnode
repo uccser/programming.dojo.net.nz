@@ -1,15 +1,15 @@
-<page>
-	<heading>How to run the examples</heading>
+<content:page>
+	<content:heading>How to run the examples</content:heading>
 	
 	<h2>Using the interpreter</h2>
 	
 	<p>From the main project directory, simply execute the interpreter and feed the source code via standard input:</p>
 	
-	<listing src="interpreter.txt" brush="bash" />
+	<content:listing src="interpreter.txt" brush="bash" />
 	
 	<h2>Using the compiler, assembler and virtual machine</h2>
 	
 	<p>From the main project directory, execute the compiler and feed the source code via standard input. Pass this to the assembler, and then to the virtual machine.</p>
 	
-	<listing src="compiler.txt" brush="bash" />
-</page>
+	<content:listing src="compiler.txt" brush="bash" />
+</content:page>

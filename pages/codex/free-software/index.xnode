@@ -1,5 +1,5 @@
-<page>
-	<heading>Free Software</heading>
+<content:page>
+	<content:heading>Free Software</content:heading>
 	
 	<p><em>Open Source</em> is different from <em>Free Software</em>. Free Software is software that respects your freedom. Open Source is software where you can see the source code.</p>
 	
@@ -21,4 +21,4 @@
 		<li><a href="http://www.fsf.org/">Free Software Foundation</a></li>
 		<li><a href="http://www.oriontransfer.co.nz/blog/2009-10/richard-stallman-in-christchurch/index">A Free Digital Society</a></li>
 	</ul>
-</page>
+</content:page>

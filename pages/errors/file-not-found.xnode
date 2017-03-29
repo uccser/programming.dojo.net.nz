@@ -1,9 +1,9 @@
-<page>
-	<heading>File Not Found!</heading>
+<content:page>
+	<content:heading>File Not Found!</content:heading>
 
 	<div class="gallery">
 		<img src="/_static/404.jpg" />
 	</div>
 
 	<p>The page you were looking for is no longer available. It has probably been moved or deleted. Oh well...</p>
-</page>
+</content:page>

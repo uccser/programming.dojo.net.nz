@@ -1,5 +1,5 @@
-<page>
-	<heading>Programming Challenges</heading>
+<content:page>
+	<content:heading>Programming Challenges</content:heading>
 	
 	<h2>Project Euler</h2>
 	
@@ -10,4 +10,4 @@
 	<p><a href="http://codegolf.com/">Code Golf</a> allows you to show off your code-fu by trying to solve coding problems using the least number of keystrokes. Challenges are always open, and your entries are automatically scored so you can start playing right away!</p>
 	
 	<!-- http://www.blackbeltfactory.com/ -->
-</page>
+</content:page>

@@ -1,5 +1,5 @@
-<page>
-	<heading>Useful Links</heading>
+<content:page>
+	<content:heading>Useful Links</content:heading>
 	
 	<dl>
 		<dt><a href="http://www.csedweek.org/resources/posters-and-brochures/">Computer Science Education Week Posters</a></dt>
@@ -35,4 +35,4 @@
 		<dt><a href="http://www.sorting-algorithms.com/">Visualisation of Sorting Algorithms</a></dt>
 		<dd>A great website to assist with teaching various sorting algorithms.</dd>
 	</dl>
-</page>
+</content:page>

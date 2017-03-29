@@ -1,15 +1,15 @@
-<page>
-	<heading>Pascal</heading>
+<content:page>
+	<content:heading>Pascal</content:heading>
 	
-	<p>Pascal is a <tt>statically typed</tt> programming language. It was designed as a language for education. It is generally a <tt>compiled</tt> language.</p>
+	<p>Pascal is a <content:tt>statically typed</content:tt> programming language. It was designed as a language for education. It is generally a <content:tt>compiled</content:tt> language.</p>
 	
-	<p>Several derivatives of Pascal exist which enhance the language, such as <tt>Object Pascal</tt>.</p>
+	<p>Several derivatives of Pascal exist which enhance the language, such as <content:tt>Object Pascal</content:tt>.</p>
 	
 	<h3>Example Code</h3>
 	
-	<p>Here is an example of the <tt>100 doors</tt> problem:</p>
+	<p>Here is an example of the <content:tt>100 doors</content:tt> problem:</p>
 	
-	<listing src="example.txt" brush="pascal" />
+	<content:listing src="example.txt" brush="pascal" />
 	
 	<h3>Why would I learn this language?</h3>
 
@@ -36,4 +36,4 @@
 	</ul>
 	
 	<comments />
-</page>
+</content:page>

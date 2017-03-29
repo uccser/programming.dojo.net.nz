@@ -1,13 +1,13 @@
-<page>
-	<heading>Smalltalk</heading>
+<content:page>
+	<content:heading>Smalltalk</content:heading>
 	
-	<p>Smalltalk is a <tt>dynamically typed</tt> <tt>message passing</tt> language. It is unique due to syntax and <tt>object oriented</tt> features. It is generally <tt>interpreted</tt> but is often <tt>compiled</tt> to a bytecode first.</p>
+	<p>Smalltalk is a <content:tt>dynamically typed</content:tt> <content:tt>message passing</content:tt> language. It is unique due to syntax and <content:tt>object oriented</content:tt> features. It is generally <content:tt>interpreted</content:tt> but is often <content:tt>compiled</content:tt> to a bytecode first.</p>
 	
 	<h3>Example Code</h3>
 	
-	<p>Here is an example of the <tt>100 doors</tt> problem:</p>
+	<p>Here is an example of the <content:tt>100 doors</content:tt> problem:</p>
 	
-	<listing src="example.txt" brush="smalltalk" />
+	<content:listing src="example.txt" brush="smalltalk" />
 	
 	<h3>Why would I learn this language?</h3>
 
@@ -43,4 +43,4 @@
 	</ul>
 	
 	<comments />
-</page>
+</content:page>

@@ -1,5 +1,5 @@
-<page>
-	<heading>Algorithms</heading>
+<content:page>
+	<content:heading>Algorithms</content:heading>
 	
 	<p>Below are a variety of algorithms used in computer science.</p>
 	
@@ -8,4 +8,4 @@
 		<li>#{link.to_href}</li>
 	<?r end ?>
 	</ul>
-</page>
+</content:page>

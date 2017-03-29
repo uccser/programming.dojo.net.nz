@@ -1,5 +1,5 @@
-<page>
-	<heading>Assembler</heading>
+<content:page>
+	<content:heading>Assembler</content:heading>
 	
 	<p>An assembler converts symbolic opcodes and labels into executable machine code.</p>
 	
@@ -13,9 +13,9 @@
 	
 	<p>The following program is a program that generates the fibonacci sequence.</p>
 	
-	<listing src="fibonacci.txt" brush="asm" />
+	<content:listing src="fibonacci.txt" brush="asm" />
 	
 	<p>This code can be compiled to machine executable code:</p>
 	
-	<listing src="assemble.txt" brush="bash" />
-</page>
+	<content:listing src="assemble.txt" brush="bash" />
+</content:page>

@@ -1,11 +1,11 @@
-<page>
-	<heading>Scratch</heading>
+<content:page>
+	<content:heading>Scratch</content:heading>
 	
-	<p>Scratch is a graphical programming environment which allows for drag and drop program creation. Scrach provides basic set of <tt>imperative</tt> features along with support for a variety of different kinds of audio and visual media.</p>
+	<p>Scratch is a graphical programming environment which allows for drag and drop program creation. Scrach provides basic set of <content:tt>imperative</content:tt> features along with support for a variety of different kinds of audio and visual media.</p>
 	
 	<h3>Example Code</h3>
 	
-	<p>Here is an example of the <tt>100 doors</tt> problem. You can download this program: <a href="Scratch - 100 Doors.zip">Scratch - 100 Doors.zip</a> and try it out.</p>
+	<p>Here is an example of the <content:tt>100 doors</content:tt> problem. You can download this program: <a href="Scratch - 100 Doors.zip">Scratch - 100 Doors.zip</a> and try it out.</p>
 	
 	<div class="gallery">
 		<img src="example.png" />
@@ -35,4 +35,4 @@
 	</ul>
 	
 	<comments />
-</page>
+</content:page>

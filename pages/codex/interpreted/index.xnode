@@ -1,7 +1,7 @@
-<page>
-	<heading>Interpreted</heading>
+<content:page>
+	<content:heading>Interpreted</content:heading>
 	
-	<p>An interpreted programming language is one where a source file is executed directly by an interpreter. Interpreters generally have more flexibility than a <tt>compiled</tt> language, at the expense of run-time speed.</p>
+	<p>An interpreted programming language is one where a source file is executed directly by an interpreter. Interpreters generally have more flexibility than a <content:tt>compiled</content:tt> language, at the expense of run-time speed.</p>
 	
 	<p>Interpreters generally offer the same behavior on different platforms, unlike compiled code that is typically tied to one platform.</p>
 	
@@ -15,4 +15,4 @@
 		<li><a href="http://en.wikipedia.org/wiki/Interpreter_(computing)">Wikipedia: Interpreter</a></li>
 		<li><a href="http://llvm.org/">Low Level Virtual Machine</a></li>
 	</ul>
-</page>
+</content:page>

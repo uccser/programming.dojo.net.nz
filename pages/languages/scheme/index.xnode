@@ -1,19 +1,19 @@
-<page>
-	<heading>Scheme</heading>
+<content:page>
+	<content:heading>Scheme</content:heading>
 	
-	<p>Scheme is one of the main dialects of <tt>LISP</tt> and is a <tt>dynamically typed</tt> impure <tt>functional</tt> programming language.</p>
+	<p>Scheme is one of the main dialects of <content:tt>LISP</content:tt> and is a <content:tt>dynamically typed</content:tt> impure <content:tt>functional</content:tt> programming language.</p>
 	
-	<p>Scheme can be both <tt>compiled</tt> and <tt>interpreted</tt>.</p>
+	<p>Scheme can be both <content:tt>compiled</content:tt> and <content:tt>interpreted</content:tt>.</p>
 	
 	<h3>Example Code</h3>
 	
-	<p>Here is an example of the <tt>100 doors</tt> problem implemented using functional concepts:</p>
+	<p>Here is an example of the <content:tt>100 doors</content:tt> problem implemented using functional concepts:</p>
 	
-	<listing src="example_functional.txt" brush="lisp" />
+	<content:listing src="example_functional.txt" brush="lisp" />
 	
-	<p>Here is an example of the <tt>100 doors</tt> problem implemented using imperative concepts:</p>
+	<p>Here is an example of the <content:tt>100 doors</content:tt> problem implemented using imperative concepts:</p>
 	
-	<listing src="example_imperative.txt" brush="lisp" />
+	<content:listing src="example_imperative.txt" brush="lisp" />
 	
 	<h3>Why would I learn this language?</h3>
 
@@ -48,4 +48,4 @@
 	</ul>
 	
 	<comments />
-</page>
+</content:page>

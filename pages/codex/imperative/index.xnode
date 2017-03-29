@@ -1,9 +1,9 @@
-<page>
-	<heading>Imperative</heading>
+<content:page>
+	<content:heading>Imperative</content:heading>
 	
-	<p>An imperative programming language is one that does things a step at a time, typically manipulating the  state of the program in some way at each step. <tt>Basic</tt> is a good example of an imperative language:</p>
+	<p>An imperative programming language is one that does things a step at a time, typically manipulating the  state of the program in some way at each step. <content:tt>Basic</content:tt> is a good example of an imperative language:</p>
 	
-	<listing src="primes.txt" brush="basic" />
+	<content:listing src="primes.txt" brush="basic" />
 	
 	<p>In this example, we perform each line in sequence until there are no more steps to peform (i.e. we reach <code>END FUNCTION</code>).</p>
 	
@@ -12,4 +12,4 @@
 	<ul>
 		<li><a href="http://en.wikipedia.org/wiki/Imperative_programming">Wikipedia: Imperative programming</a></li>
 	</ul>
-</page>
+</content:page>

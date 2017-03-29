@@ -1,15 +1,15 @@
-<page>
-	<heading>PHP</heading>
+<content:page>
+	<content:heading>PHP</content:heading>
 	
-	<p>PHP is a <tt>dynamically typed</tt> language. It supports a number of different programming paradigms including <tt>imperative</tt> and <tt>object oriented</tt> features. PHP code is generally <tt>interpreted</tt> but several systems for producing <tt>compiled</tt> code are available.</p>
+	<p>PHP is a <content:tt>dynamically typed</content:tt> language. It supports a number of different programming paradigms including <content:tt>imperative</content:tt> and <content:tt>object oriented</content:tt> features. PHP code is generally <content:tt>interpreted</content:tt> but several systems for producing <content:tt>compiled</content:tt> code are available.</p>
 	
 	<p>PHP is designed for developing web applications, and generally has little use in other scenarios. It is easy to integrate with a wide range of other technologies.</p>
 	
 	<h3>Example Code</h3>
 	
-	<p>Here is an example of the <tt>100 doors</tt> problem:</p>
+	<p>Here is an example of the <content:tt>100 doors</content:tt> problem:</p>
 	
-	<listing src="example.txt" brush="html" />
+	<content:listing src="example.txt" brush="html" />
 	
 	<h3>Why would I learn this language?</h3>
 
@@ -34,4 +34,4 @@
 	</ul>
 	
 	<comments />
-</page>
+</content:page>

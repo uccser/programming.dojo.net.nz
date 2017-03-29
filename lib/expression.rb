@@ -60,6 +60,10 @@ module Expression
 		def args
 			@args
 		end
+		
+		def to_s
+			@name
+		end
 	end
   
 	class Brackets
@@ -158,6 +162,9 @@ module Expression
 					ops[name].reverse.each do |loc|
 						op = ast[loc]
 						rhs = find_subexpression(ast, loc, RHS_SEARCH)
+						
+						raise RuntimeError.new("Could not find right hand side of operator #{op}") unless rhs
+						
 						op.args << ast[rhs]
 						ast[rhs] = nil
 					end
@@ -166,6 +173,10 @@ module Expression
 						op = ast[loc]
 						lhs = find_subexpression(ast, loc, LHS_SEARCH)
 						rhs = find_subexpression(ast, loc, RHS_SEARCH)
+						
+						raise RuntimeError.new("Could not find left hand side of operator #{op}") unless lhs
+						raise RuntimeError.new("Could not find right hand side of operator #{op}") unless rhs
+						
 						op.args << ast[lhs]
 						op.args << ast[rhs]
 						ast[lhs] = ast[rhs] = nil
@@ -174,6 +185,9 @@ module Expression
 					ops[name].each do |loc|
 						op = ast[loc]
 						lhs = find_subexpression(ast, loc, LHS_SEARCH)
+						
+						raise RuntimeError.new("Could not find left hand side of operator #{op}") unless lhs
+						
 						op.args << ast[lhs]
 						ast[rhs] = nil
 					end

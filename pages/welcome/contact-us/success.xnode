@@ -1,7 +1,7 @@
-<page>
-	<heading>Contact Us</heading>
+<content:page>
+	<content:heading>Contact Us</content:heading>
 	
 	<p>Your message was sent successfully. You can expect a reply within 24 hours.</p>
 	
 	<p>Thank you for taking the time to get in touch with us.</p>
-</page>
+</content:page>

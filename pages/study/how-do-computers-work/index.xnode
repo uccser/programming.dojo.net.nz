@@ -1,5 +1,5 @@
-<page>
-	<heading>How do computers work?</heading>
+<content:page>
+	<content:heading>How do computers work?</content:heading>
 	
 	<p>While this is a rather broad question, I got asked some specific questions in this area and I wanted to provide some starting points which cover specific topics in this area.</p>
 	
@@ -22,4 +22,4 @@
 	<ul>
 		<li><a href="http://code.google.com/p/onyxkernel/wiki/FirstStep">Learn how to make a simple Operating System</a> &mdash; compile and boot your own simple operating system.</li>
 	</ul>
-</page>
+</content:page>

@@ -1,5 +1,5 @@
-<page>
-	<heading>Introduction To Linux</heading>
+<content:page>
+	<content:heading>Introduction To Linux</content:heading>
 	
 	<dl>
 		<dt>Course Duration:</dt>
@@ -16,4 +16,4 @@
 	</ul>
 	
 	<register_interest />
-</page>
+</content:page>

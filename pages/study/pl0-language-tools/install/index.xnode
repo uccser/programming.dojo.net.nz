@@ -1,5 +1,5 @@
-<page>
-	<heading>Installation</heading>
+<content:page>
+	<content:heading>Installation</content:heading>
 	
 	<p>You will need to install the following requirements:</p>
 	
@@ -13,11 +13,11 @@
 	
 	<h3>Debian/Ubuntu</h3>
 	
-	<listing src="debian.txt" brush="bash" />
+	<content:listing src="debian.txt" brush="bash" />
 	
 	<h3>RedHat/CentOS</h3>
 	
-	<listing src="redhat.txt" brush="bash" />
+	<content:listing src="redhat.txt" brush="bash" />
 	
 	<h2>Mac OS X</h2>
 	
@@ -25,7 +25,7 @@
 	
 	<p>You will need to download and install <a href="http://www.macports.org/">MacPorts</a> before following these instructions.</p>
 	
-	<listing src="macosx.txt" brush="bash" />
+	<content:listing src="macosx.txt" brush="bash" />
 	
 	<h2>Main Download</h2>
 	
@@ -37,4 +37,4 @@
 	</ul>
 	
 	<p>Once you have downloaded the source code, you can directly modify and execute the <code>pl0_*.py</code> scripts.</p>
-</page>
+</content:page>

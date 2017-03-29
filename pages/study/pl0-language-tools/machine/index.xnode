@@ -1,5 +1,5 @@
-<page>
-	<heading>Machine</heading>
+<content:page>
+	<content:heading>Machine</content:heading>
 	
 	<p>The PL/0 virtual machine is a stack based execution environment. It starts executing at offset 0, and stops executing when the offset becomes invalid, typically using the <code class="syntax asm"><span class="function">HALT</span></code> opcode.</p>
 	
@@ -7,5 +7,5 @@
 	
 	<p>In this example, we demonstrate assembling some code to print the number 25, and then we feed this directly to the virtual machine for execution.</p>
 	
-	<listing src="machine.txt" brush="bash" />
-</page>
+	<content:listing src="machine.txt" brush="bash" />
+</content:page>

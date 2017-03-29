@@ -1,17 +1,17 @@
-<page>
-	<heading>Exceptions</heading>
+<content:page>
+	<content:heading>Exceptions</content:heading>
 	
 	<p>Exceptions are used to report exceptional conditions, such as invalid input to a function or a missing resource. Best practices vary widely between languages, but generally exceptions are used to indicate problems that don't fit into the standard flow of a program.</p>
 	
-	<p>Because of this, exceptions generally traverse up the <tt>stack</tt> of a program to a point where an error handler is defined for that particular exception. This is important because it allows error handling to be separate from main functionality. It also allows a program to define error handling code at a place where there is enough information to deal with the error correctly.</p>
+	<p>Because of this, exceptions generally traverse up the <content:tt>stack</content:tt> of a program to a point where an error handler is defined for that particular exception. This is important because it allows error handling to be separate from main functionality. It also allows a program to define error handling code at a place where there is enough information to deal with the error correctly.</p>
 	
-	<listing src="exceptions.txt" brush="clang" />
+	<content:listing src="exceptions.txt" brush="clang" />
 	
-	<p>Many languages such as <tt>Ruby</tt>, <tt>Java</tt> and <tt>Python</tt> support some kind of exception handling. Some languages provide more general language facilities such as <tt>coroutines</tt> which can be used to implement exceptions.</p>
+	<p>Many languages such as <content:tt>Ruby</content:tt>, <content:tt>Java</content:tt> and <content:tt>Python</content:tt> support some kind of exception handling. Some languages provide more general language facilities such as <content:tt>coroutines</content:tt> which can be used to implement exceptions.</p>
 	
 	<h2>Further Reading</h2>
 
 	<ul>
 		<li><a href="http://en.wikipedia.org/wiki/Exception_handling">Wikipedia: Exception handling</a></li>
 	</ul>
-</page>
+</content:page>

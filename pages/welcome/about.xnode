@@ -1,5 +1,5 @@
-<page>
-	<heading>About This Site</heading>
+<content:page>
+	<content:heading>About This Site</content:heading>
 	
 	<p>This site was designed by <a href="https://plus.google.com/114381916415364466124" rel="me">Samuel Williams</a> as part of Computer Science Education course run by Tim Bell and Lynn Lambert. It has been designed to improve the awareness of different programming languages.</p>
 	
@@ -28,4 +28,4 @@
 	<p><a href="http://www.oriontransfer.co.nz/">My company</a> sponsors the development and hosting of this website.</p>
 	
 	<div class="gallery"><a href="http://www.oriontransfer.co.nz/"><img src="/_static/OrionTransfer.png" /></a></div>
-</page>
+</content:page>

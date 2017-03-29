@@ -1,5 +1,5 @@
-<page>
-	<heading>Lucid Programming Dojo</heading>
+<content:page>
+	<content:heading>Lucid Programming Dojo</content:heading>
 	
 	<p>The Lucid Programming Dojo offers a wide range of courses for people interested in learning more about computer programming and related technologies. Courses are taught by industry professionals over several days in high quality facilities. You are generally expected to bring your own laptop.</p>
 	
@@ -29,4 +29,4 @@
 			</tr>
 		</tbody>
 	</table>
-</page>
+</content:page>

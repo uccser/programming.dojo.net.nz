@@ -1,8 +1,8 @@
-<page>
+<content:page>
 	<link rel="stylesheet" href="table.css" type="text/css" />
 	<script src="@rel@/_static/jquery-ui-1.8.custom.min.js" type="text/javascript"></script>
 	
-	<heading>Programming Language Comparison</heading>
+	<content:heading>Programming Language Comparison</content:heading>
 	
 	<p>This table outlines several major languages which are commonly used for educational purposes. Each question is asked specifically within the scope of education and use in the classroom.</p>
 	
@@ -72,7 +72,7 @@
 				?>
 				<td class="language">
 					<?r if comment ?>
-						<a href="##{name}" title="c#{comment_id}" class="comment"><img src="#{color || 'green'}.png" title="#{Strings::to_html comment}"/></a>
+						<a href="##{name}" title="c#{comment_id}" class="comment"><img src="#{color || 'green'}.png" title="#{comment}"/></a>
 					<?r else ?>
 						<img src="#{color || 'green'}.png" />
 					<?r end ?>
@@ -88,10 +88,10 @@
 	
 	<?r notes.each do |language, comments| ?>
 	<a name="#{language}" />
-	<h3>#{Strings::to_html language}</h3>
+	<h3>#{language}</h3>
 	
 		<?r comments.each do |id, comment| ?>
-			<p id="#{id}"><a name="#{id}">[#{id}]</a> #{Strings::to_html comment}</p>
+			<p id="#{id}"><a name="#{id}">[#{id}]</a> #{comment}</p>
 		<?r end ?>
 	<?r end ?>
 	
@@ -110,4 +110,4 @@
 			});
 		});
 	</script>
-</page>
+</content:page>

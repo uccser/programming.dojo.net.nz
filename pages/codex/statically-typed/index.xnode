@@ -1,13 +1,13 @@
-<page>
-	<heading>Statically Typed</heading>
+<content:page>
+	<content:heading>Statically Typed</content:heading>
 	
-	<p>A statically typed language is one where variables have explicit types associated with them. This allows <tt>program verification</tt> and efficient execution since the exact type of data is known at compile time.</p>
+	<p>A statically typed language is one where variables have explicit types associated with them. This allows <content:tt>program verification</content:tt> and efficient execution since the exact type of data is known at compile time.</p>
 	
-	<p>Statically typed languages are often <tt>compiled</tt> but not always.</p>
+	<p>Statically typed languages are often <content:tt>compiled</content:tt> but not always.</p>
 	
 	<h2>Further Reading</h2>
 
 	<ul>
 		<li><a href="http://en.wikipedia.org/wiki/Type_system#Static_typing">Wikipedia: Type system</a></li>
 	</ul>
-</page>
+</content:page>

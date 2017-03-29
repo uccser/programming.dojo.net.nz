@@ -1,5 +1,5 @@
-<page>
-	<heading>Register Machine Interpreter</heading>
+<content:page>
+	<content:heading>Register Machine Interpreter</content:heading>
 
 	<p>A register machine is a simple programmable machine to describe any function that is computable. You can program them here!</p>
 
@@ -20,20 +20,18 @@
 	<?r if func != nil ?>
 		<h2>Results</h2>
 
-		<code class="basic">
-			#{Strings::to_html(RegisterMachineInterpreter.evaluate(func)).gsub("\n", "<br />")}
-		</code>
+		<pre><code>#{RegisterMachineInterpreter.evaluate(func)}</code></pre>
 	<?r end ?>
 
 	<h2>Usage</h2>
 
 	<p>Registers can be initialised by writing lines of the form:</p>
 
-	<listing src="assignment.txt" />
+	<content:listing src="assignment.txt" />
 
 	<p>Next is the syntax for two types of instructions. Note, that the first state can be called either 'S' or '1'.</p>
 
-	<listing src="increment.txt" />
+	<content:listing src="increment.txt" />
 	
 	<p>Next state can either be a state mentioned somewhere, or <code>.</code> (full stop) which indicates halt. State names can be any lower or upper case characters or numbers. Register names can be any lower or uppercase letters.</p>
 
@@ -43,19 +41,19 @@
 
 	<p>This example calculates f(A) = A^2</p>
 
-	<listing src="squared.txt" />
+	<content:listing src="squared.txt" />
 
 	<h3>Division Function</h3>
 
 	<p>This example calculates N = QD + R.</p>
 
-	<listing src="divide.txt" />
+	<content:listing src="divide.txt" />
 
 	<h3>Primality Test</h3>
 
 	<p>This example tells us if A is prime or not, and if it is not, what is the biggest divisor.</p>
 
-	<listing src="prime.txt" />
+	<content:listing src="prime.txt" />
 
 	<h2>Implementation</h2>
 
@@ -72,4 +70,4 @@
 	</ul>
 	
 	<comments />
-</page>
+</content:page>
