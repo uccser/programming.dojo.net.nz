@@ -52,7 +52,7 @@
 		</div>
 		
 		<utopia:environment only="production">
-			<google-analytics id="UA-2590906-6"/>
+			<analytics:google id="UA-2590906-6"/>
 		</utopia:environment>
 	</body>
 </html>

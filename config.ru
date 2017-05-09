@@ -3,6 +3,7 @@
 require_relative 'config/environment'
 
 require 'rack/freeze'
+require 'utopia/analytics'
 
 if RACK_ENV == :production
 	# Handle exceptions in production with a error page and send an email notification:
@@ -42,6 +43,9 @@ use Utopia::Controller
 use Utopia::Static
 
 # Serve dynamic content
-use Utopia::Content
+use Utopia::Content,
+	namespaces: {
+		'analytics' => Utopia::Analytics
+	}
 
 run lambda { |env| [404, {}, []] }
