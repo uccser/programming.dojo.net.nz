@@ -1,7 +1,7 @@
 
 source "https://rubygems.org"
 
-gem "utopia", "~> 2.0.3"
+gem "utopia", "~> 2.9.2"
 # gem "utopia-gallery"
 gem "utopia-analytics"
 
@@ -12,8 +12,7 @@ gem "rack-freeze", "~> 1.2"
 
 group :development do
 	# For `rake server`:
-	gem "puma"
-	gem "guard-puma", require: false
+	gem "guard-falcon", require: false
 	gem 'guard-rspec', require: false
 	
 	# For `rake console`:
@@ -22,10 +21,5 @@ group :development do
 	
 	# For `rspec` testing:
 	gem "rspec"
-	gem "simplecov"
-end
-
-group :production do
-	# Used for passenger-config to restart server after deployment:
-	gem "passenger"
+	gem "covered"
 end

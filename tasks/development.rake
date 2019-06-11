@@ -1,12 +1,10 @@
 
 require "rspec/core/rake_task"
 
-RSpec::Core::RakeTask.new(:test) do |task|
-	task.rspec_opts = %w{--require simplecov} if ENV['COVERAGE']
-end
+RSpec::Core::RakeTask.new(:test)
 
 task :coverage do
-	ENV['COVERAGE'] = 'y'
+	ENV['COVERAGE'] = 'PartialSummary'
 end
 
 desc 'Start the development server.'
@@ -27,7 +25,7 @@ task :console => :environment do
 	include Rack::Test::Methods
 	
 	def app
-		@app ||= Rack::Builder.parse_file(File.expand_path("../config.ru", __dir__)).first
+		@app ||= Rack::Builder.parse_file(SITE_ROOT + 'config.ru').first
 	end
 	
 	Pry.start
