@@ -1,0 +1,28 @@
+{
+  "name": "jquery-quicksand",
+  "version": "1.6.0",
+  "description": "jQuery plugin. Reorder and filter items with a nice shuffling animation.",
+  "homepage": "https://razorjack.net/quicksand",
+  "main": "jquery.quicksand.js",
+  "repository": {
+  	"type": "git",
+  	"url": "https://github.com/razorjack/quicksand.git"
+  },
+  "author": {
+  	"name": "Jacek Galanciak",
+  	"url": "https://razorjack.net/"
+  },
+  "keywords": [
+  	"frontend",
+  	"animation",
+  	"filtering",
+  	"reordering"
+  ],
+  "bugs": "https://github.com/razorjack/quicksand/issues",
+  "main": "jquery-quicksand.js",
+  "license": "(MIT OR GPL-2.0)",
+  "dependencies": {
+    "jquery": ">=1.6.1"
+  },
+  "files": ["jquery.quicksand.js", "README.md", "CHANGELOG.md", "MIT-LICENSE.txt", "GPL-LICENSE.txt"]
+}

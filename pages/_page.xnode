@@ -19,7 +19,7 @@
 		<script src="/_static/jquery.lightbox-0.5.js" type="text/javascript"></script>
 		<link rel="stylesheet" href="/_static/jquery.lightbox.css" type="text/css" media="screen" />
 		
-		<script src="/_static/quicksand/jquery.quicksand.js" type="text/javascript"></script>
+		<script src="/_components/jquery-quicksand/jquery.quicksand.js" type="text/javascript"></script>
 		
 		<script src="/_components/jquery-syntax/jquery.syntax.min.js" type="text/javascript"></script>
 
@@ -33,9 +33,7 @@
 		});
 		</script>
 	</head>
-
-	<?r response["Cache-Control"] = "max-age=3600" ?>
-
+	
 	<body id="dojo">
 		<div id="header">
 			<content:menu />
