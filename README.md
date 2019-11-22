@@ -40,7 +40,7 @@ The site can be accessed locally using the default endpoint: [https://localhost:
 
 ## See Also
 
-- [async](https://github.com/socketry/async) — An example of how to use this template.
+- [programming-language-posters](https://github.com/ioquatix/programming-language-posters) — The source files of the programming language posters.
 
 ## License
 
