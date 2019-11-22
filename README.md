@@ -4,7 +4,7 @@ This is the source code for [programming.dojo.net.nz](https://programming.dojo.n
 
 ## Motivation
 
-This website was designed as part of my university study with Dr. Tim Bell in the course "COSC433 Computer Science Education" in 2010. There is [a report](pages/welcome/Programming Dojo Report.pdf) which covers the initial development of this site.
+This website was designed as part of my university study with Dr. Tim Bell in the course "COSC433 Computer Science Education" in 2010. There is [a report](pages/welcome/Programming%20Dojo%20Report.pdf) which covers the initial development of this site.
 
 At the time I was concerned about the isolated approach to teaching programming languages in education. In particular, because teachers often lack the formal education, students often receive a biased impression about language strengths and weaknesses.
 
