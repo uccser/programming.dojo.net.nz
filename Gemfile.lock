@@ -18,7 +18,7 @@ GEM
       protocol-http2 (~> 0.9.0)
     async-io (1.27.0)
       async (~> 1.14)
-    async-rest (0.12.0)
+    async-rest (0.10.1)
       async-http (~> 0.42)
       protocol-http (~> 0.7)
     build-environment (1.12.1)
