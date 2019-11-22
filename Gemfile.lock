@@ -154,7 +154,7 @@ DEPENDENCIES
   rack-test
   rake
   rspec
-  utopia (~> 2.9.2)
+  utopia (~> 2.9.5)
   utopia-analytics
 
 BUNDLED WITH
