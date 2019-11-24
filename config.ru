@@ -17,23 +17,31 @@ end
 use Utopia::Static, root: 'public'
 
 use Utopia::Redirection::Rewrite,
-	'/' => '/welcome/index'
+	'/' => '/welcome/index',
+	'/python' => '/languages/python',
+	'/scratch' => '/languages/scratch',
+	'/ruby' => '/languages/ruby',
+	'/c' => '/languages/c',
+	'/java' => '/languages/java',
+	'/c-sharp' => '/languages/c-sharp',
+	'/scheme' => '/languages/scheme',
+	'/basic' => '/languages/basic'
 
 use Utopia::Redirection::DirectoryIndex
 
 use Utopia::Redirection::Errors,
 	404 => '/errors/file-not-found'
 
-require 'utopia/localization'
-use Utopia::Localization,
-	default_locale: 'en',
-	locales: ['en', 'de', 'ja', 'zh']
+# require 'utopia/localization'
+# use Utopia::Localization,
+# 	default_locale: 'en',
+# 	locales: ['en', 'de', 'ja', 'zh']
 
-require 'utopia/session'
-use Utopia::Session,
-	expires_after: 3600 * 24,
-	secret: ENV['UTOPIA_SESSION_SECRET'],
-	secure: true
+# require 'utopia/session'
+# use Utopia::Session,
+# 	expires_after: 3600 * 24,
+# 	secret: ENV['UTOPIA_SESSION_SECRET'],
+# 	secure: true
 
 use Utopia::Controller
 
