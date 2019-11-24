@@ -10,9 +10,9 @@ jquery-quicksand@^1.6.0:
     jquery ">=1.6.1"
 
 jquery-syntax@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/jquery-syntax/-/jquery-syntax-4.1.0.tgz#fdb72de995539da1f8936fd660e257b1e6bf9d04"
-  integrity sha512-HpJRYaKi02RwNflxiJZSTi7nX747tvV32O/h3scXwKvIZM31TH+egqOst7i+3DgWtMQSZzaboZR0msTKmqVXDg==
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/jquery-syntax/-/jquery-syntax-4.1.1.tgz#8e15d85952cfee02dda579564eef4b813e5fe4f9"
+  integrity sha512-W7HqdQV37N2r9JISW90liYaRNzam++0+zt3gFGzkAa/l4eHF11vyOKBhsadEhewYKBOsWSVIXqdcLtAxYgwT+g==
   dependencies:
     jquery ">=1.4.1"
 

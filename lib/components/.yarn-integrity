@@ -11,7 +11,7 @@
   ],
   "lockfileEntries": {
     "jquery-quicksand@^1.6.0": "https://registry.yarnpkg.com/jquery-quicksand/-/jquery-quicksand-1.6.0.tgz#2d0a25910c57aa019f41246a462eef04f3e75e39",
-    "jquery-syntax@^4.1.0": "https://registry.yarnpkg.com/jquery-syntax/-/jquery-syntax-4.1.0.tgz#fdb72de995539da1f8936fd660e257b1e6bf9d04",
+    "jquery-syntax@^4.1.0": "https://registry.yarnpkg.com/jquery-syntax/-/jquery-syntax-4.1.1.tgz#8e15d85952cfee02dda579564eef4b813e5fe4f9",
     "jquery@>=1.4.1": "https://registry.yarnpkg.com/jquery/-/jquery-3.4.1.tgz#714f1f8d9dde4bdfa55764ba37ef214630d80ef2",
     "jquery@>=1.6.1": "https://registry.yarnpkg.com/jquery/-/jquery-3.4.1.tgz#714f1f8d9dde4bdfa55764ba37ef214630d80ef2"
   },
