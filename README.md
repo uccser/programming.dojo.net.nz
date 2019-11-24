@@ -2,6 +2,9 @@
 
 This is the source code for [programming.dojo.net.nz](https://programming.dojo.net.nz).
 
+[![Test Status](https://github.com/ioquatix/programming.dojo.net.nz/workflows/Test/badge.svg)](https://github.com/ioquatix/programming.dojo.net.nz/actions?workflow=Test)
+[![Deploy Status](https://github.com/ioquatix/programming.dojo.net.nz/workflows/Deploy/badge.svg)](https://github.com/ioquatix/programming.dojo.net.nz/actions?workflow=Deploy)
+
 ## Motivation
 
 This website was designed as part of my university study with Dr. Tim Bell in the course "COSC433 Computer Science Education" in 2010. There is [a report](pages/welcome/Programming%20Dojo%20Report.pdf) which covers the initial development of this site.
