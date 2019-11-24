@@ -30,7 +30,7 @@ jobs:
         ruby-version: ${{matrix.ruby}}
     - name: Install dependencies
       run: |
-        command -v bundler || gem install bundler
+        gem install bundler:2.0.2
         bundle install
     - name: Run tests
       run: ${{matrix.env}} bundle exec rspec
