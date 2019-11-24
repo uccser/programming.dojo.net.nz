@@ -11,7 +11,7 @@ jobs:
     
     steps:
     - uses: actions/checkout@v1
-    - name: Prepare SSH
+    - name: Push to remote system
       env:
         DEPLOY_KEY: ${{secrets.deploy_key}}
       run: |
