@@ -5,7 +5,6 @@ require_relative '../website_context'
 RSpec.describe "poster links" do
 	include_context "website"
 	
-	include_examples "valid page", "/python"
 	include_examples "valid page", '/python'
 	include_examples "valid page", '/scratch'
 	include_examples "valid page", '/ruby'
