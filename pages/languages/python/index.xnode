@@ -1,40 +1,54 @@
 <content:page>
-	<content:heading>Python</content:heading>
-	
-	<p>Python is a <content:tt>dynamically typed</content:tt> programming language with both <content:tt>imperative</content:tt> and <content:tt>functional</content:tt> features. Python source code is executed by the Python <content:tt to="interpreted">interpreter</content:tt> which internally <content:tt>compiles</content:tt> the code to bytecode for better performance.</p>
-	
-	<h3>Example Code</h3>
-	
-	<p>Here is an example of the <content:tt>100 doors</content:tt> problem:</p>
-	
-	<content:listing src="example.txt" brush="python" />
-	
-	<h3>Why would I learn this language?</h3>
+    <div class="container">
+		<content:heading>Python</content:heading>
+		<p>Python (currently version 3) is a <content:tt>dynamically typed</content:tt> programming language with both <content:tt>imperative</content:tt> and <content:tt>functional</content:tt> features. Python source code is executed by the Python <content:tt to="interpreted">interpreter</content:tt> which internally <content:tt>compiles</content:tt> the code to bytecode for better performance.</p>
+		<div class="row align-items-center">
+			<div class="column">
+				<div class="subsection">
+					<h3>Why would I learn this language?</h3>
 
-	<p>Python has a very clean syntax and a well thought out design.</p>
-	
-	<p>It is used in many different areas of software engineering such as web programming, scientific and numerical computing, and comes with a large standard library. There are many third party libraries available too.</p>
-	
-	<p>Python is used by many large organizations in many <a href="http://www.python.org/about/success/">successful projects</a>.</p>
-	
-	<h2>Starting Points</h2>
+					<p>Python has a very clean syntax and a well thought out design.</p>
+					
+					<p>It is used in many different areas of software engineering such as web programming, scientific and numerical computing, and comes with a large standard library. There are many third party libraries available too.</p>
+					
+					<p>Python is used by many large organizations in many <a href="http://www.python.org/about/success/">successful projects</a>.</p>
+				</div>
+				<div class="subsection">
+					<h3>Starting Points</h3>
 
-	<dl class="resources">
-		<dt><a href="http://wiki.python.org/moin/BeginnersGuide">Beginner's Guide to Python</a></dt>
-		<dd>Learn to program using Python. A beginners guide which includes to links to many useful resources.</dd>
+					<dl class="resources">
+						<dt><a href="http://wiki.python.org/moin/BeginnersGuide">Beginner's Guide to Python</a></dt>
+						<dd>Learn to program using Python. A beginners guide which includes to links to many useful resources.</dd>
 
-		<dt><a href="http://davidbau.com/python/learning.html">Learning to Program with Python</a></dt>
-		<dd>Learn to make a game of hangman from scratch.</dd>
-	</dl>
-	
-	<h2>Further Reading</h2>
-	
-	<ul>
-		<li><a href="http://en.wikipedia.org/wiki/Python_(programming_language)">Wikipedia: Python</a></li>
-		<li><a href="http://www.python.org/">Python</a> (Main Website)</li>
-		<li><a href="http://www.python.org/community/sigs/current/edu-sig/">Python in Education</a></li>
-		<li><a href="http://www.linuxjournal.com/article/3882">Why Python?</a></li>
-	</ul>
-	
+						<dt><a href="http://davidbau.com/python/learning.html">Learning to Program with Python (version 2)</a></dt>
+						<dd>Learn to make a game of hangman from scratch.</dd>
+					</dl>
+				</div>
+
+				<div class="subsection">
+					<h3>Further Reading</h3>
+					
+					<ul>
+						<li><a href="http://en.wikipedia.org/wiki/Python_(programming_language)">Wikipedia: Python</a></li>
+						<li><a href="http://www.python.org/">Python</a> (Main Website)</li>
+						<li><a href="http://www.python.org/community/sigs/current/edu-sig/">Python in Education</a></li>
+						<li><a href="http://www.linuxjournal.com/article/3882">Why Python?</a></li>
+					</ul>
+				</div>
+			</div>	
+
+			<div class="column">
+				<h3>Example Code</h3>
+
+				<p>Here is an example of the <content:tt>Fizz Buzz</content:tt> problem:</p>
+
+				<iframe height="600px" width="100%" src="https://repl.it/@programmingdojo/fizzbuzzpy?lite=true" frameborder="no"></iframe>
+				
+				<p>Here is an example of the <content:tt>100 doors</content:tt> problem:</p>
+				
+				<iframe height="600px" width="100%" src="https://repl.it/@programmingdojo/100doorspy?lite=true" frameborder="no"></iframe>
+			</div>
+		</div>
+	</div>
 	<comments />
 </content:page>
