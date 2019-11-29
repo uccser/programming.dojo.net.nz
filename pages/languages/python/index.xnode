@@ -8,9 +8,9 @@
 					<h3>Why would I learn this language?</h3>
 
 					<p>Python has a very clean syntax and a well thought out design.</p>
-					
+
 					<p>It is used in many different areas of software engineering such as web programming, scientific and numerical computing, and comes with a large standard library. There are many third party libraries available too.</p>
-					
+
 					<p>Python is used by many large organizations in many <a href="http://www.python.org/about/success/">successful projects</a>.</p>
 				</div>
 				<div class="subsection">
@@ -27,7 +27,7 @@
 
 				<div class="subsection">
 					<h3>Further Reading</h3>
-					
+
 					<ul>
 						<li><a href="http://en.wikipedia.org/wiki/Python_(programming_language)">Wikipedia: Python</a></li>
 						<li><a href="http://www.python.org/">Python</a> (Main Website)</li>
@@ -35,7 +35,7 @@
 						<li><a href="http://www.linuxjournal.com/article/3882">Why Python?</a></li>
 					</ul>
 				</div>
-			</div>	
+			</div>
 
 			<div class="column">
 				<h3>Example Code</h3>
@@ -43,9 +43,9 @@
 				<p>Here is an example of the <content:tt>Fizz Buzz</content:tt> problem:</p>
 
 				<iframe height="600px" width="100%" src="https://repl.it/@programmingdojo/fizzbuzzpy?lite=true" frameborder="no"></iframe>
-				
+
 				<p>Here is an example of the <content:tt>100 doors</content:tt> problem:</p>
-				
+
 				<iframe height="600px" width="100%" src="https://repl.it/@programmingdojo/100doorspy?lite=true" frameborder="no"></iframe>
 			</div>
 		</div>

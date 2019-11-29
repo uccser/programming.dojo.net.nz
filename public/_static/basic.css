@@ -420,8 +420,7 @@ form.basic dd label.error {
 	margin-top: 4em;
 }
 
-.pdf_thumbnail img
-{
+.pdf_thumbnail img {
 	box-shadow: 2px 2px 5px #ccc;
 	margin: 1em;
 }
@@ -446,25 +445,25 @@ form.basic dd label.error {
 	margin-bottom: 3rem !important;
 }
 
-@media (min-width: 576px){
+@media (min-width: 576px) {
 	.container {
 		max-width: 540px;
 	}
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
 	.container {
 		max-width: 720px;
 	}
 }
 
-@media (min-width: 992px){
+@media (min-width: 992px) {
 	.container {
 		max-width: 960px;
 	}
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
 	.container {
 		max-width: 1140px;
 	}
