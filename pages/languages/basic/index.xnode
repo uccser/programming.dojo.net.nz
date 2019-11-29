@@ -1,46 +1,54 @@
 <content:page>
-	<content:heading>Basic</content:heading>
-	
-	<p>BASIC (Beginner's All-purpose Symbolic Instruction Code) is a simple <content:tt>dynamic</content:tt> <content:tt>imperative</content:tt> programming language developed in the 1960s.</p>
-	
-	<p>BASIC was developed by Microsoft into several platforms, including <content:tt>QBasic</content:tt> and <content:tt>Visual Basic</content:tt>. Visual Basic has <content:tt>object oriented</content:tt> features and includes a drag and drop user interface toolset. These tools are proprietary and generally only work on Microsoft Windows. Other dialects of BASIC exist for various platforms, such as <content:tt>REALbasic</content:tt>.</p>
-	
-	<h3>Example Code</h3>
-	
-	<p>Here is an example of the <content:tt>100 doors</content:tt> problem:</p>
-	
-	<content:listing src="example.txt" brush="basic" />
-	
-	<h3>Why would I learn this language?</h3>
-	
-	<p>BASIC is a simple language which is easy to learn. It provides a simple set of semantic constructs and data types. There are many <content:tt>free software</content:tt> implementations, but unfortunately the most typically used implementation is proprietary (Microsoft Visual Basic).</p>
-	
-	<h2>Starting Points</h2>
-
-	<!-- http://www.thefreecountry.com/compilers/basic.shtml -->
-
-	<dl class="resources">
-		<dt><a href="http://gambas.sourceforge.net/en/main.html">Gambas</a></dt>
-		<dd>Gambas is a full-featured object language and development environment built on a BASIC interpreter.</dd>
+		<div class="container">
+		<content:heading>Basic</content:heading>
 		
-		<dt><a href="http://www.freebasic.net/">FreeBASIC</a></dt>
-		<dd>FreeBASIC is a completely free, open-source, 32-bit BASIC compiler with a large supportive community.</dd>
+		<p>BASIC (Beginner's All-purpose Symbolic Instruction Code) is a simple <content:tt>dynamic</content:tt> <content:tt>imperative</content:tt> programming language developed in the 1960s.</p>
 		
-		<dt><a href="http://msdn.microsoft.com/en-us/vbasic/ms789086.aspx">Visual Basic Developer Center</a></dt>
-		<dd>Introduction to programming with Visual Basic, as well as many other more advanced topics.</dd>
+		<p>BASIC was developed by Microsoft into several platforms, including <content:tt>QBasic</content:tt> and <content:tt>Visual Basic</content:tt>. Visual Basic has <content:tt>object oriented</content:tt> features and includes a drag and drop user interface toolset. These tools are proprietary and generally only work on Microsoft Windows. Other dialects of BASIC exist for various platforms, such as <content:tt>REALbasic</content:tt>.</p>
+		<div class="row align-items-center">
+			<div class="column">
+				<div class="subsection">
+					<h3>Why would I learn this language?</h3>
+					<p>BASIC is a simple language which is easy to learn. It provides a simple set of semantic constructs and data types. There are many <content:tt>free software</content:tt> implementations, but unfortunately the most typically used implementation is proprietary (Microsoft Visual Basic).</p>
+				</div>
+				<div class="subsection">
+					<h3>Starting Points</h3>
 
-		<dt><a href="http://www.homeandlearn.co.uk/NET/vbNET.html">Visual Basic .NET Tutorials for Beginners</a></dt>
-		<dd>An introduction to programming for beginners.</dd>
-	</dl>
-	
-	<h2>Further Reading</h2>
-	
-	<ul>
-		<li><a href="http://en.wikipedia.org/wiki/BASIC">Wikipedia: Basic</a></li>
-		<li><a href="http://en.wikipedia.org/wiki/Commodore_64">Wikipedia: Commodore 64</a></li>
-		<li><a href="http://en.wikipedia.org/wiki/QBasic">Wikipedia: QBasic</a></li>
-		<li><a href="http://en.wikipedia.org/wiki/Visual Basic">Wikipedia: Visual Basic</a></li>
-	</ul>
+					<!-- http://www.thefreecountry.com/compilers/basic.shtml -->
+
+					<dl class="resources">
+						<dt><a href="http://gambas.sourceforge.net/en/main.html">Gambas</a></dt>
+						<dd>Gambas is a full-featured object language and development environment built on a BASIC interpreter.</dd>
+
+						<dt><a href="http://www.freebasic.net/">FreeBASIC</a></dt>
+						<dd>FreeBASIC is a completely free, open-source, 32-bit BASIC compiler with a large supportive community.</dd>
+
+						<dt><a href="http://msdn.microsoft.com/en-us/vbasic/ms789086.aspx">Visual Basic Developer Center</a></dt>
+						<dd>Introduction to programming with Visual Basic, as well as many other more advanced topics.</dd>
+
+						<dt><a href="http://www.homeandlearn.co.uk/NET/vbNET.html">Visual Basic .NET Tutorials for Beginners</a></dt>
+						<dd>An introduction to programming for beginners.</dd>
+					</dl>
+				</div>
+				<div class="subsection">
+					<h3>Further Reading</h3>
+					<ul>
+						<li><a href="http://en.wikipedia.org/wiki/BASIC">Wikipedia: Basic</a></li>
+						<li><a href="http://en.wikipedia.org/wiki/Commodore_64">Wikipedia: Commodore 64</a></li>
+						<li><a href="http://en.wikipedia.org/wiki/QBasic">Wikipedia: QBasic</a></li>
+						<li><a href="http://en.wikipedia.org/wiki/Visual Basic">Wikipedia: Visual Basic</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="column">
+				<h3>Example Code</h3>
+				<p>Here is an example of the <content:tt>Fizz Buzz</content:tt> problem:</p>
+				<content:listing src="fizzbuzz-example.txt" brush="basic" />
+				<p>Here is an example of the <content:tt>100 doors</content:tt> problem:</p>
+				<content:listing src="100-doors-example.txt" brush="basic" />
+			</div>
+		</div>
+	</div>
 	
 	<comments />
 </content:page>
