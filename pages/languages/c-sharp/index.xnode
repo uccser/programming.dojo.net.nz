@@ -5,9 +5,13 @@
 	
 	<h3>Example Code</h3>
 	
-	<p>Here is an example of the <content:tt>100 doors</content:tt> problem:</p>
+	<p>The following is an example of the <content:tt>100 doors</content:tt> problem. You can run and edit this program <a href="https://repl.it/@programmingdojo/100doorscs">here</a>.</p>
 	
-	<content:listing src="example.txt" brush="c-sharp" />
+	<content:listing src="100-doors-example.txt" brush="c-sharp" />
+
+	<p>The following is an example of the <content:tt>Fizz Buzz</content:tt> problem. You can run and edit this program <a href="https://repl.it/@programmingdojo/fizzbuzzcs">here</a>.</p>
+
+	<content:listing src="fizz-buzz-example.txt" brush="c-sharp" />
 	
 	<h3>Why would I learn this language?</h3>
 	
@@ -15,14 +19,14 @@
 	
 	<p>Specifically, using Mono.NET it is possible to develop cross-platform desktop applications, web applications and games.</p>
 	
-	<h2>Starting Points</h2>
+	<h3>Starting Points</h3>
 	
 	<dl class="resources">
 		<dt><a href="http://www.mono-project.com/Introduction_to_developing_with_Mono">Introduction to developing with Mono</a></dt>
 		<dd>A short guide to C# including a Hello World example.</dd>
 	</dl>
 	
-	<h2>Further Reading</h2>
+	<h3>Further Reading</h3>
 	
 	<ul>
 		<li><a href="http://en.wikipedia.org/wiki/C_Sharp_(programming_language)">Wikipedia: C#</a></li>
