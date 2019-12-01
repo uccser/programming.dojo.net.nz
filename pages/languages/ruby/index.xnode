@@ -5,10 +5,14 @@
 	
 	<h3>Example Code</h3>
 	
-	<p>Here is an example of the <content:tt>100 doors</content:tt> problem:</p>
+	<p>The following is an example of the <content:tt>100 doors</content:tt> problem. You can run and edit this program <a href="https://repl.it/@programmingdojo/100doorsrb">here</a>.</p>
 	
-	<content:listing src="example.txt" brush="ruby" />
-	
+	<content:listing src="100-doors-example.txt" brush="ruby" />
+
+	<p>The following is an example of the <content:tt>100 doors</content:tt> problem. You can run and edit this program <a href="https://repl.it/@programmingdojo/fizzbuzzrb">here</a>.</p>
+
+	<content:listing src="fizz-buzz-example.txt" brush="ruby" />
+
 	<h3>Why would I learn this language?</h3>
 	
 	<p>Ruby is a both powerful and easy to learn. It has a syntax which feels natural and is also very flexible.</p>
@@ -17,7 +21,7 @@
 	
 	<p>Ruby is a cross platform development language with multiple implementations, including MRI (the default implementation), <a href="http://www.jruby.org/">JRuby</a>, <a href="http://ironruby.net/">IronRuby</a> and <a href="http://rubini.us/">Rubinius</a>.</p>
 	
-	<h2>Starting Points</h2>
+	<h3>Starting Points</h3>
 
 	<dl class="resources">
 		<dt><a href="http://tryruby.org/">Try Ruby</a></dt>
@@ -28,15 +32,12 @@
 
 		<dt><a href="http://mislav.uniqpath.com/poignant-guide/">The Poignant Guide to Ruby</a></dt>
 		<dd>A fun illustrated introduction to programming using Ruby</dd>
-
-		<dt><a href="http://www.loudthinking.com/arc/000199.html">Getting started with Ruby</a></dt>
-		<dd>A summarized list of resources for learning about programming and Ruby</dd>
 		
 		<dt><a href="http://ruby-doc.org/docs/ProgrammingRuby/">Programming Ruby: The Pragmatic Programmer's Guide</a></dt>
 		<dd>A tutorial and reference for the Ruby programming language.</dd>
 	</dl>
 	
-	<h2>Further Reading</h2>
+	<h3>Further Reading</h3>
 	
 	<ul>
 		<li><a href="http://en.wikipedia.org/wiki/Ruby_(programming_language)">Wikipedia: Ruby</a></li>
