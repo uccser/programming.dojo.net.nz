@@ -9,10 +9,14 @@
 	
 	<h3>Example Code</h3>
 	
-	<p>Here is an example of the <content:tt>100 doors</content:tt> problem:</p>
-	
-	<content:listing src="example.txt" brush="java" />
-	
+	<p>The following is an example of the <content:tt>100 doors</content:tt> problem. You can run and edit this progam <a href="https://repl.it/@programmingdojo/100doorsjava">here</a>.</p>
+
+	<content:listing src="100-doors-example.txt" brush="java" />
+
+	<p>The following is an example of the <content:tt>Fizz Buzz</content:tt> problem. You can run and edit this progam <a href="https://repl.it/@programmingdojo/fizzbuzzjava">here</a>.</p>
+
+	<content:listing src="fizz-buzz-example.txt" brush="java" />
+
 	<h3>Why would I learn this language?</h3>
 	
 	<p>Java is a great language because it aims to provides a "write once, run anywhere" environment. While in practice, there are always additional complexities, Java code is generally cross platform.</p>
@@ -23,7 +27,7 @@
 	
 	<p>Due to the nature of all Java, code must always be defined within the scope of a class. This can requires a large amount of boiler plate code in certain scenarios.</p>
 	
-	<h2>Starting Points</h2>
+	<h3>Starting Points</h3>
 	
 	<dl class="resources">
 		<dt><a href="http://netbeans.org/kb/articles/learn-java.html">Learning Java - Resources</a></dt>
@@ -37,7 +41,7 @@
 		<dd>Practical guide for programmers who want to use the Java programming language.</dd>
 	</dl>
 	
-	<h2>Further Reading</h2>
+	<h3>Further Reading</h3>
 	
 	<ul>
 		<li><a href="http://en.wikipedia.org/wiki/Java_(programming_language)">Wikipedia: Java</a></li>
