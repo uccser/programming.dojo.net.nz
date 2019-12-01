@@ -7,17 +7,21 @@
 	
 	<h3>Example Code</h3>
 	
-	<p>Here is an example of the <content:tt>100 doors</content:tt> problem:</p>
+	<p>The following is an example of the <content:tt>100 doors</content:tt> problem. You can run and edit this program <a href="https://repl.it/@programmingdojo/100doorshs">here</a>.</p>
 	
-	<content:listing src="example.txt" brush="haskell" />
-	
+	<content:listing src="100-doors-example.txt" brush="haskell" />
+
+	<p>The following is an example of the <content:tt>Fizz Buzz</content:tt> problem. You can run and edit this program <a href="https://repl.it/@programmingdojo/fizzbuzzhs">here</a>.</p>
+
+	<content:listing src="fizz-buzz-example.txt" brush="haskell" />
+
 	<h3>Why would I learn this language?</h3>
 	
 	<p>Haskell is an advanced programming language based on rigorous theory. It has a strict type system that allows for many programming errors to be caught at compile time and has a functional design that makes concurrency and parallelism relatively easy.</p>
 	
 	<p>Knowledge of higher order functions can provide the programmer with unique ways of solving certain problems, and lazy evaluation can make certain kinds of algorithms possible that aren't possible to implement in other languages (without modification of the algorithm)</p>
 	
-	<h2>Starting Points</h2>
+	<h3>Starting Points</h3>
 	
 	<dl class="resources">
 		<dt><a href="http://tryhaskell.org/">Try Haskell</a></dt>
@@ -33,10 +37,9 @@
 		<dd>Set of resources for learning and teaching Haskell.</dd>
 	</dl>
 	
-	<h2>Further Reading</h2>
+	<h3>Further Reading</h3>
 	
 	<ul>
-		<li><a href="http://www.updike.org/articles/Pure_Lazy_Functional">Haskell: Pure and Lazy, yet Functional.</a></li>
 		<li><a href="http://en.wikipedia.org/wiki/Haskell_(programming_language)">Wikipedia: Haskell</a></li>
 		<li><a href="http://www.haskell.org/">Haskell</a> (Main Website)</li>
 	</ul>
