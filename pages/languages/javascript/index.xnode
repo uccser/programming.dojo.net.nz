@@ -4,9 +4,17 @@
 	<p>JavaScript is a <content:tt>dynamically typed</content:tt> <content:tt>imperative</content:tt> programming language with <content:tt>functional</content:tt> features. JavaScript is the main language for programming web pages; however it's use as a general purpose programming language is growing.</p>
 	
 	<p>JavaScript is generally <content:tt>interpreted</content:tt>.</p>
-	
-	<content:listing src="example.txt" brush="javascript" />
-	
+
+	<h3>Example Code</h3>
+
+	<p>The following is an example of the <content:tt>100 doors</content:tt> problem. You can run and edit this program <a href="https://repl.it/@programmingdojo/100doorsjs">here</a>.</p>
+
+	<content:listing src="100-doors-example.txt" brush="javascript" />
+
+	<p>The following is an example of the <content:tt>Fizz Buzz</content:tt> problem. You can run and edit this program <a href="https://repl.it/@programmingdojo/fizzbuzzjs">here</a>.</p>
+
+	<content:listing src="fizz-buzz-example.txt" brush="javascript" />
+
 	<h3>Why would I learn this language?</h3>
 
 	<p>JavaScript is the language of the internet. To create an interactive website, JavaScript is the best choice. The web browser is a very capable application development platform and is available for the majority of platforms.</p>
@@ -15,7 +23,7 @@
 
 	<p>JavaScript is a semantically simple language with first-class functions. This makes it very easy to use advanced functional concepts.</p>
 	
-	<h2>Starting Points</h2>
+	<h3>Starting Points</h3>
 
 	<dl class="resources">
 		<dt><a href="http://eloquentjavascript.net/">Eloquent JavaScript</a></dt>
@@ -32,12 +40,9 @@
 		
 		<dt><a href="http://www.jquery.org/">jQuery</a></dt>
 		<dd>A fantastic toolbox for writing simple cross-browser JavaScript code. Includes support for many advanced features.</dd>
-		
-		<dt><a href="http://stackoverflow.com/questions/11246/best-resources-to-learn-javascript">Best Resources to learn JavaScript</a></dt>
-		<dd>A list of resources and books for learning JavaScript.</dd>
 	</dl>
-	
-	<h2>Further Reading</h2>
+
+	<h3>Further Reading</h3>
 	
 	<ul>
 		<li><a href="http://en.wikipedia.org/wiki/JavaScript">Wikipedia: JavaScript</a></li>
