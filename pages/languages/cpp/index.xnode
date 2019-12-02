@@ -4,13 +4,7 @@
 	<p>C++ was initially designed as an extension of C and adds <content:tt>object oriented</content:tt> and <content:tt>meta programming</content:tt> features. Like C it is a <content:tt>statically typed</content:tt> <content:tt>imperative</content:tt> language, but in addition it provides many high level features such as <content:tt>exceptions</content:tt> and libraries.</p>
 	
 	<p>C++ is generally <content:tt>compiled</content:tt> and compilers exist for many platforms, however due to the complexity of the C++ standard, compilers don't always behave the same way.</p>
-	
-	<h3>Example Code</h3>
-	
-	<p>Here is an example of the <content:tt>100 doors</content:tt> problem:</p>
-	
-	<content:listing src="example.txt" brush="clang" />
-	
+
 	<h3>Why would I learn this language?</h3>
 	
 	<p>C++ is in some ways a super-set of <a href="../c">C</a>. It was originally called "C with Objects". It adds many advanced language features such as classes, namespaces, exceptions and meta-programming.</p>
@@ -19,26 +13,33 @@
 	
 	<p>C++ provides a useful level of abstraction and performance, and is used in both application development. The majority of computer games are written using C++.</p>
 	
-	<h2>Starting Points</h2>
+	<h3>Starting Points</h3>
 
 	<dl class="resources">
 		<dt><a href="http://www.cplusplus.com/doc/tutorial/introduction/">C++ Language Tutorial</a></dt>
 		<dd>A beginner guide to programming in C++.</dd>
 
-		<dt><a href="http://www.relisoft.com/book/index.htm">C++ In Action</a></dt>
-		<dd>An online book covering many C++ features from a beginner to intermediate perspective.</dd>
-
 		<dt><a href="http://www.network-theory.co.uk/docs/gccintro/index.html">An Introduction to GCC</a></dt>
 		<dd>A manual that provides an introduction to the GNU C and C++ compilers.</dd>
 	</dl>
 	
-	<h2>Further Reading</h2>
+	<h3>Further Reading</h3>
 	
 	<ul>
 		<li><a href="http://en.wikipedia.org/wiki/C++">Wikipedia: C++</a></li>
 		<li><a href="http://en.wikipedia.org/wiki/GNU_Compiler_Collection">Wikipedia: GNU Compiler Collection</a></li>
 		<li><a href="http://www.parashift.com/c%2B%2B-faq-lite/">C++ FAQ</a></li>
 	</ul>
+
+	<h3>Example Code</h3>
+
+	<p>The following is an example of the <content:tt>Fizz Buzz</content:tt> problem. You can run and edit this program <a href="https://repl.it/@programmingdojo/fizzbuzzcpp">here</a>.</p>
+
+	<content:listing src="fizz-buzz-example.txt" brush="clang" />
+
+	<p>The following is an example of the <content:tt>100 doors</content:tt> problem. You can run and edit this program <a href="https://repl.it/@programmingdojo/100doorscpp">here</a>.</p>
+
+	<content:listing src="100-doors-example.txt" brush="clang" />
 	
 	<comments />
 </content:page>
