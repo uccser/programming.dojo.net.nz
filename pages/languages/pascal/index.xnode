@@ -4,13 +4,7 @@
 	<p>Pascal is a <content:tt>statically typed</content:tt> programming language. It was designed as a language for education. It is generally a <content:tt>compiled</content:tt> language.</p>
 	
 	<p>Several derivatives of Pascal exist which enhance the language, such as <content:tt>Object Pascal</content:tt>.</p>
-	
-	<h3>Example Code</h3>
-	
-	<p>Here is an example of the <content:tt>100 doors</content:tt> problem:</p>
-	
-	<content:listing src="example.txt" brush="pascal" />
-	
+
 	<h3>Why would I learn this language?</h3>
 
 	<p>Pascal is considered to be one of a few languages which one can learn completely. The language is deliberately limited and (by default) there are few external libraries. In this sense, learning Pascal is a finite process.</p>
@@ -19,7 +13,7 @@
 	
 	<p>Pascal is a fairly well established language, but is also not very modern.</p>
 	
-	<h2>Starting Points</h2>
+	<h3>Starting Points</h3>
 
 	<dl class="resources">
 		<dt><a href="http://www.taoyue.com/tutorials/pascal/">Learn Pascal</a></dt>
@@ -29,11 +23,21 @@
 		<dd>Open Source Compiler for Pascal and Object Pascal.</dd>
 	</dl>
 	
-	<h2>Further Reading</h2>
+	<h3>Further Reading</h3>
 	
 	<ul>
 		<li><a href="http://en.wikipedia.org/wiki/Pascal_(programming_language)">Wikipedia: Pascal</a></li>
 	</ul>
+
+	<h3>Example Code</h3>
+
+	<p>Here is an example of the <content:tt>Fizz Buzz</content:tt> problem:</p>
+
+	<content:listing src="fizz-buzz-example.txt" brush="pascal" />
+
+	<p>Here is an example of the <content:tt>100 doors</content:tt> problem:</p>
+
+	<content:listing src="100-doors-example.txt" brush="pascal" />
 	
 	<comments />
 </content:page>
