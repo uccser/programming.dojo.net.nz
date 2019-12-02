@@ -66,7 +66,9 @@ body {
 }
 
 .navigation {
-	margin: 1rem 0;
+	position: absolute;
+	left: 0px;
+	right: 0px;
 }
 
 .navigation .prev_link {
@@ -141,7 +143,8 @@ ul.trail, ul.trail li {
 
 ul.trail {
 	height: 2.4em;
-	border: 1px solid black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 	
 	background-color: #f0f0ff;
 	
@@ -252,7 +255,6 @@ h1.language {
 	border-radius: 10pt;
 	
 	padding: 50px;
-	margin-top: 1rem;
 }
 
 #tags {
@@ -422,48 +424,4 @@ form.basic dd label.error {
 .pdf_thumbnail img {
 	box-shadow: 2px 2px 5px #ccc;
 	margin: 1em;
-}
-
-.row {
-	display: flex;
-}
-
-.column {
-	flex: 50%
-}
-
-.container {
-	width: 100%;
-	padding-right: 15px;
-	padding-left: 15px;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-.subsection {
-	margin-bottom: 3rem !important;
-}
-
-@media (min-width: 576px) {
-	.container {
-		max-width: 540px;
-	}
-}
-
-@media (min-width: 768px) {
-	.container {
-		max-width: 720px;
-	}
-}
-
-@media (min-width: 992px) {
-	.container {
-		max-width: 960px;
-	}
-}
-
-@media (min-width: 1200px) {
-	.container {
-		max-width: 1140px;
-	}
 }
