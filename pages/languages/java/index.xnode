@@ -6,16 +6,6 @@
 	<p>Java is generally <content:tt>compiled</content:tt> to <content:tt>bytecode</content:tt> that is then <content:tt>interpreted</content:tt> by the Java Virtual Machine. This allows the same <content:tt>bytecode</content:tt> to run on multiple platforms. The HotSpot JVM may also compile bytecode to native machine code for additional performance.</p>
 		
 	<p>Other languages such as <content:tt>JRuby</content:tt> and <content:tt>Clojure</content:tt> can also run on top of the JVM, which makes it an interesting platform for programming language development.</p>
-	
-	<h3>Example Code</h3>
-	
-	<p>The following is an example of the <content:tt>100 doors</content:tt> problem. You can run and edit this progam <a href="https://repl.it/@programmingdojo/100doorsjava">here</a>.</p>
-
-	<content:listing src="100-doors-example.txt" brush="java" />
-
-	<p>The following is an example of the <content:tt>Fizz Buzz</content:tt> problem. You can run and edit this progam <a href="https://repl.it/@programmingdojo/fizzbuzzjava">here</a>.</p>
-
-	<content:listing src="fizz-buzz-example.txt" brush="java" />
 
 	<h3>Why would I learn this language?</h3>
 	
@@ -47,6 +37,16 @@
 		<li><a href="http://en.wikipedia.org/wiki/Java_(programming_language)">Wikipedia: Java</a></li>
 		<li><a href="http://www.java.com/">Java</a> (Main Website)</li>
 	</ul>
-	
+
+	<h3>Example Code</h3>
+
+	<p>The following is an example of the <content:tt>Fizz Buzz</content:tt> problem. You can run and edit this progam <a href="https://repl.it/@programmingdojo/fizzbuzzjava">here</a>.</p>
+
+	<content:listing src="fizz-buzz-example.txt" brush="java" />
+
+	<p>The following is an example of the <content:tt>100 doors</content:tt> problem. You can run and edit this progam <a href="https://repl.it/@programmingdojo/100doorsjava">here</a>.</p>
+
+	<content:listing src="100-doors-example.txt" brush="java" />
+
 	<comments />
 </content:page>
