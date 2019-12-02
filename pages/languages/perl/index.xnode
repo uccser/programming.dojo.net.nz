@@ -33,13 +33,13 @@
 
 	<h3>Example Code</h3>
 
-	<p>Here is an example of the <content:tt>100 doors</content:tt> problem:</p>
-
-	<content:listing src="100-doors-example.txt" brush="perl5" />
-
 	<p>Here is an example of the <content:tt>Fizz Buzz</content:tt> problem:</p>
 
 	<content:listing src="fizz-buzz-example.txt" brush="perl5" />
+
+	<p>Here is an example of the <content:tt>100 doors</content:tt> problem:</p>
+
+	<content:listing src="100-doors-example.txt" brush="perl5" />
 
 	<comments />
 </content:page>
