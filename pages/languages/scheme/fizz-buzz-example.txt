@@ -1,0 +1,19 @@
+(define (fizzify i)
+    (cond
+        ((and (= (mod i 3) 0) (= (mod i 5) 0)) "FizzBuzz")
+        ((= (mod i 3) 0) "Fizz")
+        ((= (mod i 5) 0) "Buzz")
+        (#t i)
+    )
+)
+
+(define (fizzbuzz i)
+    (if (<= i 100)
+        (begin
+            (display (fizzify i)) (display "\n")
+            (fizzbuzz (+ i 1))
+        )
+    )
+)
+
+(fizzbuzz 1)
