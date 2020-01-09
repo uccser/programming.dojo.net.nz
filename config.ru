@@ -25,7 +25,8 @@ use Utopia::Redirection::Rewrite,
 	'/java' => '/languages/java',
 	'/c-sharp' => '/languages/c-sharp',
 	'/scheme' => '/languages/scheme',
-	'/basic' => '/languages/basic'
+	'/basic' => '/languages/basic',
+	'/swift' => '/languages/swift'
 
 use Utopia::Redirection::DirectoryIndex
 
