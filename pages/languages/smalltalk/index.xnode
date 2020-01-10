@@ -1,44 +1,48 @@
 <content:page>
-	<content:heading>Smalltalk</content:heading>
+	<header>
+		<content:heading>Smalltalk</content:heading>
 	
-	<p>Smalltalk is a <content:tt>dynamically typed</content:tt> <content:tt>message passing</content:tt> language. It is unique due to syntax and <content:tt>object oriented</content:tt> features. It is generally <content:tt>interpreted</content:tt> but is often <content:tt>compiled</content:tt> to a bytecode first.</p>
+		<p>Smalltalk is a <content:tt>dynamically typed</content:tt> <content:tt>message passing</content:tt> language. It is unique due to syntax and <content:tt>object oriented</content:tt> features. It is generally <content:tt>interpreted</content:tt> but is often <content:tt>compiled</content:tt> to a bytecode first.</p>
+	</header>
 	
-	<h3>Why would I learn this language?</h3>
+	<main>
+		<h2>Why would I learn this language?</h2>
 
-	<p>Smalltalk is a powerful environment for exploring many different elements of computer programming, including rich media such as audio and user interfaces. Smalltalk code is generally concise and easily readable due to its message based syntax.</p>
-	
-	<p>Smalltalk provides an integrated code browser and debugger which are incredibly powerful and easy to use. This makes Smalltalk a highly productive environment where code can be modified and fixed in the running application.</p>
-	
-	<h3>Starting Points</h3>
+		<p>Smalltalk is a powerful environment for exploring many different elements of computer programming, including rich media such as audio and user interfaces. Smalltalk code is generally concise and easily readable due to its message based syntax.</p>
+		
+		<p>Smalltalk provides an integrated code browser and debugger which are incredibly powerful and easy to use. This makes Smalltalk a highly productive environment where code can be modified and fixed in the running application.</p>
+		
+		<h2>Starting Points</h2>
 
-	<dl class="resources">
-		<dt><a href="http://pharo-project.org/">Pharo Open Source Smalltalk</a></dt>
-		<dd>Pharo is a clean, innovative, open-source Smalltalk environment available for many platforms.</dd>
+		<dl class="resources">
+			<dt><a href="http://pharo-project.org/">Pharo Open Source Smalltalk</a></dt>
+			<dd>Pharo is a clean, innovative, open-source Smalltalk environment available for many platforms.</dd>
 
-		<dt><a href="http://www.squeakland.org/">Squeakland: home of squeak etoys</a></dt>
-		<dd>Etoys is an educational tool for teaching children programming with examples from other academic fields.</dd>
+			<dt><a href="http://www.squeakland.org/">Squeakland: home of squeak etoys</a></dt>
+			<dd>Etoys is an educational tool for teaching children programming with examples from other academic fields.</dd>
 
-		<dt><a href="http://wiki.squeak.org/squeak/377">Introduction to Squeak</a></dt>
-		<dd>A set of resources for learning about Smalltalk programming in the <a href="http://www.squeak.org/">Squeak</a> environment.</dd>
-	</dl>
-	
-	<h3>Further Reading</h3>
-	
-	<ul>
-		<li><a href="http://en.wikipedia.org/wiki/Smalltalk_(programming_language)">Wikipedia: Smalltalk</a></li>
-		<li><a href="http://www.smalltalk.org">Smalltalk</a> (Main Website)</li>
-		<li><a href="http://onsmalltalk.com/why-smalltalk">Why Smalltalk</a></li>
-	</ul>
+			<dt><a href="http://wiki.squeak.org/squeak/377">Introduction to Squeak</a></dt>
+			<dd>A set of resources for learning about Smalltalk programming in the <a href="http://www.squeak.org/">Squeak</a> environment.</dd>
+		</dl>
+		
+		<h2>Further Reading</h2>
+		
+		<ul>
+			<li><a href="http://en.wikipedia.org/wiki/Smalltalk_(programming_language)">Wikipedia: Smalltalk</a></li>
+			<li><a href="http://www.smalltalk.org">Smalltalk</a> (Main Website)</li>
+			<li><a href="http://onsmalltalk.com/why-smalltalk">Why Smalltalk</a></li>
+		</ul>
 
-	<h3>Example Code</h3>
+		<h2>Example Code</h2>
 
-	<p>Here is an example of the <content:tt>Fizz Buzz</content:tt> problem:</p>
+		<p>Here is an example of the <content:tt>Fizz Buzz</content:tt> problem:</p>
 
-	<content:listing src="fizz-buzz-example.txt" brush="smalltalk" />
+		<content:listing src="fizz-buzz-example.txt" brush="smalltalk" />
 
-	<p>Here is an example of the <content:tt>100 doors</content:tt> problem:</p>
+		<p>Here is an example of the <content:tt>100 doors</content:tt> problem:</p>
 
-	<content:listing src="100-doors-example.txt" brush="smalltalk" />
-	
-	<comments />
+		<content:listing src="100-doors-example.txt" brush="smalltalk" />
+		
+		<content:comments />
+	</main>
 </content:page>
