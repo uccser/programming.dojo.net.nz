@@ -35,20 +35,14 @@
 	</head>
 	
 	<body id="dojo">
-		<div id="header" class="container">
+		<header>
 			<content:menu />
-		</div>
+		</header>
 
-		<div id="page">
+		<main>
 			<utopia:content/>
-		</div>
+		</main>
 
-		<div id="footer">
-			<a href="/welcome/contact-us">Contact Us</a> |
-			<a href="/welcome/about" rel="author">About This Site</a> |
-			&copy; 2010 <a href="http://www.oriontransfer.co.nz/">Orion Transfer Ltd</a>. All Rights Reserved.
-		</div>
-		
 		<utopia:environment only="production">
 			<analytics:google id="UA-2590906-6"/>
 		</utopia:environment>

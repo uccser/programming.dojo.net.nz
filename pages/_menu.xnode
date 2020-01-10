@@ -10,11 +10,6 @@
 		</ul><?r end ?>
 	</li>
 	<?r end ?>
-	
-	<li class="icon" style="float: right; padding: 3px">
-		<a href="http://www.oriontransfer.co.nz"><img src="/_static/space-ship-icon.png" /></a>
-		<a href="http://twitter.com/oriontransfer"><img src="/_static/twitter-icon.png" /></a>
-	</li>
 </ul>
 
 <script type="text/javascript">
