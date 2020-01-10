@@ -4,20 +4,14 @@
 	<p>Perl is an <content:tt>dynamically typed</content:tt> programming language. It was initially designed as a language for system administration, but has since grown to provide a wide range of functionality in many different areas of software development and computer science.</p>
 	
 	<p>Perl has <content:tt>imperative</content:tt>, <content:tt>functional</content:tt> and <content:tt>object oriented</content:tt> features, including both <content:tt>lexical scoping</content:tt> and <content:tt>dynamic scoping</content:tt> (although the latter isn't used much). Perl source code is executed by the Perl <content:tt to="interpreted">interpreter</content:tt> which internally <content:tt>compiles</content:tt> the code to bytecode for better performance.</p>
-	
-	<h3>Example Code</h3>
-	
-	<p>Here is an example of the <content:tt>100 doors</content:tt> problem:</p>
-	
-	<content:listing src="example.txt" brush="perl5" />
-	
+
 	<h3>Why would I learn this language?</h3>
 
 	<p>Perl is a flexible dynamic programming language with many features. It is a great tool for system administration, web development and software testing.</p>
-	
+
 	<p>Perl code is very succinct and can be written very quickly, while still having good performance.</p>
-	
-	<h2>Starting Points</h2>
+
+	<h3>Starting Points</h3>
 
 	<dl class="resources">
 		<dt><a href="http://perl-begin.org/">Perl Beginners' Site</a></dt>
@@ -28,17 +22,24 @@
 
 		<dt><a href="http://www.perl.org/books/beginning-perl/">Beginning Perl</a></dt>
 		<dd>A beginner guide to install program using Perl.</dd>
-
-		<dt><a href="http://interglacial.com/~sburke/pub/perl.html">How to Program Perl</a></dt>
-		<dd>A guide which recommends books and procedures to learn how to program with Perl.</dd>
 	</dl>
-	
-	<h2>Further Reading</h2>
-	
+
+	<h3>Further Reading</h3>
+
 	<ul>
 		<li><a href="http://en.wikipedia.org/wiki/Perl_(programming_language)">Wikipedia: Perl</a></li>
 		<li><a href="http://www.perl.org/">Perl</a> (Main Website)</li>
 	</ul>
-	
+
+	<h3>Example Code</h3>
+
+	<p>Here is an example of the <content:tt>Fizz Buzz</content:tt> problem:</p>
+
+	<content:listing src="fizz-buzz-example.txt" brush="perl5" />
+
+	<p>Here is an example of the <content:tt>100 doors</content:tt> problem:</p>
+
+	<content:listing src="100-doors-example.txt" brush="perl5" />
+
 	<comments />
 </content:page>
