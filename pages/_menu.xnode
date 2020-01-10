@@ -1,19 +1,15 @@
-<ul class="trail">
-	<?r links("/").each do |link| 
-		children = parent.node.links(link.path)
-	?><li class="#{children.size > 0 ? 'children' : ''}">#{link.to_href}<?r
-			if children.size > 0
-		?><ul class="menu" style="display: none">
-			<?r children.each do |child| ?>
-			<li>#{child.to_href}</li>
-			<?r end ?>
-		</ul><?r end ?>
-	</li>
-	<?r end ?>
-</ul>
-
-<script type="text/javascript">
-//<![CDATA[
-	$('.trail').menu();
-//]]>
-</script>
+<nav>
+	<ul>
+		<?r links("/").each do |link| 
+			children = parent.node.links(link.path)
+		?><li class="#{children.size > 0 ? 'children' : ''}">#{link.to_href}<?r
+				if children.size > 0
+			?><ul>
+				<?r children.each do |child| ?>
+				<li>#{child.to_href}</li>
+				<?r end ?>
+			</ul><?r end ?>
+		</li>
+		<?r end ?>
+	</ul>
+</nav>

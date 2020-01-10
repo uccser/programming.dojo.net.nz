@@ -117,13 +117,9 @@ body {
 }
 
 header {
-	height: 40px;
-	padding-top: 5px;
-	padding-left: 5px;
-	
-	z-index: 100;
-	
-	position: relative;
+	padding: 2rem;
+	text-align: center;
+	background-color: var(--header-color);
 }
 
 main {
@@ -359,3 +355,69 @@ h1.language {
 .trail .icon img {
 	padding: 0px 5px 0px;
 }
+
+nav { 
+	background-color: #333;
+}
+
+main nav {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+nav ul {
+	padding:0;
+	margin:0;
+	list-style: none;
+	position: relative;
+}
+	
+nav ul li {
+	display:inline-block;
+	background-color: #333;
+}
+
+nav a, nav span {
+	display:block;
+	padding:0 10px;	
+	color:#FFF;
+	font-size:15px;
+	line-height: 40px;
+	text-decoration:none;
+}
+
+nav a:hover {
+	background-color: #000000;
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+	display: none;
+	position: absolute;
+	top: 40px;
+	z-index: 1;
+}
+	
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
+}
+	
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+	min-width: 180px;
+	float: none;
+	display: list-item;
+	position: relative;
+}
+
+/* Second, Third and more Tiers	*/
+nav ul ul ul li {
+	position: relative;
+	top:-60px; 
+	left:170px;
+}
+
+/* Change this in order to change the Dropdown symbol */
+nav li > span:before { content:  '▼ '; }
+nav li > span:only-child:before { content: ''; }

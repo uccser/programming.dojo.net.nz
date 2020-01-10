@@ -1,36 +1,9 @@
 <content:page>
-	<style type="text/css">
-		.front-heading h2 {
-			margin-top: 0.3em;
-			margin-bottom: 0.1em;
-			
-			font-size: 14pt;
-		}
+	<header>
+		<h1><a href="/study/program-or-be-programmed">Program or be Programmed?</a></h1>
 		
-		#intro {
-			margin: 1em 1em 1em 0;
-			padding: 1em;
-			border: 2px solid #ccc;
-			background-color: white;
-			border-radius: 10pt;
-		}
-	</style>
-	
-	<div class="front-heading" style="overflow: auto; background-color: #f0f0ff; border: 1px solid black">
-		<div style="float: left; width: 38%">
-			<p style="font-size: 20pt; font-weight: bold">Learn about different programming languages.</p>
-			
-			<p>Programming is both an art and a science. It involves interpretation, abstraction and creation, as well as quantitive analysis, mathematics and algorithmic thinking. Don't expect <a href="http://norvig.com/21-days.html">too much too quickly</a>. Just like many things in life, good things take time.</p>
-		</div>
-	
-		<div style="float: right; width: 50%" id="intro">
-			<h2>For Students</h2>
-			<p>Have you ever seen <a href="/languages/random">this programming language?</a> Are you going to <a href="/study/program-or-be-programmed">program or be programmed?</a></p>
-		
-			<h2>For Teachers</h2>
-			<p>Check out the <a href="/resources/programming-language-posters">programming language posters</a> which you can use in your class. Use our <a href="/study/register-machine-interpreter">register machine interpreter</a> to teach the basics of computational theory!</p>
-		</div>
-	</div>
+		<p>Programming is both an art and a science. It involves interpretation, abstraction and creation, as well as quantitive analysis, mathematics and algorithmic thinking. Don't expect <a href="http://norvig.com/21-days.html">too much too quickly</a>.</p>
+	</header>
 	
 	<?r
 		tags = {}
@@ -42,42 +15,51 @@
 			end
 		end
 	?>
+	<main>
+		<div id="tags">
+			<a href="#">All</a>
+			<?r tags.keys.each do |tag| ?>
+			<a href="#" name="#{tag}">#{Strings::to_title tag}</a>
+			<?r end ?>
+		</div>
 		
-	<div id="tags">
-		<a href="#">All</a>
-		<?r tags.keys.each do |tag| ?>
-		<a href="#" name="#{tag}">#{Strings::to_title tag}</a>
-		<?r end ?>
-	</div>
-	
-	<ul class="languages" id="languages">
-		<?r languages.each do |language| ?>
-		<li data-id="#{language.name}" class="#{language[:tags].join(' ')}">
-			<a href="#{language.href}" style="background-image: url(/languages/_static/#{language.name}.png)">#{language.title}</a>
-		</li>
-		<?r end ?>
-	</ul>
-	
-	<ul class="languages" id="all-languages" style="display: none">
-	</ul>
-	
-	<script type="text/javascript">
-	//<![CDATA[
-		$(function() {
-			$('#all-languages').append($('#languages li').clone())
-			
-			$('#tags a').click(function(e) {
-				var tag = this.name;
+		<ul class="languages" id="languages">
+			<?r languages.each do |language| ?>
+			<li data-id="#{language.name}" class="#{language[:tags].join(' ')}">
+				<a href="#{language.href}" style="background-image: url(/languages/_static/#{language.name}.png)">#{language.title}</a>
+			</li>
+			<?r end ?>
+		</ul>
+		
+		<ul class="languages" id="all-languages" style="display: none">
+		</ul>
+		
+		<script type="text/javascript">
+		//<![CDATA[
+			$(function() {
+				$('#all-languages').append($('#languages li').clone())
 				
-				if (tag) {
-					tag = "." + tag;
-				}
-				
-				$('#languages').quicksand($('#all-languages li' + tag), {adjustHeight: false});
-				
-				e.preventDefault();
+				$('#tags a').click(function(e) {
+					var tag = this.name;
+					
+					if (tag) {
+						tag = "." + tag;
+					}
+					
+					$('#languages').quicksand($('#all-languages li' + tag), {adjustHeight: false});
+					
+					e.preventDefault();
+				});
 			});
-		});
-	//]]>
-	</script>
+		//]]>
+		</script>
+		
+		<div style="float: right; width: 50%" id="intro">
+			<h2>For Students</h2>
+			<p>Have you ever seen <a href="/languages/random">this programming language?</a> Are you going to </p>
+		
+			<h2>For Teachers</h2>
+			<p>Check out the <a href="/resources/programming-language-posters">programming language posters</a> which you can use in your class. Use our <a href="/study/register-machine-interpreter">register machine interpreter</a> to teach the basics of computational theory!</p>
+		</div>
+	</main>
 </content:page>
