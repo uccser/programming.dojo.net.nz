@@ -13,4 +13,5 @@ RSpec.describe "poster links" do
 	include_examples "valid page", '/c-sharp'
 	include_examples "valid page", '/scheme'
 	include_examples "valid page", '/basic'
+	include_examples "valid page", '/swift'
 end

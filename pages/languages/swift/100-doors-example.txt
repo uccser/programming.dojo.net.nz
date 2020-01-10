@@ -1,0 +1,20 @@
+/* declare enum to identify the state of a door */
+enum DoorState : String {
+    case Opened = "Opened"
+    case Closed = "Closed"
+}
+ 
+/* declare list of doors state and initialize them */
+var doorsStateList = [DoorState](repeating: DoorState.Closed, count: 100)
+ 
+/* do the 100 passes */
+for i in 1...100 {
+    stride(from: i - 1, to: 100, by: i).map {
+        doorsStateList[$0] = doorsStateList[$0] == .Opened ? .Closed : .Opened
+    }
+}
+ 
+/* print the results */
+for (index, item) in doorsStateList.enumerated() {
+    print("Door \(index+1) is \(item.rawValue)")
+}

@@ -33,3 +33,6 @@ c-sharp:
 scratch:
     title: "Scratch"
     tags: ['imperative', 'dynamic']
+swift:
+    title: "Swift"
+    tags: ['imperative', 'object-oriented', 'general-purpose', 'functional', 'static']
