@@ -1,8 +1,8 @@
 <content:page>
 	<header>
-		<h1><a href="/study/program-or-be-programmed">Program or be Programmed?</a></h1>
+		<h1>Program or be Programmed</h1>
 		
-		<p>Programming is both an art and a science. It involves interpretation, abstraction and creation, as well as quantitive analysis, mathematics and algorithmic thinking. Don't expect <a href="http://norvig.com/21-days.html">too much too quickly</a>.</p>
+		<content:youtube_video id="imV3pPIUy1k" />
 	</header>
 	
 	<?r
@@ -10,6 +10,8 @@
 	?>
 	
 	<main>
+		<h2>How will you change the world?</h2>
+		
 		<ul class="languages">
 			<?r languages.each do |language| ?>
 			<li><a href="#{language.href}" style="background-image: url(/languages/_static/#{language.name}.png)">#{language.title}</a></li>
@@ -19,9 +21,6 @@
 		<ul class="languages" id="all-languages" style="display: none">
 		</ul>
 		
-		<h2>For Students</h2>
-		<p>Have you ever seen <a href="/languages/random">this programming language?</a> Are you going to </p>
-	
 		<h2>For Teachers</h2>
 		<p>Check out the <a href="/resources/programming-language-posters">programming language posters</a> which you can use in your class. Use our <a href="/study/register-machine-interpreter">register machine interpreter</a> to teach the basics of computational theory!</p>
 	</main>

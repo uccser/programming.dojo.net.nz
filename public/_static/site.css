@@ -52,28 +52,13 @@ nav ul, header > *, main {
 	margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: menlo, monospace;
-	
-	margin-top: 3rem;
+h1, h2, h3, h4, h5, p, dl {
+	margin-top: 2rem;
 	margin-bottom: 2rem;
 }
 
-p, dl, h3 {
-	line-height: 1.4em;
-	margin: 1em auto;
-}
-
-h2 {
-	margin-top: 4rem;
-}
-
-h3 {
-	border-bottom: 1px solid var(--accent-color);
-}
-
-blockquote {
-	line-height: 2rem;
+h1, h2 {
+	text-align: center;
 }
 
 img {
@@ -122,17 +107,14 @@ body {
 }
 
 header {
-	padding: 2rem;
+	overflow: auto;
 	text-align: center;
 	background-color: var(--header-color);
 }
 
-main {
-	padding: 2rem;
-}
-
 .gallery {
 	text-align: center;
+	margin: 2rem auto;
 }
 
 .gallery img {
@@ -181,34 +163,6 @@ h1.language {
 	
 	padding: 50px;
 	margin-top: 1rem;
-}
-
-#tags {
-	text-align: center;
-	padding: 25pt;
-}
-
-#tags a {
-	background-color: #999;
-	color: white;
-	font-weight: bold;
-	text-decoration: none;
-	padding: 10px;
-	
-	margin: 2px;
-	
-	-webkit-border-radius: 10pt;
-	-moz-border-radius: 10pt;
-	border-radius: 10pt;
-}
-
-#tags a:hover {
-	color: black;
-	background-color: #fff;
-
-	margin: 0px;
-
-	border: 2px solid black;
 }
 
 .languages {
