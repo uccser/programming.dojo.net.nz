@@ -4,22 +4,12 @@
 	<p>Scheme is one of the main dialects of <content:tt>LISP</content:tt> and is a <content:tt>dynamically typed</content:tt> impure <content:tt>functional</content:tt> programming language.</p>
 	
 	<p>Scheme can be both <content:tt>compiled</content:tt> and <content:tt>interpreted</content:tt>.</p>
-	
-	<h3>Example Code</h3>
-	
-	<p>Here is an example of the <content:tt>100 doors</content:tt> problem implemented using functional concepts:</p>
-	
-	<content:listing src="example_functional.txt" brush="lisp" />
-	
-	<p>Here is an example of the <content:tt>100 doors</content:tt> problem implemented using imperative concepts:</p>
-	
-	<content:listing src="example_imperative.txt" brush="lisp" />
-	
+
 	<h3>Why would I learn this language?</h3>
 
 	<p>Scheme is a syntactically simple language with many interesting features such as homoiconicity. It provides a powerful environment for learning about algorithms and functional programming, and computer science concepts in general.</p>
 	
-	<h2>Starting Points</h2>
+	<h3>Starting Points</h3>
 
 	<dl class="resources">
 		<dt><a href="http://www.schemers.org/Education/">Schemers.org: Education</a></dt>
@@ -38,7 +28,7 @@
 		<dd>A complete beginners guide to programming with Scheme and designing programs.</dd>
 	</dl>
 	
-	<h2>Further Reading</h2>
+	<h3>Further Reading</h3>
 	
 	<ul>
 		<li><a href="http://en.wikipedia.org/wiki/Scheme_(programming_language)">Wikipedia: Scheme</a></li>
@@ -46,6 +36,20 @@
 		<li><a href="http://www.defmacro.org/ramblings/lisp.html">The Nature of Lisp</a></li>
 		<li><a href="http://www.plai.org/">Programming Languages: Application and Interpretation</a></li>
 	</ul>
+
+	<h3>Example Code</h3>
+
+	<p>The following is an example of the <content:tt>Fizz Buzz</content:tt> problem. You can run and edit this program <a href="https://repl.it/@programmingdojo/fizzbuzzscm">here</a>.</p>
+
+	<content:listing src="fizz-buzz-example.txt" brush="lisp" />
 	
+	<p>Here is an example of the <content:tt>100 doors</content:tt> problem implemented using functional concepts:</p>
+
+	<content:listing src="100-doors-example-functional.txt" brush="lisp" />
+
+	<p>Here is an example of the <content:tt>100 doors</content:tt> problem implemented using imperative concepts:</p>
+
+	<content:listing src="100-doors-example-imperative.txt" brush="lisp" />
+
 	<comments />
 </content:page>
