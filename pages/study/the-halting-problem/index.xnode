@@ -98,7 +98,7 @@
 	
 	<ul>
 		<li><a href="http://en.wikipedia.org/wiki/Turing_machine">Wikipedia: Turning Machines</a></li>
-		<li><a href="/research/register-machine-interpreter/index">Research: Register Machine Interpreter</a></li>
+		<li><a href="../register-machine-interpreter/index">Research: Register Machine Interpreter</a></li>
 		<li><a href="http://en.wikipedia.org/wiki/Ackermann_function">Ackermann Function</a></li>
 		<li><a href="http://en.wikipedia.org/wiki/Fibonacci_number">Fibonacci Number</a></li>
 		<li><a href="http://en.wikipedia.org/wiki/Travelling_salesman_problem">Traveling Salesman Problem</a></li>
