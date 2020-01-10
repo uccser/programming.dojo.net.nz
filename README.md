@@ -2,8 +2,7 @@
 
 This is the source code for [programming.dojo.net.nz](https://programming.dojo.net.nz).
 
-[![Test Status](https://github.com/ioquatix/programming.dojo.net.nz/workflows/Test/badge.svg)](https://github.com/ioquatix/programming.dojo.net.nz/actions?workflow=Test)
-[![Deploy Status](https://github.com/ioquatix/programming.dojo.net.nz/workflows/Deploy/badge.svg)](https://github.com/ioquatix/programming.dojo.net.nz/actions?workflow=Deploy)
+[![Development Status](https://github.com/ioquatix/programming.dojo.net.nz/workflows/Development/badge.svg)](https://github.com/ioquatix/programming.dojo.net.nz/actions?workflow=Development)
 
 ## Motivation
 
