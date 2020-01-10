@@ -1,41 +1,45 @@
 <content:page>
-	<content:heading>Swift</content:heading>
+	<header>
+		<content:heading>Swift</content:heading>
+		
+		<p>Swift is a <content:tt>general-purpose</content:tt>, <content:tt>compiled</content:tt> programming language developed by Apple Inc. for iOS, iPadOS, macOS, watchOS, tvOS, Linux, and z/OS.</p>
+	</header>
 	
-	<p>Swift is a <content:tt>general-purpose</content:tt>, <content:tt>compiled</content:tt> programming language developed by Apple Inc. for iOS, iPadOS, macOS, watchOS, tvOS, Linux, and z/OS.</p>
-	
-	<h3>Why would I learn this language?</h3>
+	<main>
+		<h2>Why would I learn this language?</h2>
 
-	<p>Heavily influenced by Python and Ruby, Swift was designed to be beginner-friendly and fun to use.</p>
-	
-	<p>Swift has uses ranging from systems programming, to mobile and desktop apps, scaling up to cloud services. Swift is also designed to make writing and maintaining correct programs easier.</p>
-	
-	<h3>Starting Points</h3>
+		<p>Heavily influenced by Python and Ruby, Swift was designed to be beginner-friendly and fun to use.</p>
+		
+		<p>Swift has uses ranging from systems programming, to mobile and desktop apps, scaling up to cloud services. Swift is also designed to make writing and maintaining correct programs easier.</p>
+		
+		<h2>Starting Points</h2>
 
-	<dl class="resources">
-		<dt><a href="https://teamtreehouse.com/learn-swift">Online courses to learn Swift</a></dt>
-		<dd>Learn how to program from scratch using Swift and learn many fundamental concepts that will get you started writing code immediately.</dd>
+		<dl class="resources">
+			<dt><a href="https://teamtreehouse.com/learn-swift">Online courses to learn Swift</a></dt>
+			<dd>Learn how to program from scratch using Swift and learn many fundamental concepts that will get you started writing code immediately.</dd>
 
-		<dt><a href="https://www.raywenderlich.com/6338-swift-tutorial-part-1-expressions-variables-and-constants">Swift tutorial</a></dt>
-		<dd>A mini-series on getting started with programming in Swift. Learn Swift programming basics using playgrounds.</dd>
-	</dl>
-	
-	<h3>Further Reading</h3> 
+			<dt><a href="https://www.raywenderlich.com/6338-swift-tutorial-part-1-expressions-variables-and-constants">Swift tutorial</a></dt>
+			<dd>A mini-series on getting started with programming in Swift. Learn Swift programming basics using playgrounds.</dd>
+		</dl>
+		
+		<h2>Further Reading</h2> 
 
-	<ul>
-		<li><a href="https://en.wikipedia.org/wiki/Swift_(programming_language)">Wikipedia: Swift</a></li>
-		<li><a href="https://swift.org/">Swift</a> (Main Website)</li>
-		<li><a href="https://docs.swift.org/swift-book/">About Swift</a></li>
-	</ul>
+		<ul>
+			<li><a href="https://en.wikipedia.org/wiki/Swift_(programming_language)">Wikipedia: Swift</a></li>
+			<li><a href="https://swift.org/">Swift</a> (Main Website)</li>
+			<li><a href="https://docs.swift.org/swift-book/">About Swift</a></li>
+		</ul>
 
-	<h3>Example Code</h3>
-	
-	<p>The following is an example of the <content:tt>Fizz Buzz</content:tt> problem. You can run and edit this program <a href="https://repl.it/@programmingdojo/fizzbuzzswift">here</a>.</p>
-	
-	<content:listing src="fizz-buzz-example.txt" brush="python" />
+		<h2>Example Code</h2>
+		
+		<p>The following is an example of the <content:tt>Fizz Buzz</content:tt> problem. You can run and edit this program <a href="https://repl.it/@programmingdojo/fizzbuzzswift">here</a>.</p>
+		
+		<content:listing src="fizz-buzz-example.txt" brush="python" />
 
-	<p>The following is an example of the <content:tt>100 doors</content:tt> problem. You can run and edit this program <a href="https://repl.it/@programmingdojo/100doorsswift">here</a>.</p>
-	
-	<content:listing src="100-doors-example.txt" brush="python" />
-	
-	<comments />
+		<p>The following is an example of the <content:tt>100 doors</content:tt> problem. You can run and edit this program <a href="https://repl.it/@programmingdojo/100doorsswift">here</a>.</p>
+		
+		<content:listing src="100-doors-example.txt" brush="python" />
+		
+		<content:comments />
+	</main>
 </content:page>
