@@ -7,6 +7,8 @@
 			<title>Programming Dojo</title>
 		<?r end ?>
 		
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		
 		<meta name="google-site-verification" content="J9DVX-xhcxDKcqvGpv4ZgyUZKactHmxxhop7mv4C1UM" />
 		
 		<link rel="icon" type="image/png" href="/_static/icon.png" />
