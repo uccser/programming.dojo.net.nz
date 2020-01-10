@@ -6,60 +6,23 @@
 	</header>
 	
 	<?r
-		tags = {}
-		languages = links("/languages", :files => false)
-		
-		languages.each do |language|
-			(language[:tags] || []).each do |tag|
-				(tags[tag] ||= []) << language
-			end
-		end
+		languages = links("/languages", files: false)
 	?>
+	
 	<main>
-		<div id="tags">
-			<a href="#">All</a>
-			<?r tags.keys.each do |tag| ?>
-			<a href="#" name="#{tag}">#{Strings::to_title tag}</a>
-			<?r end ?>
-		</div>
-		
-		<ul class="languages" id="languages">
+		<ul class="languages">
 			<?r languages.each do |language| ?>
-			<li data-id="#{language.name}" class="#{language[:tags].join(' ')}">
-				<a href="#{language.href}" style="background-image: url(/languages/_static/#{language.name}.png)">#{language.title}</a>
-			</li>
+			<li><a href="#{language.href}" style="background-image: url(/languages/_static/#{language.name}.png)">#{language.title}</a></li>
 			<?r end ?>
 		</ul>
 		
 		<ul class="languages" id="all-languages" style="display: none">
 		</ul>
 		
-		<script type="text/javascript">
-		//<![CDATA[
-			$(function() {
-				$('#all-languages').append($('#languages li').clone())
-				
-				$('#tags a').click(function(e) {
-					var tag = this.name;
-					
-					if (tag) {
-						tag = "." + tag;
-					}
-					
-					$('#languages').quicksand($('#all-languages li' + tag), {adjustHeight: false});
-					
-					e.preventDefault();
-				});
-			});
-		//]]>
-		</script>
-		
-		<div style="float: right; width: 50%" id="intro">
-			<h2>For Students</h2>
-			<p>Have you ever seen <a href="/languages/random">this programming language?</a> Are you going to </p>
-		
-			<h2>For Teachers</h2>
-			<p>Check out the <a href="/resources/programming-language-posters">programming language posters</a> which you can use in your class. Use our <a href="/study/register-machine-interpreter">register machine interpreter</a> to teach the basics of computational theory!</p>
-		</div>
+		<h2>For Students</h2>
+		<p>Have you ever seen <a href="/languages/random">this programming language?</a> Are you going to </p>
+	
+		<h2>For Teachers</h2>
+		<p>Check out the <a href="/resources/programming-language-posters">programming language posters</a> which you can use in your class. Use our <a href="/study/register-machine-interpreter">register machine interpreter</a> to teach the basics of computational theory!</p>
 	</main>
 </content:page>

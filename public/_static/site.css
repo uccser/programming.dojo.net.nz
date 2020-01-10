@@ -46,9 +46,10 @@ body {
 	background-color: var(--main-background-color);
 }
 
-body, p, ol, ul, blockquote {
-	font-family: "Skia", verdana, arial, helvetica, sans-serif;
-	line-height: 18px;
+nav ul, header > *, main {
+	display: block;
+	max-width: 50rem;
+	margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -60,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p, dl, h3 {
 	line-height: 1.4em;
-	margin: 1em;
+	margin: 1em auto;
 }
 
 h2 {
@@ -147,84 +148,6 @@ pre {
 	padding: 2rem 4rem;
 }
 
-ul.trail, ul.trail li {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-
-ul.trail {
-	height: 2.4em;
-	border-bottom: 1px solid var(--main-color);
-	
-	background-color: var(--main-background-color);
-	
-	position: absolute;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-	
-	z-index: 110;
-}
-
-ul.trail > li {
-	font-weight: bold;
-	float: left;
-}
-
-ul.trail > li > .link {
-	display: block;
-	padding-top: 2px;
-	
-	padding-right: 20px;
-	margin-right: 10px;
-}
-
-ul.trail > li.children > .link {
-	background-repeat: no-repeat;
-	background-position: right center;
-	background-image: url(/_static/nav-arrow-down.png);
-}
-
-ul.trail > li.children:hover > .link {
-	background-image: url(/_static/nav-arrow-down-open.png);
-}
-
-ul.trail li {
-	line-height: 2.2em;
-	padding-left: 10px;
-	padding-right: 10px;
-}
-
-ul.trail ul.menu {
-	font-weight: normal;
-	list-style: none;
-	
-	margin-top: 5px;
-	padding: 0px;
-	
-	display: block;
-	position: absolute;
-	
-	background-color: var(--main-background-color);
-	border: 1px solid var(--main-color);
-}
-
-ul.trail ul.menu li {
-	display: block;
-	list-style: none;
-	
-	min-width: 200px;
-}
-
-ul.trail ul.menu li:hover {
-	background-color: var(--main-background-color);
-}
-
-ul.trail ul.menu a {
-	display: block;
-}
-
 table.basic thead tr > * {
 	border-bottom: 2px solid black;
 }
@@ -298,33 +221,26 @@ h1.language {
 
 .languages li {
 	display: inline-block;
-
-	margin: 10px;
-	padding: 0px;
+	margin: 1rem;
+	padding: 0;
 }
 
 .languages li a {
 	display: block;
-	width: 100px;
-	height: 150px;
-	padding: 10px;
+	width: 8rem;
+	height: 12rem;
+	padding: 1rem;
 	
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 
-.languages li:hover {
-	border: 2px solid black;
+.languages li {
+	background-color: #ddd;
 }
 
-.languages li {
-	border: 2px solid #ccc;
-	
-	background-color: #fafafa;
-	
-	-webkit-border-radius: 10pt;
-	-moz-border-radius: 10pt;
-	border-radius: 10pt;
+.languages li:hover {
+	background-color: #eee;
 }
 
 .message-box {
@@ -348,7 +264,7 @@ h1.language {
 	padding: 0px 5px 0px;
 }
 
-nav { 
+nav {
 	background-color: #333;
 }
 
@@ -359,7 +275,6 @@ main nav {
 
 nav ul {
 	padding:0;
-	margin:0;
 	list-style: none;
 	position: relative;
 }
