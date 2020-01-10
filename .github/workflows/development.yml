@@ -58,4 +58,4 @@ jobs:
         ssh-add - <<< $DEPLOY_KEY
         mkdir ~/.ssh
         ssh-keyscan -H www.oriontransfer.net >> ~/.ssh/known_hosts
-        git push -f ssh://http@www.oriontransfer.net/srv/http/www.codeotaku.com/ HEAD:master
+        git push -f ssh://http@www.oriontransfer.net/srv/http/programming.dojo.net.nz/ HEAD:master
