@@ -1,7 +1,6 @@
 # Development specific:
 .rspec_status
 .tags*
-.bundle
 
 # Temporary data should not be added to the repository:
 tmp/
@@ -9,5 +8,5 @@ tmp/
 # This file should only ever exist on production, and may contain sensitive information:
 config/environment.yaml
 
-# Gem specific binaries:
-bin/
+# Ignore resized gallery photos:
+public/_gallery/
